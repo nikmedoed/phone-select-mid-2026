@@ -3,19 +3,20 @@ name: "Samsung S26+ 512"
 verdict: "❌ Не брать под эту задачу"
 risk: "❌ 4900 мАч + цена + регион/Exynos; камеры без вау"
 priceRub:
+priceAmd: 492900
 uaeLandedRub: 88751
 purchaseLogic: "❌ не оправдывает цену/батарею"
-firstCheck: "регион/SoC, Wallet, батарея, камера, Windows Link"
-priceSource: "Нет РФ-карточки; у тебя Amazon ~926$ / дорого"
+firstCheck: "регион/SoC, Wallet, батарея, камера, Windows Link; не брать Exynos под Snapdragon-фильтр"
+priceSource: "Mobile Centre 492 900 ֏ за 512GB, но Exynos 2600; Viva похожая цена; Ucom Snapdragon требует ручного подтверждения 512GB"
 uaePriceAed: 3698
 uaeSource: "Amazon.ae 3 698 или Sharaf starts 4 299; смотреть UAE/регион"
 uaeItemRub: 78028
 uaeDeliveryRub: 1688
 uaeDutyRub: 9036
 uaeLandedDeltaRub:
-priceConclusion: "❓ UAE может быть дешевле Amazon, но всё равно слабый выбор"
+priceConclusion: "❌ Найденный Mobile Centre 512GB - Exynos, под Snapdragon-фильтр не проходит"
 specs:
-  soc: "⚠️ Брать только Snapdragon SKU; Exynos-регионы не считать равноценными"
+  soc: "❌ Mobile Centre 512GB: Exynos 2600; брать только если конкретный магазин подтвердит Snapdragon SKU"
   memory: "12 ГБ / 512 ГБ"
   os: "✅ Android 16 / One UI 8; 7 лет"
   battery: "❌ 4900 мАч"
@@ -36,7 +37,7 @@ specs:
 criteria:
   region: {status: "⚠️", score: 0.75, note: "Samsung проще покупать и возвращать, но цена/поставка всё равно требуют проверки."}
   esim: {status: "✅", score: 0.9, note: "nano/eSIM; регион проверить."}
-  speed: {status: "⚠️", score: 0.8, note: "Оценка актуальна только для Snapdragon SKU; Exynos-регион лучше не брать."}
+  speed: {status: "❌", score: 0.45, note: "Найденный Mobile Centre 512GB - Exynos 2600; Snapdragon-карточки у Ucom/Viva надо подтверждать руками."}
   multitasking: {status: "✅", score: 0.9, note: "One UI и RAM должны быть ок."}
   future: {status: "✅", score: 1, note: "7 лет поддержки."}
   camera_stable: {status: "✅", score: 0.8, note: "Стабильно, но без вау."}
@@ -46,7 +47,7 @@ criteria:
   ldac: {status: "⚠️", score: 0.7, note: "Вероятен, но проверить."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "512."}
-  value: {status: "❌", score: 0.3, note: "Цена, 4900 мАч и регион/Exynos не попадают в задачу."}
+  value: {status: "❌", score: 0.2, note: "492 900 ֏ за Exynos-версию при слабой батарее и без выигрыша над S25+."}
   quick_photo: {status: "✅", score: 0.9, note: "Двойное нажатие Side Key."}
   battery_hike: {status: "❌", score: 0.3, note: "4900 мАч, слабое попадание в задачу."}
   ergonomics: {status: "✅", score: 1, note: "Тонкий и легкий."}

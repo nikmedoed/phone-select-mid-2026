@@ -1,21 +1,22 @@
 id: oppo_find_x9_pro
 name: "OPPO Find X9 Pro 16/512"
-verdict: "✅ Брать, если камера важнее денег"
-risk: "⚠️ 100к, ❌ 224 г, 0 отзывов WB, ColorOS/background"
+verdict: "❌ Вычеркнуть, если Snapdragon обязателен"
+risk: "❌ MediaTek Dimensity 9500; List.am 330 000 ֏ - China region без eSIM"
 priceRub: 100273
+priceAmd: 330000
 uaeLandedRub: 102121
-purchaseLogic: "✅ если камера важнее +33к и веса"
+purchaseLogic: "❌ не брать под Snapdragon/eSIM-фильтр"
 firstCheck: "Global/CPH, Wallet, eSIM, камера, фон, вес"
-priceSource: "WB ТехМагазин, 100 273 ₽, 0 отзывов"
+priceSource: "List.am 330 000 ֏, но China region и eSIM нет; WB Global есть, цену надёжно не вытащил"
 uaePriceAed: 4249
 uaeSource: "Pricena/Noon 4 249, но часто Chinese spec; Amazon дороже 5 795"
 uaeItemRub: 89654
 uaeDeliveryRub: 1688
 uaeDutyRub: 10779
 uaeLandedDeltaRub: 1848
-priceConclusion: "⚠️ UAE часто дешевле WB на бумаге, но Chinese-spec риск"
+priceConclusion: "❌ Найденный дешёвый вариант - China без eSIM; Global всё равно не Snapdragon"
 specs:
-  soc: "✅ Dimensity 9500"
+  soc: "❌ MediaTek Dimensity 9500, не Snapdragon"
   memory: "16 ГБ / 512 ГБ"
   os: "✅ Android 16 / ColorOS 16"
   battery: "✅ 7500 typical / 7290 rated"
@@ -35,8 +36,8 @@ specs:
   wifi: "✅ Wi-Fi 7"
 criteria:
   region: {status: "⚠️", score: 0.55, note: "Дорого, 0 отзывов WB; покупательский риск выше, возврат и продавца проверять отдельно."}
-  esim: {status: "✅", score: 1, note: "Nano + eSIM."}
-  speed: {status: "✅", score: 1, note: "Dimensity 9500, 16 ГБ."}
+  esim: {status: "❌", score: 0.2, note: "Global eSIM есть, но найденный List.am за 330 000 ֏ - China region без eSIM."}
+  speed: {status: "❌", score: 0.55, note: "Dimensity 9500 быстрый, но под заданный Snapdragon-фильтр модель не проходит."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
   future: {status: "✅", score: 0.95, note: "Сильный свежий флагман."}
   camera_stable: {status: "✅", score: 0.95, note: "Лучший кандидат по камере, processing проверить."}
@@ -46,7 +47,7 @@ criteria:
   ldac: {status: "✅", score: 1, note: "LDAC подтвержден."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
-  value: {status: "❌", score: 0.25, note: "Около 100к, тяжелый корпус и 0 отзывов WB."}
+  value: {status: "❌", score: 0.15, note: "330 000 ֏ выглядит вкусно, но это China без eSIM; Global не проходит Snapdragon-фильтр."}
   quick_photo: {status: "✅", score: 0.9, note: "Snap Key / Quick Button, сильная камера."}
   battery_hike: {status: "✅", score: 1, note: "7500 мАч - лучший шанс."}
   ergonomics: {status: "❌", score: 0.25, note: "224 г - главный штраф."}

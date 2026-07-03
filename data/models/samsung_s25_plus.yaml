@@ -1,19 +1,20 @@
 id: samsung_s25_plus
 name: "Samsung S25+ 512"
-verdict: "⚠️ Стабильно, но невыгодно"
-risk: "❌ 4900 мАч; нерадикальный апгрейд батареи"
+verdict: "✅ Самый чистый локальный Samsung"
+risk: "❌ 4900 мАч; батарея не решает хайк-сценарий"
 priceRub:
+priceAmd: 388900
 uaeLandedRub: 78851
-purchaseLogic: "⚠️ только при очень хорошей цене"
+purchaseLogic: "✅ брать, если важнее предсказуемость и локальная проверка"
 firstCheck: "регион, Wallet, батарея, камера, Windows Link"
-priceSource: "Нет РФ-карточки; у тебя Amazon ~740$"
+priceSource: "Mobile Centre 388 900 ֏, 512GB, eSIM, Snapdragon 8 Elite, limited stock"
 uaePriceAed: 3290
 uaeSource: "Miles/Noon/Pricena 3 290-3 899; Amazon часто 256GB/region complaints"
 uaeItemRub: 69419
 uaeDeliveryRub: 1688
 uaeDutyRub: 7744
 uaeLandedDeltaRub:
-priceConclusion: "❓ UAE цену можно смотреть, но выбор сам по себе не фаворит"
+priceConclusion: "✅ Самый чистый вариант в Ереване по цене/версии; главный минус - батарея"
 specs:
   soc: "✅ Snapdragon 8 Elite for Galaxy"
   memory: "12 ГБ / 512 ГБ"
@@ -34,7 +35,7 @@ specs:
   usb_adb: "✅ USB-C 3.2"
   wifi: "✅ Wi-Fi 7"
 criteria:
-  region: {status: "✅", score: 0.85, note: "Обычно проще купить/проверить/вернуть; серый импорт всё равно сверить по продавцу и комплекту."}
+  region: {status: "✅", score: 1, note: "Mobile Centre: 388 900 ֏, 512GB, eSIM, Snapdragon, локальная проверка до оплаты."}
   esim: {status: "✅", score: 1, note: "nano/eSIM global."}
   speed: {status: "✅", score: 0.95, note: "Snapdragon 8 Elite for Galaxy."}
   multitasking: {status: "✅", score: 0.9, note: "RAM/One UI нормально."}
@@ -46,7 +47,7 @@ criteria:
   ldac: {status: "⚠️", score: 0.7, note: "Вероятен, но проверить с наушниками."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "512."}
-  value: {status: "⚠️", score: 0.55, note: "Стабильность есть, но батарея не решает главный больной пункт."}
+  value: {status: "✅", score: 0.8, note: "388 900 ֏ делает его сильным локальным вариантом, хотя батарея всё ещё слабее китайцев."}
   quick_photo: {status: "✅", score: 0.9, note: "Двойное нажатие Side Key."}
   battery_hike: {status: "❌", score: 0.35, note: "4900 мАч, powerbank обязателен."}
   ergonomics: {status: "✅", score: 1, note: "190 г / 7 мм."}
