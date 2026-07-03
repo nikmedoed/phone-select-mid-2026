@@ -1,22 +1,21 @@
 id: oppo_find_x9
 name: "OPPO Find X9 16/512"
-verdict: "❌ Вычеркнуть, если Snapdragon обязателен"
-risk: "❌ MediaTek Dimensity 9500; локальной понятной Global 16/512 цены нет"
+verdict: "⚠️ Хороший, но цена зажата"
+risk: "⚠️ 87к при OP15 за 67к; камеры слабее Pro; 0 отзывов WB"
 priceRub: 87114
-priceAmd:
 uaeLandedRub: 91202
-purchaseLogic: "❌ не брать под Snapdragon-фильтр"
+purchaseLogic: "⚠️ брать при падении до ~70-75к"
 firstCheck: "Global CPH2797, bands, Wallet, eSIM, фон"
-priceSource: "В Ереване нормальная карточка Global 16/512 с понятной ценой не найдена"
+priceSource: "WB Brand Flagship Store, 87 114 ₽, 0 отзывов"
 uaePriceAed: 3799
 uaeSource: "Mobileinto 3 799 для 16/512; Pricena 3 999+; следить за CPH2797/global"
 uaeItemRub: 80159
 uaeDeliveryRub: 1688
 uaeDutyRub: 9355
 uaeLandedDeltaRub: 4088
-priceConclusion: "❌ Даже при eSIM Global не проходит фильтр Snapdragon"
+priceConclusion: "⚠️ UAE не спасает: близко к WB/дороже с пошлиной"
 specs:
-  soc: "❌ MediaTek Dimensity 9500, не Snapdragon"
+  soc: "✅ Dimensity 9500"
   memory: "16 ГБ / 512 ГБ"
   os: "✅ Android 16 / ColorOS 16"
   battery: "✅ 7025 typical / 6840 rated"
@@ -37,7 +36,7 @@ specs:
 criteria:
   region: {status: "⚠️", score: 0.55, note: "0 отзывов WB и высокая цена; проверить продавца, возврат, доставку и итоговую стоимость."}
   esim: {status: "✅", score: 1, note: "Nano + eSIM."}
-  speed: {status: "❌", score: 0.55, note: "Dimensity 9500 сам по себе быстрый, но под заданный Snapdragon-фильтр модель не проходит."}
+  speed: {status: "✅", score: 1, note: "Dimensity 9500."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
   future: {status: "✅", score: 0.95, note: "Свежий флагман."}
   camera_stable: {status: "⚠️", score: 0.75, note: "Хороший, но слабее Pro и мало отзывов."}
@@ -47,7 +46,7 @@ criteria:
   ldac: {status: "✅", score: 1, note: "LDAC есть."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
-  value: {status: "❌", score: 0.2, note: "Не проходит обязательный фильтр по Snapdragon; локальной чистой цены в Ереване нет."}
+  value: {status: "⚠️", score: 0.55, note: "87к при OP15 за 67к; покупка уже спорная."}
   quick_photo: {status: "⚠️", score: 0.75, note: "Quick/Snap Key проверить."}
   battery_hike: {status: "✅", score: 0.9, note: "7025 мАч и легче Pro."}
   ergonomics: {status: "✅", score: 0.85, note: "203 г - лучший OPPO-баланс."}

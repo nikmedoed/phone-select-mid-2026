@@ -74,10 +74,6 @@
             {{ range $ranked }}<td>{{ with .priceRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ end }}</td>{{ end }}
           </tr>
           <tr>
-            <td>Цена АМ</td>
-            {{ range $ranked }}<td>{{ with .priceAmd }}{{ lang.FormatNumberCustom 0 . }} ֏{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
             <td>РФ / локальный источник</td>
             {{ range $ranked }}<td>{{ with .priceSource }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
           </tr>

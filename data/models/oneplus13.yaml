@@ -3,18 +3,17 @@ name: "OnePlus 13 16/512"
 verdict: "✅ Спокойная альтернатива OP15"
 risk: "⚠️ нет текущей карточки; UAE version/eSIM надо ловить"
 priceRub:
-priceAmd: 415975
 uaeLandedRub: 64050
 purchaseLogic: "✅ если OP15 камера не устроит, X9 Pro дорого"
 firstCheck: "Global/eSIM, Wallet, камера, фон, цена"
-priceSource: "Офлайн в Ереване не пойман; Ozon AM около 415 975 ֏, WB AM около 443 760 ֏"
+priceSource: "Нет текущей карточки в твоём наборе"
 uaePriceAed: 2680
 uaeSource: "Amazon 2 680 Indian; Pricena 2 317; версия/eSIM под вопросом"
 uaeItemRub: 56548
 uaeDeliveryRub: 1688
 uaeDutyRub: 5814
 uaeLandedDeltaRub:
-priceConclusion: "⚠️ Нормального офлайн-ритейла не поймано; маркетплейс только после проверки Global/CPH/eSIM"
+priceConclusion: "⚠️ UAE дешевле, но OP13 уже старше; искать Global/eSIM"
 specs:
   soc: "✅ Snapdragon 8 Elite"
   memory: "16 ГБ / 512 ГБ"
@@ -35,8 +34,8 @@ specs:
   usb_adb: "✅ USB 3.2 Gen 1"
   wifi: "✅ Wi-Fi 7"
 criteria:
-  region: {status: "⚠️", score: 0.65, note: "Офлайн в Ереване не найден; Ozon/WB AM есть, но карточку, продавца и возврат проверять особенно внимательно."}
-  esim: {status: "✅", score: 0.9, note: "OnePlus подтверждает eSIM у Global, но у продавца сверить CPH/сертификацию."}
+  region: {status: "⚠️", score: 0.6, note: "Нужно поймать нормальную карточку/поставку; возможны доставка, ожидание и возвратная возня."}
+  esim: {status: "✅", score: 0.9, note: "Global eSIM."}
   speed: {status: "✅", score: 0.95, note: "Snapdragon 8 Elite."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
   future: {status: "✅", score: 0.9, note: "Еще хороший запас."}
@@ -47,7 +46,7 @@ criteria:
   ldac: {status: "✅", score: 1, note: "LDAC есть."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
-  value: {status: "✅", score: 0.85, note: "Около 416-444k ֏ на AM-маркетплейсах; хороший запас, но без чистого офлайна."}
+  value: {status: "✅", score: 0.85, note: "UAE estimate около 64к, но надо поймать Global/eSIM."}
   quick_photo: {status: "✅", score: 0.85, note: "Зрелая камера, быстрый запуск проверить."}
   battery_hike: {status: "⚠️", score: 0.75, note: "6000 мАч нормально, но не 7000+ класс."}
   ergonomics: {status: "⚠️", score: 0.7, note: "~210 г."}

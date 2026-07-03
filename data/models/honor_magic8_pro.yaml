@@ -3,18 +3,17 @@ name: "HONOR Magic8 Pro 16/1TB"
 verdict: "⚠️ Интересный, но проверять регион"
 risk: "⚠️ eSIM/LDAC в карточке неочевидны; MagicOS/background; тяжелый"
 priceRub: 97189
-priceAmd:
 uaeLandedRub: 104548
 purchaseLogic: "⚠️ после подтверждения eSIM/LDAC/регион"
 firstCheck: "eSIM, LDAC, Global, 3D face, фон, камера"
-priceSource: "Ереван: найден 12/512, не exact 16/1TB: Yerevan Mobile 489 000 ֏ cash / 539 000 ֏ card; Ucom 499 900 ֏"
+priceSource: "WB iDM Store, 97 189 ₽, 12 отзывов"
 uaePriceAed: 4349
 uaeSource: "Amazon 4 349; official UAE preorder 4 699"
 uaeItemRub: 91764
 uaeDeliveryRub: 1688
 uaeDutyRub: 11096
 uaeLandedDeltaRub: 7359
-priceConclusion: "⚠️ Локально exact 16/1TB не найден; 12/512 есть, но это уже другой SKU"
+priceConclusion: "⚠️ близко к WB, выгода сомнительная"
 specs:
   soc: "✅ Snapdragon 8 Elite Gen 5"
   memory: "16 ГБ / 1 ТБ"
@@ -35,7 +34,7 @@ specs:
   usb_adb: "❓ Проверить USB-режим: adb devices + передача файлов на своём кабеле"
   wifi: "❓ Wi-Fi 7 уточнить по региональной версии"
 criteria:
-  region: {status: "⚠️", score: 0.45, note: "Локально найден только 12/512; 16/1TB виден как импорт, не нормальный ереванский офлайн-вариант."}
+  region: {status: "⚠️", score: 0.5, note: "Карточка выглядит рискованно: проверять продавца, возврат, доставку и что именно привезут."}
   esim: {status: "❓", score: 0.55, note: "Подтвердить: отзыв пишет SIM+eSIM."}
   speed: {status: "✅", score: 1, note: "Snapdragon 8 Elite Gen 5."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
@@ -47,7 +46,7 @@ criteria:
   ldac: {status: "❓", score: 0.4, note: "Не подтвержден в текущих источниках."}
   storage256: {status: "✅", score: 1, note: "1 ТБ."}
   storage512: {status: "✅", score: 1, note: "16/1TB."}
-  value: {status: "⚠️", score: 0.3, note: "489-500k ֏ за 12/512 локально; exact 16/1TB нет, поэтому сравнение нечистое."}
+  value: {status: "⚠️", score: 0.35, note: "97к+ за региональные неопределенности, MagicOS и вес."}
   quick_photo: {status: "⚠️", score: 0.75, note: "AI/video processing и скорость проверить."}
   battery_hike: {status: "✅", score: 0.9, note: "Хороший шанс при версии 7100 мАч."}
   ergonomics: {status: "⚠️", score: 0.5, note: "219 г, почти стоп по весу."}

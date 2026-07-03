@@ -1,20 +1,19 @@
 id: oneplus15
 name: "OnePlus 15 16/512"
-verdict: "✅ Брать как рациональный локальный выбор"
-risk: "⚠️ камера вечером / проверить CPH2747 Global, eSIM+GPay"
+verdict: "✅ Брать как рациональный выбор"
+risk: "⚠️ камера вечером / US-комплект / проверить eSIM+GPay"
 priceRub: 67476
-priceAmd: 449000
 uaeLandedRub: 71572
 purchaseLogic: "✅ брать первым, если камера лично проходит тест"
-firstCheck: "CPH2747 Global, eSIM, Wallet, камера вечер, комплект, LDAC, Plus Key"
-priceSource: "Yerevan Mobile 449 000 ֏; WB AM 467 570 ֏; Ozon AM около 443 790 ֏"
+firstCheck: "eSIM, Wallet, камера вечер, комплект, LDAC, Plus Key"
+priceSource: "WB Brand Flagship Store, 67 476-67 912 ₽"
 uaePriceAed: 2990
 uaeSource: "Sharaf DG 2 990; Amazon 3 099, часто Indian/International"
 uaeItemRub: 63089
 uaeDeliveryRub: 1688
 uaeDutyRub: 6795
 uaeLandedDeltaRub: 4096
-priceConclusion: "✅ Ереванская цена хорошая; до оплаты письменно спросить CPH2747 Global и eSIM"
+priceConclusion: "⚠️ UAE не лучше: landed выходит около WB или дороже"
 specs:
   soc: "✅ Snapdragon 8 Elite Gen 5"
   memory: "16 ГБ / 512 ГБ"
@@ -35,8 +34,8 @@ specs:
   usb_adb: "✅ USB 3.2 Gen 1"
   wifi: "✅ Wi-Fi 7"
 criteria:
-  region: {status: "✅", score: 0.85, note: "Есть локально в Yerevan Mobile за 449 000 ֏; WB/Ozon AM близко, но продавца и возврат всё равно проверить."}
-  esim: {status: "⚠️", score: 0.8, note: "У Yerevan Mobile eSIM в карточке не прописан: спросить 'CPH2747 Global? eSIM works?'."}
+  region: {status: "⚠️", score: 0.7, note: "Серый импорт/маркетплейс: цена хорошая, но проверить продавца, возврат и комплект до получения."}
+  esim: {status: "✅", score: 1, note: "Nano + eSIM заявлены."}
   speed: {status: "✅", score: 1, note: "Флагманский Snapdragon и 16 ГБ RAM."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM, запас хороший."}
   future: {status: "✅", score: 1, note: "Новый флагманский чип и свежая ОС."}
@@ -47,7 +46,7 @@ criteria:
   ldac: {status: "✅", score: 1, note: "LDAC подтвержден в кодеках."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
-  value: {status: "✅", score: 1, note: "449 000 ֏ локально за 16/512, 7300 мАч и флагманский SoC - лучший value после проверки eSIM."}
+  value: {status: "✅", score: 1, note: "67к за 16/512, 7300 мАч и флагманский SoC - лучший value."}
   quick_photo: {status: "⚠️", score: 0.7, note: "Plus Key есть, камеру быстрость/low-light проверить."}
   battery_hike: {status: "✅", score: 0.95, note: "7300 мАч - лучший шанс за 67к."}
   ergonomics: {status: "⚠️", score: 0.65, note: "215 г уже крупно, но не стоп."}
