@@ -13,9 +13,18 @@
 - id: charging
   section: "Автономность"
   name: "Зарядка"
-- id: rear_camera
+- id: main_camera
   section: "Камера"
-  name: "Задние камеры"
+  name: "Основная камера"
+- id: tele_camera
+  section: "Камера"
+  name: "Телевик"
+- id: ultrawide_camera
+  section: "Камера"
+  name: "Ширик"
+- id: extra_camera
+  section: "Камера"
+  name: "Доп. сенсоры"
 - id: video
   section: "Камера"
   name: "Видео / стабилизация"
@@ -33,7 +42,10 @@
   name: "Динамики / аудио"
 - id: protection
   section: "UX"
-  name: "IP / стекло / рамка"
+  name: "IP-защита"
+- id: materials
+  section: "UX"
+  name: "Корпус / стекло / рамка"
 - id: usb_adb
   section: "Совместимость"
   name: "USB / ADB / передача файлов"

@@ -15,24 +15,28 @@ uaeDutyRub: 9036
 uaeLandedDeltaRub:
 priceConclusion: "❓ UAE может быть дешевле Amazon, но всё равно слабый выбор"
 specs:
-  soc: "⚠️ Exynos 2600 в UK/EU; Snapdragon только часть рынков"
+  soc: "⚠️ Брать только Snapdragon SKU; Exynos-регионы не считать равноценными"
   memory: "12 ГБ / 512 ГБ"
   os: "✅ Android 16 / One UI 8; 7 лет"
   battery: "❌ 4900 мАч"
   charging: "⚠️ 45W wired; wireless"
-  rear_camera: "⚠️ 50 + 12 UW + 10 tele 3x"
+  main_camera: "⚠️ 50 МП; без явного апгрейда"
+  tele_camera: "⚠️ 10 МП tele 3x"
+  ultrawide_camera: "⚠️ 12 МП UW"
+  extra_camera: "—"
   video: "✅ Samsung Super Steady / Horizontal Lock"
   selfie: "⚠️ 12 МП: стабильно, не вау"
   weight: "✅ 190-195 г / тонкий"
   display: "✅ Samsung AMOLED, цвет/яркость сильные"
   speakers: "✅ Samsung стабильно ок"
-  protection: "⚠️ премиум/IP, но камера-блок/стекло; чехол всё равно желателен"
+  protection: "✅ IP68"
+  materials: "⚠️ Стекло и алюминиевая рамка; блок камер и хват проверить без чехла"
   usb_adb: "✅ USB-C 3.2"
   wifi: "✅ Wi-Fi 7"
 criteria:
   region: {status: "⚠️", score: 0.75, note: "Samsung проще покупать и возвращать, но цена/поставка всё равно требуют проверки."}
   esim: {status: "✅", score: 0.9, note: "nano/eSIM; регион проверить."}
-  speed: {status: "⚠️", score: 0.8, note: "Exynos в EU/UK психологический минус."}
+  speed: {status: "⚠️", score: 0.8, note: "Оценка актуальна только для Snapdragon SKU; Exynos-регион лучше не брать."}
   multitasking: {status: "✅", score: 0.9, note: "One UI и RAM должны быть ок."}
   future: {status: "✅", score: 1, note: "7 лет поддержки."}
   camera_stable: {status: "✅", score: 0.8, note: "Стабильно, но без вау."}

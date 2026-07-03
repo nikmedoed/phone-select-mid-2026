@@ -52,6 +52,23 @@
             <td>Что проверить сразу</td>
             {{ range $ranked }}<td>{{ with .firstCheck }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
           </tr>
+        {{ range $criteria }}
+          {{ $c := . }}
+          <tr>
+            <td><span class="row-section">{{ $c.priority }} · вес {{ $c.weight }}</span>{{ $c.name }}</td>
+            {{ range $ranked }}
+              {{ $e := index .criteria $c.id }}
+              <td>{{ with $e }}<b>{{ .status }}</b> {{ .note }}<br><span class="count">{{ mul (float .score) (float $c.weight) | lang.FormatNumberCustom 1 }} / {{ $c.weight }}</span>{{ else }}<b>—</b> —<br><span class="count">0 / {{ $c.weight }}</span>{{ end }}</td>
+            {{ end }}
+          </tr>
+        {{ end }}
+        {{ range hugo.Data.specRows }}
+          {{ $row := . }}
+          <tr>
+            <td><span class="row-section">{{ $row.section }}</span>{{ $row.name }}</td>
+            {{ range $ranked }}<td>{{ with index .specs $row.id }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+        {{ end }}
           <tr>
             <td>Цена РФ</td>
             {{ range $ranked }}<td>{{ with .priceRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ end }}</td>{{ end }}
@@ -92,23 +109,6 @@
             <td>Ценовой вывод</td>
             {{ range $ranked }}<td>{{ with .priceConclusion }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
           </tr>
-        {{ range $criteria }}
-          {{ $c := . }}
-          <tr>
-            <td><span class="row-section">{{ $c.priority }} · вес {{ $c.weight }}</span>{{ $c.name }}</td>
-            {{ range $ranked }}
-              {{ $e := index .criteria $c.id }}
-              <td>{{ with $e }}<b>{{ .status }}</b> {{ .note }}<br><span class="count">{{ mul (float .score) (float $c.weight) | lang.FormatNumberCustom 1 }} / {{ $c.weight }}</span>{{ else }}<b>—</b> —<br><span class="count">0 / {{ $c.weight }}</span>{{ end }}</td>
-            {{ end }}
-          </tr>
-        {{ end }}
-        {{ range hugo.Data.specRows }}
-          {{ $row := . }}
-          <tr>
-            <td><span class="row-section">{{ $row.section }}</span>{{ $row.name }}</td>
-            {{ range $ranked }}<td>{{ with index .specs $row.id }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-        {{ end }}
         </tbody>
       </table>
     </div>

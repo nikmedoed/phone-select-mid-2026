@@ -20,15 +20,19 @@ specs:
   os: "✅ Android 16 / MagicOS 10"
   battery: "✅ 7100 мАч WB/global; EU может быть 6270"
   charging: "✅ 100W wired / 80W wireless"
-  rear_camera: "✅ 50 wide + 50 UW + 200 periscope tele"
+  main_camera: "✅ 50 МП wide"
+  tele_camera: "✅ 200 МП periscope tele"
+  ultrawide_camera: "✅ 50 МП UW"
+  extra_camera: "—"
   video: "⚠️ OIS/4K; video не лидер по обзорам"
   selfie: "✅ 50 МП + 3D face"
   weight: "⚠️ 219 г / 8 мм"
   display: "✅ OLED, яркий, 120 Гц"
   speakers: "✅ стерео ожидаемо ок; проверить"
-  protection: "✅ IP68/IP69K, но стеклянный/тяжёлый"
-  usb_adb: "⚠️ USB не подтверждён"
-  wifi: "⚠️ Wi-Fi 7 likely"
+  protection: "✅ IP68/IP69K"
+  materials: "⚠️ Стеклянный крупный корпус; хват без чехла проверить"
+  usb_adb: "❓ Проверить USB-режим: adb devices + передача файлов на своём кабеле"
+  wifi: "❓ Wi-Fi 7 уточнить по региональной версии"
 criteria:
   region: {status: "⚠️", score: 0.5, note: "Карточка выглядит рискованно: проверять продавца, возврат, доставку и что именно привезут."}
   esim: {status: "❓", score: 0.55, note: "Подтвердить: отзыв пишет SIM+eSIM."}

@@ -20,13 +20,17 @@ specs:
   os: "✅ Android 15/16 / OxygenOS"
   battery: "⚠️ 6000 мАч"
   charging: "✅ 100W wired / 50W wireless"
-  rear_camera: "✅ 50 LYT-808 + 50 tele 3x + 50 UW"
+  main_camera: "✅ 50 МП LYT-808"
+  tele_camera: "✅ 50 МП tele 3x"
+  ultrawide_camera: "✅ 50 МП UW"
+  extra_camera: "—"
   video: "✅ 4K Dolby Vision; зрелый пакет"
   selfie: "✅ 32 МП"
   weight: "⚠️ ~210 г / 8 мм"
   display: "✅ QHD LTPO AMOLED"
   speakers: "✅ стерео хорошо, проверить вживую"
-  protection: "⚠️ IP68/IP69, стекло; проверить скользкость"
+  protection: "✅ IP68/IP69"
+  materials: "⚠️ Стеклянный корпус; хват и скользкость проверить без чехла"
   usb_adb: "✅ USB 3.2 Gen 1"
   wifi: "✅ Wi-Fi 7"
 criteria:
@@ -35,7 +39,7 @@ criteria:
   speed: {status: "✅", score: 0.95, note: "Snapdragon 8 Elite."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
   future: {status: "✅", score: 0.9, note: "Еще хороший запас."}
-  camera_stable: {status: "✅", score: 0.85, note: "Зрелее OP15, но не топ-батарея."}
+  camera_stable: {status: "✅", score: 0.85, note: "Зрелее OP15 по камере; вечер, быстрый фокус и processing проверить лично."}
   firmware: {status: "✅", score: 0.85, note: "OxygenOS зрелее, фон проверить."}
   gpay: {status: "⚠️", score: 0.8, note: "Да на Global; проверить регион."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
