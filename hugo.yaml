@@ -1,0 +1,10 @@
+baseURL: "/"
+locale: "ru"
+title: "Сравнение смартфонов"
+disableKinds:
+  - taxonomy
+  - term
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

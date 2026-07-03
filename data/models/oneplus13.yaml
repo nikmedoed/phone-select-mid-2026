@@ -1,0 +1,57 @@
+id: oneplus13
+name: "OnePlus 13 16/512"
+verdict: "✅ Спокойная альтернатива OP15"
+risk: "⚠️ нет текущей карточки; UAE version/eSIM надо ловить"
+priceRub:
+uaeLandedRub: 64050
+purchaseLogic: "✅ если OP15 камера не устроит, X9 Pro дорого"
+firstCheck: "Global/eSIM, Wallet, камера, фон, цена"
+priceSource: "Нет текущей карточки в твоём наборе"
+uaePriceAed: 2680
+uaeSource: "Amazon 2 680 Indian; Pricena 2 317; версия/eSIM под вопросом"
+uaeItemRub: 56548
+uaeDeliveryRub: 1688
+uaeDutyRub: 5814
+uaeLandedDeltaRub:
+priceConclusion: "⚠️ UAE дешевле, но OP13 уже старше; искать Global/eSIM"
+specs:
+  soc: "✅ Snapdragon 8 Elite"
+  memory: "16 ГБ / 512 ГБ"
+  os: "✅ Android 15/16 / OxygenOS"
+  battery: "⚠️ 6000 мАч"
+  charging: "✅ 100W wired / 50W wireless"
+  rear_camera: "✅ 50 LYT-808 + 50 tele 3x + 50 UW"
+  video: "✅ 4K Dolby Vision; зрелый пакет"
+  selfie: "✅ 32 МП"
+  weight: "⚠️ ~210 г / 8 мм"
+  display: "✅ QHD LTPO AMOLED"
+  speakers: "✅ стерео хорошо, проверить вживую"
+  protection: "⚠️ IP68/IP69, стекло; проверить скользкость"
+  usb_adb: "✅ USB 3.2 Gen 1"
+  wifi: "✅ Wi-Fi 7"
+criteria:
+  region: {status: "⚠️", score: 0.6, note: "Нужно поймать нормальную карточку/поставку; возможны доставка, ожидание и возвратная возня."}
+  esim: {status: "✅", score: 0.9, note: "Global eSIM."}
+  speed: {status: "✅", score: 0.95, note: "Snapdragon 8 Elite."}
+  multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
+  future: {status: "✅", score: 0.9, note: "Еще хороший запас."}
+  camera_stable: {status: "✅", score: 0.85, note: "Зрелее OP15, но не топ-батарея."}
+  firmware: {status: "✅", score: 0.85, note: "OxygenOS зрелее, фон проверить."}
+  gpay: {status: "⚠️", score: 0.8, note: "Да на Global; проверить регион."}
+  unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
+  ldac: {status: "✅", score: 1, note: "LDAC есть."}
+  storage256: {status: "✅", score: 1, note: "512 ГБ."}
+  storage512: {status: "✅", score: 1, note: "16/512."}
+  value: {status: "✅", score: 0.85, note: "UAE estimate около 64к, но надо поймать Global/eSIM."}
+  quick_photo: {status: "✅", score: 0.85, note: "Зрелая камера, быстрый запуск проверить."}
+  battery_hike: {status: "⚠️", score: 0.75, note: "6000 мАч нормально, но не 7000+ класс."}
+  ergonomics: {status: "⚠️", score: 0.7, note: "~210 г."}
+  durability: {status: "⚠️", score: 0.75, note: "Проверить хват без чехла."}
+  bands: {status: "✅", score: 0.9, note: "Global bands сильные."}
+  shortcut: {status: "⚠️", score: 0.65, note: "Gestures/Alert Slider; фонарик проверить."}
+  screen_sound: {status: "✅", score: 1, note: "QHD LTPO AMOLED."}
+  windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
+  design: {status: "✅", score: 0.8, note: "Не скучный."}
+  sd: {status: "❌", score: 0, note: "SD нет."}
+  wireless: {status: "➕", score: 1, note: "Wireless 50W."}
+  dev_testing: {status: "—", score: 0, note: "—"}

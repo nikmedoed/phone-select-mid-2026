@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="sources-main">
+  <section><h1>Источники</h1></section>
+  {{ range hugo.Data.sources }}
+    <section>
+      <h2>{{ .section }} <span class="count">{{ len .items }}</span></h2>
+      <ul class="source-list compact">
+      {{ range .items }}
+        <li><a href="{{ .url }}" target="_blank" rel="noreferrer">{{ .title }}</a><span>{{ .note }}</span></li>
+      {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+</main>
+{{ end }}

@@ -1,0 +1,4 @@
+---
+title: "Критерии"
+layout: "criteria"
+---

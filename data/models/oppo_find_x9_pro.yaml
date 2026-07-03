@@ -1,0 +1,57 @@
+id: oppo_find_x9_pro
+name: "OPPO Find X9 Pro 16/512"
+verdict: "✅ Брать, если камера важнее денег"
+risk: "⚠️ 100к, ❌ 224 г, 0 отзывов WB, ColorOS/background"
+priceRub: 100273
+uaeLandedRub: 102121
+purchaseLogic: "✅ если камера важнее +33к и веса"
+firstCheck: "Global/CPH, Wallet, eSIM, камера, фон, вес"
+priceSource: "WB ТехМагазин, 100 273 ₽, 0 отзывов"
+uaePriceAed: 4249
+uaeSource: "Pricena/Noon 4 249, но часто Chinese spec; Amazon дороже 5 795"
+uaeItemRub: 89654
+uaeDeliveryRub: 1688
+uaeDutyRub: 10779
+uaeLandedDeltaRub: 1848
+priceConclusion: "⚠️ UAE часто дешевле WB на бумаге, но Chinese-spec риск"
+specs:
+  soc: "✅ Dimensity 9500"
+  memory: "16 ГБ / 512 ГБ"
+  os: "✅ Android 16 / ColorOS 16"
+  battery: "✅ 7500 typical / 7290 rated"
+  charging: "✅ 80W wired / 50W wireless"
+  rear_camera: "✅ 50 UW + 50 wide OIS + 200 tele OIS + 2 mono"
+  video: "✅ 4K120 rear, front 4K60, video anti-shake"
+  selfie: "✅ 50 МП AF"
+  weight: "❌ 224 г / 8 мм"
+  display: "✅ LTPO AMOLED, 450 ppi, HBM 1800"
+  speakers: "✅ стерео ожидаемо ок; проверить"
+  protection: "✅ IP69, Victus 2 по WB; но тяжёлый стеклянный аппарат"
+  usb_adb: "✅ USB 3.2 Gen 1"
+  wifi: "✅ Wi-Fi 7"
+criteria:
+  region: {status: "⚠️", score: 0.55, note: "Дорого, 0 отзывов WB; покупательский риск выше, возврат и продавца проверять отдельно."}
+  esim: {status: "✅", score: 1, note: "Nano + eSIM."}
+  speed: {status: "✅", score: 1, note: "Dimensity 9500, 16 ГБ."}
+  multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
+  future: {status: "✅", score: 0.95, note: "Сильный свежий флагман."}
+  camera_stable: {status: "✅", score: 0.95, note: "Лучший кандидат по камере, processing проверить."}
+  firmware: {status: "⚠️", score: 0.65, note: "ColorOS: уведомления/autostart/background."}
+  gpay: {status: "⚠️", score: 0.8, note: "Да на Global; проверить регион."}
+  unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
+  ldac: {status: "✅", score: 1, note: "LDAC подтвержден."}
+  storage256: {status: "✅", score: 1, note: "512 ГБ."}
+  storage512: {status: "✅", score: 1, note: "16/512."}
+  value: {status: "❌", score: 0.25, note: "Около 100к, тяжелый корпус и 0 отзывов WB."}
+  quick_photo: {status: "✅", score: 0.9, note: "Snap Key / Quick Button, сильная камера."}
+  battery_hike: {status: "✅", score: 1, note: "7500 мАч - лучший шанс."}
+  ergonomics: {status: "❌", score: 0.25, note: "224 г - главный штраф."}
+  durability: {status: "⚠️", score: 0.7, note: "Крупный камерный блок и вес."}
+  bands: {status: "⚠️", score: 0.75, note: "Избегать урезанной/китайской версии."}
+  shortcut: {status: "✅", score: 0.9, note: "Snap Key / Quick Button."}
+  screen_sound: {status: "✅", score: 1, note: "Сильный экран."}
+  windows: {status: "⚠️", score: 0.5, note: "Phone Link без Samsung-магии."}
+  design: {status: "✅", score: 0.85, note: "Выразительный, но тяжелый."}
+  sd: {status: "❌", score: 0, note: "SD нет."}
+  wireless: {status: "➕", score: 1, note: "Wireless 50W."}
+  dev_testing: {status: "—", score: 0, note: "—"}

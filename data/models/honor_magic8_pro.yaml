@@ -1,0 +1,57 @@
+id: honor_magic8_pro
+name: "HONOR Magic8 Pro 16/1TB"
+verdict: "⚠️ Интересный, но проверять регион"
+risk: "⚠️ eSIM/LDAC в карточке неочевидны; MagicOS/background; тяжелый"
+priceRub: 97189
+uaeLandedRub: 104548
+purchaseLogic: "⚠️ после подтверждения eSIM/LDAC/регион"
+firstCheck: "eSIM, LDAC, Global, 3D face, фон, камера"
+priceSource: "WB iDM Store, 97 189 ₽, 12 отзывов"
+uaePriceAed: 4349
+uaeSource: "Amazon 4 349; official UAE preorder 4 699"
+uaeItemRub: 91764
+uaeDeliveryRub: 1688
+uaeDutyRub: 11096
+uaeLandedDeltaRub: 7359
+priceConclusion: "⚠️ близко к WB, выгода сомнительная"
+specs:
+  soc: "✅ Snapdragon 8 Elite Gen 5"
+  memory: "16 ГБ / 1 ТБ"
+  os: "✅ Android 16 / MagicOS 10"
+  battery: "✅ 7100 мАч WB/global; EU может быть 6270"
+  charging: "✅ 100W wired / 80W wireless"
+  rear_camera: "✅ 50 wide + 50 UW + 200 periscope tele"
+  video: "⚠️ OIS/4K; video не лидер по обзорам"
+  selfie: "✅ 50 МП + 3D face"
+  weight: "⚠️ 219 г / 8 мм"
+  display: "✅ OLED, яркий, 120 Гц"
+  speakers: "✅ стерео ожидаемо ок; проверить"
+  protection: "✅ IP68/IP69K, но стеклянный/тяжёлый"
+  usb_adb: "⚠️ USB не подтверждён"
+  wifi: "⚠️ Wi-Fi 7 likely"
+criteria:
+  region: {status: "⚠️", score: 0.5, note: "Карточка выглядит рискованно: проверять продавца, возврат, доставку и что именно привезут."}
+  esim: {status: "❓", score: 0.55, note: "Подтвердить: отзыв пишет SIM+eSIM."}
+  speed: {status: "✅", score: 1, note: "Snapdragon 8 Elite Gen 5."}
+  multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
+  future: {status: "✅", score: 0.95, note: "Сильное железо."}
+  camera_stable: {status: "⚠️", score: 0.75, note: "Сильный зум, AI/video processing проверить."}
+  firmware: {status: "⚠️", score: 0.6, note: "MagicOS: background и уведомления."}
+  gpay: {status: "⚠️", score: 0.75, note: "Да на Global; проверить регион."}
+  unlock: {status: "✅", score: 1, note: "Ultrasonic FP + 3D face."}
+  ldac: {status: "❓", score: 0.4, note: "Не подтвержден в текущих источниках."}
+  storage256: {status: "✅", score: 1, note: "1 ТБ."}
+  storage512: {status: "✅", score: 1, note: "16/1TB."}
+  value: {status: "⚠️", score: 0.35, note: "97к+ за региональные неопределенности, MagicOS и вес."}
+  quick_photo: {status: "⚠️", score: 0.75, note: "AI/video processing и скорость проверить."}
+  battery_hike: {status: "✅", score: 0.9, note: "Хороший шанс при версии 7100 мАч."}
+  ergonomics: {status: "⚠️", score: 0.5, note: "219 г, почти стоп по весу."}
+  durability: {status: "⚠️", score: 0.7, note: "Крупный тяжелый корпус."}
+  bands: {status: "⚠️", score: 0.65, note: "Подтвердить global/region/eSIM bands."}
+  shortcut: {status: "✅", score: 0.8, note: "AI Button / gestures; фонарик проверить."}
+  screen_sound: {status: "✅", score: 1, note: "Яркий OLED."}
+  windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
+  design: {status: "✅", score: 0.9, note: "Выделяется."}
+  sd: {status: "❌", score: 0, note: "SD нет."}
+  wireless: {status: "➕", score: 1, note: "Wireless 80W."}
+  dev_testing: {status: "—", score: 0, note: "—"}

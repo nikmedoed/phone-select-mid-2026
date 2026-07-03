@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main>
+  <section>
+    <div class="table-scroll">
+      <table class="data-table criteria-table">
+        <thead><tr><th>Критерий</th><th>Крит</th><th>Вес</th><th>Описание</th><th>Что валит выбор</th><th>Как проверить</th></tr></thead>
+        <tbody>
+        {{ range hugo.Data.criteria }}
+          <tr><td>{{ .name }}</td><td>{{ .priority }}</td><td>{{ .weight }}</td><td>{{ .description }}</td><td>{{ .fail }}</td><td>{{ .check }}</td></tr>
+        {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+{{ end }}

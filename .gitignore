@@ -1,0 +1,28 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# Local Hugo/server state
+/.hugo_cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Legacy manually generated pages kept out of git if recreated
+/comparison.html
+/sources.html
+/technical.html
+/report.css
+/variants/

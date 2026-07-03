@@ -1,0 +1,57 @@
+id: oneplus15
+name: "OnePlus 15 16/512"
+verdict: "✅ Брать как рациональный выбор"
+risk: "⚠️ камера вечером / US-комплект / проверить eSIM+GPay"
+priceRub: 67476
+uaeLandedRub: 71572
+purchaseLogic: "✅ брать первым, если камера лично проходит тест"
+firstCheck: "eSIM, Wallet, камера вечер, комплект, LDAC, Plus Key"
+priceSource: "WB Brand Flagship Store, 67 476-67 912 ₽"
+uaePriceAed: 2990
+uaeSource: "Sharaf DG 2 990; Amazon 3 099, часто Indian/International"
+uaeItemRub: 63089
+uaeDeliveryRub: 1688
+uaeDutyRub: 6795
+uaeLandedDeltaRub: 4096
+priceConclusion: "⚠️ UAE не лучше: landed выходит около WB или дороже"
+specs:
+  soc: "✅ Snapdragon 8 Elite Gen 5"
+  memory: "16 ГБ / 512 ГБ"
+  os: "✅ Android 16 / OxygenOS 16"
+  battery: "✅ 7300 мАч"
+  charging: "⚠️ 120W заявлено, отзыв говорит 80W; wireless 50W"
+  rear_camera: "⚠️ 50 IMX906 + 50 tele + 50 UW"
+  video: "⚠️ спеки сильные, low-light/video проверить"
+  selfie: "✅ 32 МП"
+  weight: "⚠️ 215 г / ~9 мм"
+  display: "✅ AMOLED 2772x1272, 1-120/165 gaming"
+  speakers: "✅ стерео ожидаемо ок; проверить громкость"
+  protection: "✅ IP66/IP68/IP69/IP69K; Victus 2 по WB"
+  usb_adb: "✅ USB 3.2 Gen 1"
+  wifi: "✅ Wi-Fi 7"
+criteria:
+  region: {status: "⚠️", score: 0.7, note: "Серый импорт/маркетплейс: цена хорошая, но проверить продавца, возврат и комплект до получения."}
+  esim: {status: "✅", score: 1, note: "Nano + eSIM заявлены."}
+  speed: {status: "✅", score: 1, note: "Флагманский Snapdragon и 16 ГБ RAM."}
+  multitasking: {status: "✅", score: 1, note: "16 ГБ RAM, запас хороший."}
+  future: {status: "✅", score: 1, note: "Новый флагманский чип и свежая ОС."}
+  camera_stable: {status: "⚠️", score: 0.65, note: "Железо норм, но вечер/processing надо тестить лично."}
+  firmware: {status: "⚠️", score: 0.8, note: "OxygenOS обычно ок, battery restrictions снять."}
+  gpay: {status: "⚠️", score: 0.8, note: "Должно работать на US/Global; проверить Play Integrity."}
+  unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
+  ldac: {status: "✅", score: 1, note: "LDAC подтвержден в кодеках."}
+  storage256: {status: "✅", score: 1, note: "512 ГБ."}
+  storage512: {status: "✅", score: 1, note: "16/512."}
+  value: {status: "✅", score: 1, note: "67к за 16/512, 7300 мАч и флагманский SoC - лучший value."}
+  quick_photo: {status: "⚠️", score: 0.7, note: "Plus Key есть, камеру быстрость/low-light проверить."}
+  battery_hike: {status: "✅", score: 0.95, note: "7300 мАч - лучший шанс за 67к."}
+  ergonomics: {status: "⚠️", score: 0.65, note: "215 г уже крупно, но не стоп."}
+  durability: {status: "⚠️", score: 0.75, note: "Флагманские материалы, но без чехла надо щупать."}
+  bands: {status: "✅", score: 0.9, note: "US/global bands широкие; GPS проверить."}
+  shortcut: {status: "✅", score: 1, note: "Plus Key / gestures - лучший шанс заменить Bixby."}
+  screen_sound: {status: "✅", score: 1, note: "AMOLED, яркий экран."}
+  windows: {status: "⚠️", score: 0.55, note: "Phone Link, без Samsung-уровня."}
+  design: {status: "✅", score: 0.8, note: "Нестандартнее Samsung."}
+  sd: {status: "❌", score: 0, note: "SD нет."}
+  wireless: {status: "➕", score: 1, note: "Wireless 50W."}
+  dev_testing: {status: "—", score: 0, note: "—"}

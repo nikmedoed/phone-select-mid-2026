@@ -1,0 +1,57 @@
+id: oppo_find_x9
+name: "OPPO Find X9 16/512"
+verdict: "⚠️ Хороший, но цена зажата"
+risk: "⚠️ 87к при OP15 за 67к; камеры слабее Pro; 0 отзывов WB"
+priceRub: 87114
+uaeLandedRub: 91202
+purchaseLogic: "⚠️ брать при падении до ~70-75к"
+firstCheck: "Global CPH2797, bands, Wallet, eSIM, фон"
+priceSource: "WB Brand Flagship Store, 87 114 ₽, 0 отзывов"
+uaePriceAed: 3799
+uaeSource: "Mobileinto 3 799 для 16/512; Pricena 3 999+; следить за CPH2797/global"
+uaeItemRub: 80159
+uaeDeliveryRub: 1688
+uaeDutyRub: 9355
+uaeLandedDeltaRub: 4088
+priceConclusion: "⚠️ UAE не спасает: близко к WB/дороже с пошлиной"
+specs:
+  soc: "✅ Dimensity 9500"
+  memory: "16 ГБ / 512 ГБ"
+  os: "✅ Android 16 / ColorOS 16"
+  battery: "✅ 7025 typical / 6840 rated"
+  charging: "✅ 80W wired / 50W wireless"
+  rear_camera: "✅ 50 wide + 50 UW + 50 tele"
+  video: "✅ 4K120/Dolby Vision по OPPO overview; проверить"
+  selfie: "✅ 32 МП"
+  weight: "✅ 203 г / 8 мм"
+  display: "✅ AMOLED, 460 ppi, HBM 1800"
+  speakers: "✅ стерео ожидаемо ок; проверить"
+  protection: "✅ IP66/IP68/IP69; легче Pro"
+  usb_adb: "✅ USB 3.2 Gen 1 likely"
+  wifi: "✅ Wi-Fi 7"
+criteria:
+  region: {status: "⚠️", score: 0.55, note: "0 отзывов WB и высокая цена; проверить продавца, возврат, доставку и итоговую стоимость."}
+  esim: {status: "✅", score: 1, note: "Nano + eSIM."}
+  speed: {status: "✅", score: 1, note: "Dimensity 9500."}
+  multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
+  future: {status: "✅", score: 0.95, note: "Свежий флагман."}
+  camera_stable: {status: "⚠️", score: 0.75, note: "Хороший, но слабее Pro и мало отзывов."}
+  firmware: {status: "⚠️", score: 0.65, note: "ColorOS: фон/уведомления."}
+  gpay: {status: "⚠️", score: 0.8, note: "Да на Global; проверить регион."}
+  unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
+  ldac: {status: "✅", score: 1, note: "LDAC есть."}
+  storage256: {status: "✅", score: 1, note: "512 ГБ."}
+  storage512: {status: "✅", score: 1, note: "16/512."}
+  value: {status: "⚠️", score: 0.55, note: "87к при OP15 за 67к; покупка уже спорная."}
+  quick_photo: {status: "⚠️", score: 0.75, note: "Quick/Snap Key проверить."}
+  battery_hike: {status: "✅", score: 0.9, note: "7025 мАч и легче Pro."}
+  ergonomics: {status: "✅", score: 0.85, note: "203 г - лучший OPPO-баланс."}
+  durability: {status: "⚠️", score: 0.75, note: "Проверить хват и блок камер."}
+  bands: {status: "⚠️", score: 0.75, note: "Есть Version 1/2 band sets; нужен global."}
+  shortcut: {status: "✅", score: 0.85, note: "Snap Key / gestures."}
+  screen_sound: {status: "✅", score: 1, note: "Хороший AMOLED."}
+  windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
+  design: {status: "✅", score: 0.8, note: "Аккуратнее Pro."}
+  sd: {status: "❌", score: 0, note: "SD нет."}
+  wireless: {status: "➕", score: 1, note: "Wireless 50W."}
+  dev_testing: {status: "—", score: 0, note: "—"}

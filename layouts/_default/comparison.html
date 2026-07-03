@@ -1,0 +1,117 @@
+{{ define "main" }}
+{{ $criteria := hugo.Data.criteria }}
+{{ $models := slice }}
+{{ range hugo.Data.models }}
+  {{ $models = $models | append . }}
+{{ end }}
+{{ $maxScore := 0 }}
+{{ range $criteria }}
+  {{ $maxScore = add $maxScore .weight }}
+{{ end }}
+{{ $scored := slice }}
+{{ range $models }}
+  {{ $m := . }}
+  {{ $total := 0.0 }}
+  {{ range $criteria }}
+    {{ $c := . }}
+    {{ with index $m.criteria $c.id }}
+      {{ $total = add $total (mul (float .score) (float $c.weight)) }}
+    {{ end }}
+  {{ end }}
+  {{ $scored = $scored | append (merge $m (dict "computedScore" (math.Round $total))) }}
+{{ end }}
+{{ $ranked := sort $scored "computedScore" "desc" }}
+<main class="comparison-main">
+  <section>
+    <div class="table-scroll">
+      <table class="data-table comparison-table">
+        <thead>
+          <tr>
+            <th>Параметр</th>
+            {{ range $ranked }}<th>{{ .name }}</th>{{ end }}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Итог</td>
+            {{ range $ranked }}<td><b>{{ .computedScore }}/{{ $maxScore }}</b></td>{{ end }}
+          </tr>
+          <tr>
+            <td>Вердикт</td>
+            {{ range $ranked }}<td class="verdict">{{ .verdict }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>Главный риск</td>
+            {{ range $ranked }}<td class="risk">{{ .risk }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>Логика покупки</td>
+            {{ range $ranked }}<td>{{ with .purchaseLogic }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>Что проверить сразу</td>
+            {{ range $ranked }}<td>{{ with .firstCheck }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>Цена РФ</td>
+            {{ range $ranked }}<td>{{ with .priceRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>РФ / локальный источник</td>
+            {{ range $ranked }}<td>{{ with .priceSource }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>UAE цена товара</td>
+            {{ range $ranked }}<td>{{ with .uaePriceAed }}{{ lang.FormatNumberCustom 0 . }} AED{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>UAE источник / версия</td>
+            {{ range $ranked }}<td>{{ with .uaeSource }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>UAE товар</td>
+            {{ range $ranked }}<td>{{ with .uaeItemRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>UAE доставка</td>
+            {{ range $ranked }}<td>{{ with .uaeDeliveryRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>UAE пошлина</td>
+            {{ range $ranked }}<td>{{ with .uaeDutyRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>UAE landed</td>
+            {{ range $ranked }}<td>{{ with .uaeLandedRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>UAE landed vs РФ</td>
+            {{ range $ranked }}<td>{{ with .uaeLandedDeltaRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>Ценовой вывод</td>
+            {{ range $ranked }}<td>{{ with .priceConclusion }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+        {{ range $criteria }}
+          {{ $c := . }}
+          <tr>
+            <td><span class="row-section">{{ $c.priority }} · вес {{ $c.weight }}</span>{{ $c.name }}</td>
+            {{ range $ranked }}
+              {{ $e := index .criteria $c.id }}
+              <td>{{ with $e }}<b>{{ .status }}</b> {{ .note }}<br><span class="count">{{ mul (float .score) (float $c.weight) | lang.FormatNumberCustom 1 }} / {{ $c.weight }}</span>{{ else }}<b>—</b> —<br><span class="count">0 / {{ $c.weight }}</span>{{ end }}</td>
+            {{ end }}
+          </tr>
+        {{ end }}
+        {{ range hugo.Data.specRows }}
+          {{ $row := . }}
+          <tr>
+            <td><span class="row-section">{{ $row.section }}</span>{{ $row.name }}</td>
+            {{ range $ranked }}<td>{{ with index .specs $row.id }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+        {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+{{ end }}

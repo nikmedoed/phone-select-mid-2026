@@ -1,0 +1,57 @@
+id: samsung_s26_plus
+name: "Samsung S26+ 512"
+verdict: "❌ Не брать под эту задачу"
+risk: "❌ 4900 мАч + цена + регион/Exynos; камеры без вау"
+priceRub:
+uaeLandedRub: 88751
+purchaseLogic: "❌ не оправдывает цену/батарею"
+firstCheck: "регион/SoC, Wallet, батарея, камера, Windows Link"
+priceSource: "Нет РФ-карточки; у тебя Amazon ~926$ / дорого"
+uaePriceAed: 3698
+uaeSource: "Amazon.ae 3 698 или Sharaf starts 4 299; смотреть UAE/регион"
+uaeItemRub: 78028
+uaeDeliveryRub: 1688
+uaeDutyRub: 9036
+uaeLandedDeltaRub:
+priceConclusion: "❓ UAE может быть дешевле Amazon, но всё равно слабый выбор"
+specs:
+  soc: "⚠️ Exynos 2600 в UK/EU; Snapdragon только часть рынков"
+  memory: "12 ГБ / 512 ГБ"
+  os: "✅ Android 16 / One UI 8; 7 лет"
+  battery: "❌ 4900 мАч"
+  charging: "⚠️ 45W wired; wireless"
+  rear_camera: "⚠️ 50 + 12 UW + 10 tele 3x"
+  video: "✅ Samsung Super Steady / Horizontal Lock"
+  selfie: "⚠️ 12 МП: стабильно, не вау"
+  weight: "✅ 190-195 г / тонкий"
+  display: "✅ Samsung AMOLED, цвет/яркость сильные"
+  speakers: "✅ Samsung стабильно ок"
+  protection: "⚠️ премиум/IP, но камера-блок/стекло; чехол всё равно желателен"
+  usb_adb: "✅ USB-C 3.2"
+  wifi: "✅ Wi-Fi 7"
+criteria:
+  region: {status: "⚠️", score: 0.75, note: "Samsung проще покупать и возвращать, но цена/поставка всё равно требуют проверки."}
+  esim: {status: "✅", score: 0.9, note: "nano/eSIM; регион проверить."}
+  speed: {status: "⚠️", score: 0.8, note: "Exynos в EU/UK психологический минус."}
+  multitasking: {status: "✅", score: 0.9, note: "One UI и RAM должны быть ок."}
+  future: {status: "✅", score: 1, note: "7 лет поддержки."}
+  camera_stable: {status: "✅", score: 0.8, note: "Стабильно, но без вау."}
+  firmware: {status: "✅", score: 0.9, note: "One UI предсказуема."}
+  gpay: {status: "✅", score: 1, note: "Да."}
+  unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
+  ldac: {status: "⚠️", score: 0.7, note: "Вероятен, но проверить."}
+  storage256: {status: "✅", score: 1, note: "512 ГБ."}
+  storage512: {status: "✅", score: 1, note: "512."}
+  value: {status: "❌", score: 0.3, note: "Цена, 4900 мАч и регион/Exynos не попадают в задачу."}
+  quick_photo: {status: "✅", score: 0.9, note: "Двойное нажатие Side Key."}
+  battery_hike: {status: "❌", score: 0.3, note: "4900 мАч, слабое попадание в задачу."}
+  ergonomics: {status: "✅", score: 1, note: "Тонкий и легкий."}
+  durability: {status: "✅", score: 0.85, note: "Samsung-предсказуемость."}
+  bands: {status: "⚠️", score: 0.65, note: "Регион важен, Exynos-модем минус."}
+  shortcut: {status: "✅", score: 0.95, note: "Side Key / lockscreen shortcuts."}
+  screen_sound: {status: "✅", score: 1, note: "Сильный экран/динамики."}
+  windows: {status: "✅", score: 1, note: "Лучший вариант."}
+  design: {status: "⚠️", score: 0.45, note: "Не цепляет."}
+  sd: {status: "❌", score: 0, note: "SD нет."}
+  wireless: {status: "➕", score: 1, note: "Есть."}
+  dev_testing: {status: "—", score: 0, note: "—"}

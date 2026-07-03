@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/report.css" | relURL }}">
+</head>
+<body>
+  <nav class="site-nav">
+    {{ $current := .RelPermalink }}
+    <a href="{{ "/" | relURL }}"{{ if eq $current "/" }} aria-current="page"{{ end }}>Сравнение</a>
+    <a href="{{ "/criteria/" | relURL }}"{{ if eq $current "/criteria/" }} aria-current="page"{{ end }}>Критерии</a>
+    <a href="{{ "/sources/" | relURL }}"{{ if eq $current "/sources/" }} aria-current="page"{{ end }}>Источники</a>
+  </nav>
+  {{ block "main" . }}{{ end }}
+</body>
+</html>
