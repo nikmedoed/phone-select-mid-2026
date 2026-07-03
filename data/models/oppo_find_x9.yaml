@@ -1,11 +1,11 @@
 id: oppo_find_x9
 name: "OPPO Find X9 16/512"
 verdict: "⚠️ Хороший, но цена зажата"
-risk: "⚠️ 87к при OP15 за 67к; камеры слабее Pro; 0 отзывов WB"
+risk: "⚠️ 87к при OP15 за 67к; брать только CPH2797 Version 1; камеры слабее Pro; 0 отзывов WB"
 priceRub: 87114
 uaeLandedRub: 91202
 purchaseLogic: "⚠️ брать при падении до ~70-75к"
-firstCheck: "Global CPH2797, bands, Wallet, eSIM, фон"
+firstCheck: "CPH2797 Version 1, Wallet, eSIM, фон, комплект с ЗУ"
 priceSource: "WB Brand Flagship Store, 87 114 ₽, 0 отзывов"
 uaePriceAed: 3799
 uaeSource: "Mobileinto 3 799 для 16/512; Pricena 3 999+; следить за CPH2797/global"
@@ -19,7 +19,7 @@ specs:
   memory: "16 ГБ / 512 ГБ"
   os: "✅ Android 16 / ColorOS 16"
   battery: "✅ 7025 typical / 6840 rated"
-  charging: "✅ 80W wired / 50W wireless"
+  charging: "✅ 80W wired / 50W wireless; официальный комплект может отличаться по рынку"
   main_camera: "✅ 50 МП wide"
   tele_camera: "✅ 50 МП tele"
   ultrawide_camera: "✅ 50 МП UW"
@@ -27,15 +27,15 @@ specs:
   video: "✅ 4K120/Dolby Vision по OPPO overview; проверить"
   selfie: "✅ 32 МП"
   weight: "✅ 203 г / 8 мм"
-  display: "✅ AMOLED, 460 ppi, HBM 1800"
+  display: "✅ AMOLED 2760x1256, 460 ppi, HBM 1800, Gorilla Glass 7i"
   speakers: "✅ стерео ожидаемо ок; проверить"
   protection: "✅ IP66/IP68/IP69"
   materials: "⚠️ Стеклянный корпус; проверить хват и устойчивость блока камер"
-  usb_adb: "❓ USB 3.2 Gen 1 заявляется не везде; проверить adb + передачу файлов"
+  usb_adb: "❓ Официально указан Type-C и USB OTG; USB 3.2 не подтверждён для обычного X9, adb + передачу файлов проверить"
   wifi: "✅ Wi-Fi 7"
 criteria:
   region: {status: "⚠️", score: 0.55, note: "0 отзывов WB и высокая цена; проверить продавца, возврат, доставку и итоговую стоимость."}
-  esim: {status: "✅", score: 1, note: "Nano + eSIM."}
+  esim: {status: "✅", score: 1, note: "Официальная OPPO Global specs: Nano-SIM/Nano-USIM + eSIM supported."}
   speed: {status: "✅", score: 1, note: "Dimensity 9500."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
   future: {status: "✅", score: 0.95, note: "Свежий флагман."}
@@ -43,7 +43,7 @@ criteria:
   firmware: {status: "⚠️", score: 0.65, note: "ColorOS: фон/уведомления."}
   gpay: {status: "⚠️", score: 0.8, note: "Да на Global; проверить регион."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
-  ldac: {status: "✅", score: 1, note: "LDAC есть."}
+  ldac: {status: "✅", score: 1, note: "Официальная OPPO Global specs перечисляет LDAC в Bluetooth audio codecs."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
   value: {status: "⚠️", score: 0.55, note: "87к при OP15 за 67к; покупка уже спорная."}
@@ -51,7 +51,7 @@ criteria:
   battery_hike: {status: "✅", score: 0.9, note: "7025 мАч и легче Pro."}
   ergonomics: {status: "✅", score: 0.85, note: "203 г - лучший OPPO-баланс."}
   durability: {status: "⚠️", score: 0.75, note: "Проверить хват и блок камер."}
-  bands: {status: "⚠️", score: 0.75, note: "Есть Version 1/2 band sets; нужен global."}
+  bands: {status: "⚠️", score: 0.75, note: "Официальная OPPO Global specs содержит широкий CPH2797 Version 1 и урезанный Version 2; для поездок/eSIM брать только Version 1."}
   shortcut: {status: "✅", score: 0.85, note: "Snap Key / gestures."}
   screen_sound: {status: "✅", score: 1, note: "Хороший AMOLED."}
   windows: {status: "⚠️", score: 0.5, note: "Phone Link."}

@@ -5,7 +5,7 @@ risk: "⚠️ 100к, ❌ 224 г, 0 отзывов WB, ColorOS/background"
 priceRub: 100273
 uaeLandedRub: 102121
 purchaseLogic: "✅ если камера важнее +33к и веса"
-firstCheck: "Global/CPH, Wallet, eSIM, камера, фон, вес"
+firstCheck: "Global/CPH, Wallet, eSIM, камера, фон, вес, комплект с ЗУ"
 priceSource: "WB ТехМагазин, 100 273 ₽, 0 отзывов"
 uaePriceAed: 4249
 uaeSource: "Pricena/Noon 4 249, но часто Chinese spec; Amazon дороже 5 795"
@@ -19,7 +19,7 @@ specs:
   memory: "16 ГБ / 512 ГБ"
   os: "✅ Android 16 / ColorOS 16"
   battery: "✅ 7500 typical / 7290 rated"
-  charging: "✅ 80W wired / 50W wireless"
+  charging: "✅ 80W wired / 50W wireless; официальный комплект может отличаться по рынку"
   main_camera: "✅ 50 МП wide OIS"
   tele_camera: "✅ 200 МП tele OIS"
   ultrawide_camera: "✅ 50 МП UW"
@@ -29,13 +29,13 @@ specs:
   weight: "❌ 224 г / 8 мм"
   display: "✅ LTPO AMOLED, 450 ppi, HBM 1800"
   speakers: "✅ стерео ожидаемо ок; проверить"
-  protection: "✅ IP69"
+  protection: "✅ IP69; дополнительные IP66/IP68 сверить по региональной официальной странице"
   materials: "⚠️ Victus 2 по WB; стеклянный корпус и крупный блок камер"
   usb_adb: "✅ USB 3.2 Gen 1"
   wifi: "✅ Wi-Fi 7"
 criteria:
   region: {status: "⚠️", score: 0.55, note: "Дорого, 0 отзывов WB; покупательский риск выше, возврат и продавца проверять отдельно."}
-  esim: {status: "✅", score: 1, note: "Nano + eSIM."}
+  esim: {status: "✅", score: 1, note: "Официальная OPPO Global specs: Nano-SIM/Nano-USIM + eSIM supported."}
   speed: {status: "✅", score: 1, note: "Dimensity 9500, 16 ГБ."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
   future: {status: "✅", score: 0.95, note: "Сильный свежий флагман."}
@@ -43,7 +43,7 @@ criteria:
   firmware: {status: "⚠️", score: 0.65, note: "ColorOS: уведомления/autostart/background."}
   gpay: {status: "⚠️", score: 0.8, note: "Да на Global; проверить регион."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
-  ldac: {status: "✅", score: 1, note: "LDAC подтвержден."}
+  ldac: {status: "✅", score: 1, note: "Официальная OPPO Global specs перечисляет LDAC в Bluetooth audio codecs."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
   value: {status: "❌", score: 0.25, note: "Около 100к, тяжелый корпус и 0 отзывов WB."}
@@ -51,7 +51,7 @@ criteria:
   battery_hike: {status: "✅", score: 1, note: "7500 мАч - лучший шанс."}
   ergonomics: {status: "❌", score: 0.25, note: "224 г - главный штраф."}
   durability: {status: "⚠️", score: 0.7, note: "Крупный камерный блок и вес."}
-  bands: {status: "⚠️", score: 0.75, note: "Избегать урезанной/китайской версии."}
+  bands: {status: "⚠️", score: 0.8, note: "Официальная OPPO Global specs содержит Version 1 с широкими bands и урезанный Version 2; нужно сверить фактический SKU/регион."}
   shortcut: {status: "✅", score: 0.9, note: "Snap Key / Quick Button."}
   screen_sound: {status: "✅", score: 1, note: "Сильный экран."}
   windows: {status: "⚠️", score: 0.5, note: "Phone Link без Samsung-магии."}

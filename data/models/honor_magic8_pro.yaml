@@ -1,11 +1,11 @@
 id: honor_magic8_pro
 name: "HONOR Magic8 Pro 16/1TB"
 verdict: "⚠️ Интересный, но проверять регион"
-risk: "⚠️ eSIM/LDAC в карточке неочевидны; MagicOS/background; тяжелый"
+risk: "⚠️ eSIM/LDAC/USB/7100 мАч надо подтверждать по конкретному SKU; MagicOS/background; тяжелый"
 priceRub: 97189
 uaeLandedRub: 104548
-purchaseLogic: "⚠️ после подтверждения eSIM/LDAC/регион"
-firstCheck: "eSIM, LDAC, Global, 3D face, фон, камера"
+purchaseLogic: "⚠️ после подтверждения Global/HK или UAE SKU, eSIM, 7100 мАч и LDAC"
+firstCheck: "Global/HK или UAE SKU, eSIM, 7100 мАч, LDAC, 3D face, фон, камера"
 priceSource: "WB iDM Store, 97 189 ₽, 12 отзывов"
 uaePriceAed: 4349
 uaeSource: "Amazon 4 349; official UAE preorder 4 699"
@@ -19,7 +19,7 @@ specs:
   memory: "16 ГБ / 1 ТБ"
   os: "✅ Android 16 / MagicOS 10"
   battery: "✅ 7100 мАч WB/global; EU может быть 6270"
-  charging: "✅ 100W wired / 80W wireless"
+  charging: "✅ 100W wired / 80W wireless; комплект зависит от рынка/продавца"
   main_camera: "✅ 50 МП wide"
   tele_camera: "✅ 200 МП periscope tele"
   ultrawide_camera: "✅ 50 МП UW"
@@ -29,31 +29,31 @@ specs:
   weight: "⚠️ 219 г / 8 мм"
   display: "✅ OLED, яркий, 120 Гц"
   speakers: "✅ стерео ожидаемо ок; проверить"
-  protection: "✅ IP68/IP69K"
+  protection: "⚠️ IP68/IP69/IP69K заявлены для части глобальных/UAE карточек; сверить по региону и коробке"
   materials: "⚠️ Стеклянный крупный корпус; хват без чехла проверить"
-  usb_adb: "❓ Проверить USB-режим: adb devices + передача файлов на своём кабеле"
-  wifi: "❓ Wi-Fi 7 уточнить по региональной версии"
+  usb_adb: "❓ USB-версия не подтверждена официальной страницей в текущих источниках; проверить adb + передачу файлов"
+  wifi: "⚠️ Wi-Fi 7 заявлен WB/подборкой; сверить по официальной странице региона"
 criteria:
-  region: {status: "⚠️", score: 0.5, note: "Карточка выглядит рискованно: проверять продавца, возврат, доставку и что именно привезут."}
-  esim: {status: "❓", score: 0.55, note: "Подтвердить: отзыв пишет SIM+eSIM."}
+  region: {status: "⚠️", score: 0.55, note: "WB iDM Store, 12 оценок; есть отзывы про Global/упаковку, но это не заменяет проверку SKU, региона и возврата."}
+  esim: {status: "⚠️", score: 0.75, note: "HK/Global-листинги пишут SIM1+eSIM или eSIM1+eSIM2; по конкретному SKU всё равно проверить EID/Add eSIM до выкупа."}
   speed: {status: "✅", score: 1, note: "Snapdragon 8 Elite Gen 5."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
   future: {status: "✅", score: 0.95, note: "Сильное железо."}
   camera_stable: {status: "⚠️", score: 0.75, note: "Сильный зум, AI/video processing проверить."}
   firmware: {status: "⚠️", score: 0.6, note: "MagicOS: background и уведомления."}
-  gpay: {status: "⚠️", score: 0.75, note: "Да на Global; проверить регион."}
+  gpay: {status: "⚠️", score: 0.75, note: "Ожидаемо на Global, но статус продавца/прошивки не равен проверенному Play Integrity."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + 3D face."}
   ldac: {status: "❓", score: 0.4, note: "Не подтвержден в текущих источниках."}
   storage256: {status: "✅", score: 1, note: "1 ТБ."}
   storage512: {status: "✅", score: 1, note: "16/1TB."}
   value: {status: "⚠️", score: 0.35, note: "97к+ за региональные неопределенности, MagicOS и вес."}
   quick_photo: {status: "⚠️", score: 0.75, note: "AI/video processing и скорость проверить."}
-  battery_hike: {status: "✅", score: 0.9, note: "Хороший шанс при версии 7100 мАч."}
+  battery_hike: {status: "✅", score: 0.9, note: "7100 мАч у HK/UAE/global вариантов; EU/UK может быть 6270 мАч, поэтому регион критичен."}
   ergonomics: {status: "⚠️", score: 0.5, note: "219 г, почти стоп по весу."}
   durability: {status: "⚠️", score: 0.7, note: "Крупный тяжелый корпус."}
-  bands: {status: "⚠️", score: 0.65, note: "Подтвердить global/region/eSIM bands."}
+  bands: {status: "⚠️", score: 0.65, note: "Нужно сверить band list именно для фактического Global/HK/UAE SKU; WB и отзывы не закрывают этот риск."}
   shortcut: {status: "✅", score: 0.8, note: "AI Button / gestures; фонарик проверить."}
-  screen_sound: {status: "✅", score: 1, note: "Яркий OLED."}
+  screen_sound: {status: "✅", score: 0.95, note: "Яркий OLED по спекам; звук хвалит один WB-отзыв, проверить лично."}
   windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
   design: {status: "✅", score: 0.9, note: "Выделяется."}
   sd: {status: "❌", score: 0, note: "SD нет."}
