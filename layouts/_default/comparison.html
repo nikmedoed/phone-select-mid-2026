@@ -1,7 +1,7 @@
 {{ define "main" }}
-{{ $criteria := hugo.Data.criteria }}
+{{ $criteria := .Site.Data.criteria }}
 {{ $models := slice }}
-{{ range hugo.Data.models }}
+{{ range .Site.Data.models }}
   {{ $models = $models | append . }}
 {{ end }}
 {{ $maxScore := 0 }}
@@ -62,7 +62,7 @@
             {{ end }}
           </tr>
         {{ end }}
-        {{ range hugo.Data.specRows }}
+        {{ range .Site.Data.specRows }}
           {{ $row := . }}
           <tr>
             <td><span class="row-section">{{ $row.section }}</span>{{ $row.name }}</td>

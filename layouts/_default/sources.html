@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="sources-main">
   <section><h1>Источники</h1></section>
-  {{ range hugo.Data.sources }}
+  {{ range .Site.Data.sources }}
     <section>
       <h2>{{ .section }} <span class="count">{{ len .items }}</span></h2>
       <ul class="source-list compact">
