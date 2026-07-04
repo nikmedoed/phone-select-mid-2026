@@ -24,34 +24,10 @@
 
 - OnePlus 15: оставлен как рациональный value/автономность, но `camera_stable` снижен до 0.45; добавлены риски вечерней камеры, видео, переключения модулей, эргономики и нагрева под нагрузкой.
 - OPPO Find X9 Pro: усилен как камерный кандидат; добавлен плюс по стабильности/нагреву против OnePlus 15, но сохранены риски цены, веса, Global/SKU, Google Pay/eSIM и ColorOS/background.
-- OnePlus 13: пока только предварительный сигнал из обзора OnePlus 15, что 13-й может быть приятнее в руке и универсальнее по камере; нужно обработать отдельные ролики по OnePlus 13.
+- OnePlus 13: обработаны первые 8 обзоров. Усилен как value-альтернатива OP15: фото чаще стабильнее/естественнее, старый Alert Slider удобен, автономность 8-10 ч экрана, экран/вибро/скорость сильные. Риски: только Global/eSIM, CN без eSIM/Android Auto и с SIM/OTA/Google-возней; видео не уровень камерофонов, 3x телевик средний, стеклянные версии скользкие, 2.5D-стекло сложнее защищать, под тяжелой нагрузкой возможны нагрев/FPS lock.
 - Honor Magic 8 Pro: после 12 релевантных обзоров выглядит одним из самых сбалансированных флагманов: 3D Face ID, экран, звук, связь, автономность и tele-зум сильные; риски смещены в SKU/eSIM/ёмкость батареи, CN-настройку MagicOS/AI/фона, видео, ультраширик и Honor-обработку цвета/дорисовки.
 
 ## Очередь
-- OnePlus 13 | `boiASbLisuo` | `001 - Обзор OnePlus 13 — лучший со времён 7 Pro [boiASbLisuo].txt`
-- OnePlus 13 | `nZSRkTXxuxQ` | `002 - НЕДЕЛЯ с OnePlus 13 — они допустили лишь ОДНУ ОШИБКУ! ｜ ЧЕСТНЫЙ ОТЗЫВ [nZSRkTXxuxQ].txt`
-- OnePlus 13 | `GqCNfBOCoA8` | `003 - Совершенный Флагман ？🔥Смартфон OnePlus 13 Глобальная версия лучше Xiaomi 15 Pro Snapdragon 8 Elite ？ [GqCNfBOCoA8].txt`
-- OnePlus 13 | `JAZ2JA8wG1Q` | `004 - А ПУШКА ли？ Обзор Oneplus 13 после Oneplus 12 – что не так？ [JAZ2JA8wG1Q].txt`
-- OnePlus 13 | `pRxA-l3tsXg` | `005 - ВСЯ ПРАВДА о ONEPLUS 13. ГЛОБАЛКА. ДВЕ НЕДЕЛИ ИСПОЛЬЗОВАНИЯ. [pRxA-l3tsXg].txt`
-- OnePlus 13 | `qZAb9dPFuAE` | `006 - Обзор OnePlus 13s и 13T — хвалю! Но какой выбрать？ [qZAb9dPFuAE].txt`
-- OnePlus 13 | `uLNtW2L3szc` | `007 - OnePlus 13 или OnePlus 15？ [uLNtW2L3szc].txt`
-- OnePlus 13 | `6dXs-7-Z4Sc` | `008 - 6 МЕСЯЦЕВ с ONEPLUS 13 – Стоит ли покупать？ Лучший Флагман за 60.000 Руб. в 2025 ГОДУ？ Честный отзыв [6dXs-7-Z4Sc].txt`
-- OnePlus 13 | `ZiRwWmN8D4M` | `009 - ONEPLUS 13 VS ONEPLUS 13R - В ЧЕМ РАЗНИЦА？ ПОЛНОЕ СРАВНЕНИЕ! [ZiRwWmN8D4M].txt`
-- OnePlus 13 | `hWqx9VmbQMI` | `010 - Стоит ли покупать Oneplus 13 в 2026 году？ [hWqx9VmbQMI].txt`
-- OnePlus 13 | `sBkHbsD1Vtk` | `011 - Опыт использования OnePlus 13 - страшно хорош! [sBkHbsD1Vtk].txt`
-- OnePlus 13 | `TLJJFEVJEDo` | `012 - Oneplus 13. Лучше флагмана уже не будет？ [TLJJFEVJEDo].txt`
-- OnePlus 13 | `0HV0zDmmnLg` | `013 - OnePlus 13 - ЛУЧШИЙ ФЛАГМАН 2025？ [0HV0zDmmnLg].txt`
-- OnePlus 13 | `e83A9PHea1U` | `014 - Сравнение OnePlus 13 - OnePlus 15! это настолько жесть! Не стоит покупать этот OnePlus! ⧸ Арстайл ⧸ [e83A9PHea1U].txt`
-- OnePlus 13 | `dWQvSGD5xOg` | `015 - ONEPLUS 13. ТОП 20 ФИШЕК COLOR OS 15 [dWQvSGD5xOg].txt`
-- OnePlus 13 | `qxs4An38hwo` | `016 - OnePlus 13 vs Honor Magic 7 Pro： БИТВА ГОДА! [qxs4An38hwo].txt`
-- OnePlus 13 | `hs0AXV32ERA` | `017 - ONEPLUS 13 - ТО, ЧТО НАДО! [hs0AXV32ERA].txt`
-- OnePlus 13 | `nZZg0lpzPDM` | `018 - СМАРТФОН ONEPLUS 13 КИТАЕЦ ПЕРЕШИТЫЙ НА ГЛОБАЛ. ЧЕСТНЫЙ ОТЗЫВ ВЛАДЕЛЬЦА  ПОСЛЕ 3 МЕСЯЦЕВ [nZZg0lpzPDM].txt`
-- OnePlus 13 | `W1JYfzNMXKQ` | `019 - ONEPLUS 13 СПУСТЯ ГОД ⧸ ЧТО ВЫБРАТЬ？ ЕГО ИЛИ ЛУЧШЕ КУПИТЬ ONEPLUS 12 ？ [W1JYfzNMXKQ].txt`
-- OnePlus 13 | `8BUyye3jOuQ` | `059 - Samsung S25 Plus - OnePlus 13 Что выбрать？ [8BUyye3jOuQ].txt`
-- OnePlus 15 | `7N6TD2lkwMI` | `026 - OnePlus 15 vs Vivo X300 Pro vs Oppo Find x9 Pro： Обзор и тесты ТОПОВЫХ ФОТО и ВИДЕО возможностей! [7N6TD2lkwMI].txt`
-- OnePlus 15 | `QzPzKno80z8` | `039 - Полный обзор и сравнение OnePlus 15 и OPPO X9 Pro — камера, мощность, дизайн. [QzPzKno80z8].txt`
-- OnePlus 15 | `aGc85zOt19k` | `046 - OnePlus 15 - Samsung S25 Plus Что выбрать？ [aGc85zOt19k].txt`
-- OnePlus 15 | `EeIQUJq-Q2E` | `061 - Почему я ушел с Samsung на OnePlus 15 ⧸ ОБЗОР [EeIQUJq-Q2E].txt`
 - OnePlus 15 | `-4XJb-w4jCc` | `063 - Galaxy S26 Ultra vs OnePlus 15 Speed Test [-4XJb-w4jCc].txt`
 - OnePlus 15 | `nuQlBDL9ARo` | `106 - OnePlus 15 и Oppo Find X9 Pro： ПОЧЕМУ ЭТО ЛУЧШИЕ СМАРФОНЫ В 2026 [nuQlBDL9ARo].txt`
 - OnePlus 15 | `rxzxWVp7LDI` | `111 - OPPO Find X9 Pro против OnePlus 15： Стоит ли переплачивать 10.000₽？ Битва камер и железа! [rxzxWVp7LDI].txt`

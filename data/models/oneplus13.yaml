@@ -1,11 +1,11 @@
 id: oneplus13
 name: "OnePlus 13 16/512"
 verdict: "✅ Спокойная альтернатива OP15"
-risk: "⚠️ нет текущей карточки; UAE version/eSIM надо ловить"
+risk: "⚠️ искать именно Global/eSIM; китайка дешевле, но без eSIM, Android Auto и с риском блокировки SIM/обновлений/перепрошивки"
 priceRub:
 uaeLandedRub: 64050
 purchaseLogic: "✅ если OP15 камера не устроит, X9 Pro дорого"
-firstCheck: "Global/eSIM, Wallet, камера, фон, цена"
+firstCheck: "Global/eSIM/EID, Wallet/Android Auto/Play Integrity, LTE/5G bands и VoWiFi, камера вечером/люди/видео, нагрев при 4K60/играх, уведомления/фон, разговорный динамик, стекло/хват без чехла, цена"
 priceSource: "Нет текущей карточки в твоём наборе"
 uaePriceAed: 2680
 uaeSource: "Amazon 2 680 Indian; Pricena 2 317; версия/eSIM под вопросом"
@@ -18,44 +18,44 @@ specs:
   soc: "✅ Snapdragon 8 Elite"
   memory: "16 ГБ / 512 ГБ"
   os: "✅ Android 15/16 / OxygenOS"
-  battery: "⚠️ 6000 мАч"
-  charging: "✅ 100W wired / 50W wireless"
+  battery: "✅ 6000 мАч Si-C; обычно день-полтора и 8-10 ч экрана, но в тяжелых играх/4K расход высокий"
+  charging: "✅ 100W wired / 50W wireless; у EU/Global часто нет блока в комплекте, у CN/India обычно есть"
   main_camera: "✅ 50 МП LYT-808"
   tele_camera: "✅ 50 МП tele 3x"
   ultrawide_camera: "✅ 50 МП UW"
   extra_camera: "—"
-  video: "✅ 4K Dolby Vision; зрелый пакет"
-  selfie: "✅ 32 МП"
+  video: "⚠️ 4K60 со всеми задними модулями и 8K30; стабилизация часто хорошая, но видео не уровня Samsung/камерофонов: контровой свет/ночь, переключение модулей, прыжки фокуса и файлы в Adobe Premiere проверить"
+  selfie: "⚠️ 32 МП 4K60, но без AF; селфи часто хвалят, однако часть обзоров ругает динамический диапазон/скачки экспозиции"
   weight: "⚠️ ~210 г / 8 мм"
   display: "✅ QHD LTPO AMOLED"
-  speakers: "✅ стерео хорошо, проверить вживую"
+  speakers: "⚠️ стерео громкое, но нижний динамик доминирует; разговорный динамик проверить ухом"
   protection: "✅ IP68/IP69"
-  materials: "⚠️ Стеклянный корпус; хват и скользкость проверить без чехла"
-  usb_adb: "✅ USB 3.2 Gen 1"
+  materials: "⚠️ стекло, белый матовый шершавый корпус или синяя эко-кожа; матовые/кожаные версии цепче, стекло скользит и заляпывается; 2.5D-стекло приятное, но стекло/полноценная наклейка защитного стекла сложнее"
+  usb_adb: "✅ USB 3.2 Gen 1; DisplayPort спорно по обзорам, проверить лично"
   wifi: "✅ Wi-Fi 7"
 criteria:
-  region: {status: "⚠️", score: 0.6, note: "Нужно поймать нормальную карточку/поставку; возможны доставка, ожидание и возвратная возня."}
-  esim: {status: "✅", score: 0.9, note: "Global eSIM."}
-  speed: {status: "✅", score: 0.95, note: "Snapdragon 8 Elite."}
+  region: {status: "⚠️", score: 0.58, note: "Брать лучше EU/Global: CN дешевле, но может требовать разблокировки SIM, ручной прошивки/рута при сбое OTA, настройки Google и проверки bands; EU/Global часто без зарядки/чехла."}
+  esim: {status: "✅", score: 0.9, note: "Global/India eSIM; китайская версия eSIM не имеет даже после прошивки на OxygenOS."}
+  speed: {status: "✅", score: 0.93, note: "Snapdragon 8 Elite; в быту очень быстрый и плавный, но в бенчмарках/тяжелых играх поведение зависит от режима и прошивки: встречаются и сильный нагрев, и FPS lock после 46 C."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
   future: {status: "✅", score: 0.9, note: "Еще хороший запас."}
-  camera_stable: {status: "✅", score: 0.85, note: "Зрелее OP15 по камере; вечер, быстрый фокус и processing проверить лично."}
-  firmware: {status: "✅", score: 0.85, note: "OxygenOS зрелее, фон проверить."}
-  gpay: {status: "⚠️", score: 0.8, note: "Да на Global; проверить регион."}
+  camera_stable: {status: "⚠️", score: 0.78, note: "По фото стабильнее OP15 и часто естественнее Honor: основа днем/вечером сильная, HDR и цвета хороши; ограничения - не камерофон, 3x телевик средний, ультразум/AI-дорисовка спорные, ширик мылит при нехватке света, видео/контровой свет/ночь и фокус слабее лидеров."}
+  firmware: {status: "⚠️", score: 0.82, note: "OxygenOS хвалят за скорость, плавность и функциональность; Global проще для Android Auto/Google. По перешитой CN-глобалке есть жалобы владельца на мелкие баги, вибро при звонке, уведомления узкой полоской, редкие перезагрузки при Bluetooth/Wi-Fi/4G и зависания в приложениях; CN ColorOS требует удаления китайщины и настройки фона."}
+  gpay: {status: "⚠️", score: 0.84, note: "NFC/Wallet/Android Auto на Global; CN может конфликтовать с платежами/часами Wear OS и не имеет Android Auto, поэтому проверить конкретный регион, Play Integrity и банки."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
   ldac: {status: "✅", score: 1, note: "LDAC есть."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
-  value: {status: "✅", score: 0.85, note: "UAE estimate около 64к, но надо поймать Global/eSIM."}
-  quick_photo: {status: "✅", score: 0.85, note: "Зрелая камера, быстрый запуск проверить."}
-  battery_hike: {status: "⚠️", score: 0.75, note: "6000 мАч нормально, но не 7000+ класс."}
-  ergonomics: {status: "⚠️", score: 0.7, note: "~210 г."}
-  durability: {status: "⚠️", score: 0.75, note: "Проверить хват без чехла."}
-  bands: {status: "✅", score: 0.9, note: "Global bands сильные."}
-  shortcut: {status: "⚠️", score: 0.65, note: "Gestures/Alert Slider; фонарик проверить."}
-  screen_sound: {status: "✅", score: 1, note: "QHD LTPO AMOLED."}
+  value: {status: "✅", score: 0.9, note: "После снижения цен часто выглядит сильным value около 55-65к за 256/512; Global/eSIM важнее минимальной цены китайки."}
+  quick_photo: {status: "⚠️", score: 0.8, note: "Камера запускается быстро, основа предсказуемая и часто лучше OP15; движение вечером, лица/цвета, прыжки фокуса при видео/зуме и ультразум проверить, телевик не годится для близкого макро."}
+  battery_hike: {status: "⚠️", score: 0.82, note: "6000 мАч обычно дает день-полтора и 8-10 ч экрана, 9-10 ч на мобильном интернете в части обзоров; в играх/4K/нагреве расход высокий, до OP15/7000+ запаса не дотягивает."}
+  ergonomics: {status: "⚠️", score: 0.74, note: "~210 г и 6.82\"; в сравнении с S25+ ощущается большой тяжелой лопатой. Синяя эко-кожа/матовые версии цепкие, но стеклянные версии скользкие, камера мешает хвату некоторым владельцам, защитное стекло на 2.5D-кромки клеить сложнее."}
+  durability: {status: "⚠️", score: 0.78, note: "IP68/IP69, пленка с завода и крепкая сборка; матовая/эко-кожаная спинка практичнее стекла, но стеклянный корпус, большой блок камер и 2.5D-стекло остаются риском без чехла."}
+  bands: {status: "⚠️", score: 0.84, note: "Global bands/eSIM сильные; связь/GPS в обзорах нормальные. CN/перешитые версии требуют проверки LTE/5G bands, VoWiFi, агрегации, риска SIM-блокировки и стабильности Wi-Fi/Bluetooth/4G-переходов."}
+  shortcut: {status: "✅", score: 0.85, note: "Классический Alert Slider сохранен; можно повесить фонарик на удержание громкости вниз, камера по двойному нажатию питания/жесты проверить лично."}
+  screen_sound: {status: "✅", score: 0.9, note: "Яркий QHD LTPO AMOLED с сильной защитой от ШИМ; автояркость на солнце достаточная, динамики громкие и объемные, но нижний громче верхнего и Honor Magic 7/8 Pro звучит богаче."}
   windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
   design: {status: "✅", score: 0.8, note: "Не скучный."}
   sd: {status: "❌", score: 0, note: "SD нет."}
   wireless: {status: "➕", score: 1, note: "Wireless 50W."}
-  dev_testing: {status: "—", score: 0, note: "—"}
+  dev_testing: {status: "⚠️", score: 0.6, note: "USB 3.2 полезен, но DisplayPort противоречиво описан; видеофайлы могут плохо монтироваться в Adobe Premiere без переконвертации."}
