@@ -1,7 +1,7 @@
 id: oneplus15
 name: "OnePlus 15 16/512"
-verdict: "✅ Брать как рациональный выбор"
-risk: "⚠️ камера вечером / eSIM только после проверки SKU / US-комплект без чехла / проверить GPay"
+verdict: "⚠️ Брать как value/автономность, только если камера лично устраивает"
+risk: "⚠️ камера уже не флагманская / вечер и видео / eSIM только после проверки SKU / US-комплект без чехла / проверить GPay"
 priceRub: 67476
 uaeLandedRub: 71572
 purchaseLogic: "✅ брать первым, если камера лично проходит тест"
@@ -20,12 +20,12 @@ specs:
   os: "✅ Android 16 / OxygenOS 16"
   battery: "✅ 7300 мАч"
   charging: "⚠️ 120W/80W зависит от комплекта и региона; wireless 50W"
-  main_camera: "⚠️ 50 МП IMX906; вечер/processing проверить"
-  tele_camera: "⚠️ 50 МП tele; фокусное/качество проверить"
-  ultrawide_camera: "✅ 50 МП UW"
+  main_camera: "⚠️ 50 МП IMX906; по обзорам заметный даунгрейд относительно OnePlus 13, вечер/processing проверить"
+  tele_camera: "⚠️ 50 МП tele; есть жалобы на слабую матрицу и фокус вблизи"
+  ultrawide_camera: "⚠️ 50 МП UW; проверить, в обзорах общий вывод по камерам сдержанный"
   extra_camera: "—"
-  video: "⚠️ спеки сильные, low-light/video проверить"
-  selfie: "✅ 32 МП"
+  video: "⚠️ low-light/video проверить; есть жалобы на переключение модулей, зависание картинки и пропажу звука"
+  selfie: "⚠️ 32 МП; один обзор хвалит улучшение, другой ругает фронталку в тёмных условиях"
   weight: "⚠️ 215 г / ~9 мм; обзор Честный блог говорит 211 г / 8,1 мм"
   display: "✅ AMOLED 2772x1272, 1-120/165 gaming"
   speakers: "✅ стерео ожидаемо ок; проверить громкость"
@@ -36,20 +36,20 @@ specs:
 criteria:
   region: {status: "⚠️", score: 0.75, note: "WB Brand Flagship Store, 9 оценок; US CPH2749 надо сверять по коробке/модели/возврату, а не верить только описанию продавца."}
   esim: {status: "⚠️", score: 0.9, note: "Global/US/India должны иметь eSIM, но перед выкупом нужен конкретный SKU и EID/Add eSIM в настройках; китайскую PLK110 не брать."}
-  speed: {status: "✅", score: 1, note: "Флагманский Snapdragon и 16 ГБ RAM."}
+  speed: {status: "✅", score: 0.95, note: "Флагманский Snapdragon и 16 ГБ RAM; в быту быстрый, но под тяжёлой нагрузкой есть риск нагрева/троттлинга."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM, запас хороший."}
-  future: {status: "✅", score: 1, note: "Новый флагманский чип и свежая ОС."}
-  camera_stable: {status: "⚠️", score: 0.6, note: "Отзывы хвалят дневное фото и зум, но прямо отмечают косяки фото/видео в темноте и перенасыщенность."}
-  firmware: {status: "⚠️", score: 0.8, note: "OxygenOS обычно ок, battery restrictions снять."}
+  future: {status: "✅", score: 0.9, note: "Новый флагманский чип и свежая ОС; проверить нагрев при видео/навигации, потому что в сравнении с OPPO Find X9 Pro OnePlus грелся сильнее."}
+  camera_stable: {status: "⚠️", score: 0.45, note: "По первым обработанным обзорам камера стала обычной, а не флагманской: хуже OnePlus 13 по потенциалу, заметно уступает OPPO Find X9 Pro в сумерках/полутенях; отдельно проверить видео, фронталку и переключение модулей."}
+  firmware: {status: "⚠️", score: 0.8, note: "OxygenOS/ColorOS хвалят за плавность; battery restrictions снять; есть отдельная жалоба на баг камеры при переключении модулей во время видео."}
   gpay: {status: "⚠️", score: 0.8, note: "Должно работать на US/Global; проверить Play Integrity."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
   ldac: {status: "✅", score: 1, note: "LDAC подтвержден в кодеках."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
   value: {status: "✅", score: 1, note: "67-68к на WB, отзыв о покупке за 62к; обзор Честный блог называет global около 60к и лучшим value."}
-  quick_photo: {status: "⚠️", score: 0.7, note: "Plus Key есть, камеру быстрость/low-light проверить."}
-  battery_hike: {status: "✅", score: 0.95, note: "7300 мАч; обзор называет одним из самых автономных среди флагманов."}
-  ergonomics: {status: "⚠️", score: 0.65, note: "215 г уже крупно, но не стоп."}
+  quick_photo: {status: "⚠️", score: 0.65, note: "Plus Key есть, но быстрый снимок надо проверять именно вечером/в помещении; камера не главный плюс модели."}
+  battery_hike: {status: "✅", score: 0.9, note: "7300 мАч; обзоры хвалят автономность, но в прямом сравнении OPPO Find X9 Pro дольше жил под фото/видео/игровой нагрузкой; GPS-сценарий всё ещё проверить."}
+  ergonomics: {status: "⚠️", score: 0.55, note: "215 г; один недельный обзор отмечает, что телефон ощущается широким/крупным и требует второй руки на ходу."}
   durability: {status: "⚠️", score: 0.75, note: "Флагманские материалы, но без чехла надо щупать."}
   bands: {status: "⚠️", score: 0.8, note: "US/international bands вероятно ок, но это надо сверить по конкретному SKU, например CPH2749, и списку частот; отзыв про связь не является полной проверкой bands."}
   shortcut: {status: "✅", score: 1, note: "Plus Key / gestures - лучший шанс заменить Bixby."}

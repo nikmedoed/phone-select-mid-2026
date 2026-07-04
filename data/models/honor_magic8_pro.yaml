@@ -1,11 +1,11 @@
 id: honor_magic8_pro
 name: "HONOR Magic8 Pro 16/1TB"
-verdict: "⚠️ Интересный, но проверять регион"
-risk: "⚠️ eSIM/LDAC/USB/7100 мАч надо подтверждать по конкретному SKU; MagicOS/background; тяжелый"
+verdict: "⚠️ Один из самых сбалансированных флагманов: автономность/экран/звук/unlock сильные, камера не идеальна"
+risk: "⚠️ eSIM/ёмкость батареи зависят от SKU; MagicOS CN требует настройки фона/Google/AI; видео, ультраширик и цвет Honor требуют личной проверки"
 priceRub: 97189
 uaeLandedRub: 104548
 purchaseLogic: "⚠️ после подтверждения Global/HK или UAE SKU, eSIM, 7100 мАч и LDAC"
-firstCheck: "Global/HK или UAE SKU, eSIM, 7100 мАч, LDAC, 3D face, фон, камера"
+firstCheck: "Global/HK/UAE или CN SKU, EID/eSIM, ёмкость 7100/7200/6270, Wallet, 3D face в банках, Telegram/Teams/Gmail фон, Android Auto, видео ходьбой/ночью, AI/регион Honor"
 priceSource: "WB iDM Store, 97 189 ₽, 12 отзывов"
 uaePriceAed: 4349
 uaeSource: "Amazon 4 349; official UAE preorder 4 699"
@@ -18,42 +18,42 @@ specs:
   soc: "✅ Snapdragon 8 Elite Gen 5"
   memory: "16 ГБ / 1 ТБ"
   os: "✅ Android 16 / MagicOS 10"
-  battery: "✅ 7100 мАч WB/global; EU может быть 6270"
-  charging: "✅ 100W wired / 80W wireless; комплект зависит от рынка/продавца"
+  battery: "✅ 7100 мАч WB/global/RU/HK/UAE; CN 7200; EU может быть 6270"
+  charging: "✅ 100W global/RU / 120W CN wired; 80W wireless; комплект зависит от рынка/продавца"
   main_camera: "✅ 50 МП wide"
   tele_camera: "✅ 200 МП periscope tele"
   ultrawide_camera: "✅ 50 МП UW"
   extra_camera: "—"
-  video: "⚠️ OIS/4K; video не лидер по обзорам"
-  selfie: "✅ 50 МП + 3D face"
+  video: "⚠️ 4K120 на основной/tele, 4K60 на всех модулях; часть обзоров хвалит стаб и tele-видео, но есть жалобы на детализацию, лестницу кадров и резкое переключение модулей"
+  selfie: "⚠️ 50 МП + 3D face, 4K60; один обзор прямо хвалит фронталку, но фронталку хвалят не все"
   weight: "⚠️ 219 г / 8 мм"
   display: "✅ OLED, яркий, 120 Гц"
-  speakers: "✅ стерео ожидаемо ок; проверить"
+  speakers: "✅ стерео хвалят многие обзоры: громко, объемно, басовито; у одного автора это лучший звук среди протестированных смартфонов"
   protection: "⚠️ IP68/IP69/IP69K заявлены для части глобальных/UAE карточек; сверить по региону и коробке"
-  materials: "⚠️ Стеклянный крупный корпус; хват без чехла проверить"
-  usb_adb: "❓ USB-версия не подтверждена официальной страницей в текущих источниках; проверить adb + передачу файлов"
-  wifi: "⚠️ Wi-Fi 7 заявлен WB/подборкой; сверить по официальной странице региона"
+  materials: "⚠️ Крупный корпус, но в обзорах хвалят хват и баланс; изогнутый экран удобен для свайпов, но нормальное стекло наклеить сложнее, блок камер заметно выступает"
+  usb_adb: "✅ USB 3.2 упоминается в обзорах; всё равно проверить adb + передачу файлов"
+  wifi: "✅ Wi-Fi 7, Bluetooth 6.0 упоминаются в обзорах; сверить по фактическому SKU"
 criteria:
-  region: {status: "⚠️", score: 0.55, note: "WB iDM Store, 12 оценок; есть отзывы про Global/упаковку, но это не заменяет проверку SKU, региона и возврата."}
-  esim: {status: "⚠️", score: 0.75, note: "HK/Global-листинги пишут SIM1+eSIM или eSIM1+eSIM2; по конкретному SKU всё равно проверить EID/Add eSIM до выкупа."}
-  speed: {status: "✅", score: 1, note: "Snapdragon 8 Elite Gen 5."}
+  region: {status: "⚠️", score: 0.65, note: "Есть RU/global продажи и дешевые CN-варианты. CN в обзорах работает на русском с Google и bands, но требует настройки; у EU батарея меньше, цену/гарантию/возврат считать по SKU."}
+  esim: {status: "⚠️", score: 0.75, note: "Global/RU ожидаемо с eSIM, но CN-обзоры противоречат друг другу: один говорит eSIM нет, другой показывает две nano-SIM, Air-CN с eSIM не переносится на Pro. Проверить EID/Add eSIM до оплаты."}
+  speed: {status: "✅", score: 1, note: "Snapdragon 8 Elite Gen 5; несколько обзоров хвалят производительность, игры и стабильность."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
-  future: {status: "✅", score: 0.95, note: "Сильное железо."}
-  camera_stable: {status: "⚠️", score: 0.75, note: "Сильный зум, AI/video processing проверить."}
-  firmware: {status: "⚠️", score: 0.6, note: "MagicOS: background и уведомления."}
-  gpay: {status: "⚠️", score: 0.75, note: "Ожидаемо на Global, но статус продавца/прошивки не равен проверенному Play Integrity."}
-  unlock: {status: "✅", score: 1, note: "Ultrasonic FP + 3D face."}
-  ldac: {status: "❓", score: 0.4, note: "Не подтвержден в текущих источниках."}
+  future: {status: "✅", score: 0.95, note: "Сильное железо, хорошее охлаждение по нескольким обзорам, обещают долгую поддержку; региональные нюансы MagicOS всё равно проверить."}
+  camera_stable: {status: "⚠️", score: 0.8, note: "Основная камера и 200 МП tele-зум сильно подтверждены, особенно ночью/портреты/10x. Но это не безусловный камерофон: Honor иногда теплит/холодит/дорисовывает, ультраширик слабее ночью, видео спорное и переключение модулей резкое."}
+  firmware: {status: "⚠️", score: 0.68, note: "MagicOS 10 быстрая и богатая. Global проще; CN usable, но нужен ручной Google/фон, местами английский/китайский, AI и облако зависят от региона. Есть отзыв о Telegram, который засыпал даже после настройки."}
+  gpay: {status: "⚠️", score: 0.78, note: "NFC/Google-сервисы и бесконтактную оплату в CN-обзоре подтверждали, но Wallet/Play Integrity/банки проверять на фактическом SKU; отмечали, что к NFC-метке надо привыкнуть."}
+  unlock: {status: "✅", score: 1, note: "Сильный плюс: полноценный 3D Face ID работает днём/ночью и в банковских приложениях; ультразвуковой FP тоже быстрый."}
+  ldac: {status: "✅", score: 0.9, note: "Один обзор прямо подтверждает LDAC и aptX Lossless; проверить с твоими наушниками."}
   storage256: {status: "✅", score: 1, note: "1 ТБ."}
   storage512: {status: "✅", score: 1, note: "16/1TB."}
   value: {status: "⚠️", score: 0.35, note: "97к+ за региональные неопределенности, MagicOS и вес."}
-  quick_photo: {status: "⚠️", score: 0.75, note: "AI/video processing и скорость проверить."}
-  battery_hike: {status: "✅", score: 0.9, note: "7100 мАч у HK/UAE/global вариантов; EU/UK может быть 6270 мАч, поэтому регион критичен."}
-  ergonomics: {status: "⚠️", score: 0.5, note: "219 г, почти стоп по весу."}
-  durability: {status: "⚠️", score: 0.7, note: "Крупный тяжелый корпус."}
-  bands: {status: "⚠️", score: 0.65, note: "Нужно сверить band list именно для фактического Global/HK/UAE SKU; WB и отзывы не закрывают этот риск."}
-  shortcut: {status: "✅", score: 0.8, note: "AI Button / gestures; фонарик проверить."}
-  screen_sound: {status: "✅", score: 0.95, note: "Яркий OLED по спекам; звук хвалит один WB-отзыв, проверить лично."}
+  quick_photo: {status: "✅", score: 0.88, note: "Есть отдельная кнопка камеры: двойное нажатие запускает камеру, удержание можно настроить на видео/серию, зум работает осознанно в горизонтальном хвате; нужно проверить защиту от случайных касаний."}
+  battery_hike: {status: "✅", score: 0.92, note: "7100/7200 мАч версии очень сильны: несколько обзоров дают 8-12 ч экрана, 1.5-2 дня, один тест навигации на максимальной яркости съел 15%/час. EU 6270 мАч проверять отдельно."}
+  ergonomics: {status: "⚠️", score: 0.7, note: "219-225 г, но корпус уже/тоньше предшественника, покатые грани и баланс часто хвалят; без чехла удобнее, в чехле спинка становится плоской. Блок камер большой, подержать без чехла."}
+  durability: {status: "⚠️", score: 0.78, note: "IP68/IP69/IP69K и SGS-прочность упоминаются, комплектный чехол и пленка есть; изогнутый экран повышает риск жизни без стекла, а блок камер/вес надо проверить в руке и на столе."}
+  bands: {status: "⚠️", score: 0.82, note: "Несколько обзоров хвалят связь, лифт/парковку и заявляют все нужные bands даже у CN; LTE/Wi-Fi работают из коробки. Всё равно сверить band list по фактическому SKU."}
+  shortcut: {status: "⚠️", score: 0.78, note: "Camera/AI button полезна в камере, но не универсальна. Зато в MagicOS есть отдельные жесты/кнопки: двойное нажатие питания или volume down можно назначать на фонарик/диктофон/приложение."}
+  screen_sound: {status: "✅", score: 1, note: "Экран и звук - сильные стороны по нескольким обзорам; звук громкий/басовитый, экран яркий и комфортный для глаз."}
   windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
   design: {status: "✅", score: 0.9, note: "Выделяется."}
   sd: {status: "❌", score: 0, note: "SD нет."}

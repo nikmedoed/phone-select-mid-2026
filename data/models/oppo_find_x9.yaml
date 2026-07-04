@@ -1,11 +1,11 @@
 id: oppo_find_x9
 name: "OPPO Find X9 16/512"
-verdict: "⚠️ Хороший, но цена зажата"
-risk: "⚠️ 87к при OP15 за 67к; брать только CPH2797 Version 1; камеры слабее Pro; 0 отзывов WB"
+verdict: "⚠️ Хороший компактнее Pro, но value слабый из-за цены, игр и USB 2.0"
+risk: "⚠️ 87к при OP15 дешевле; CN без eSIM/B20, Global/SKU проверять; Dimensity греется в играх; USB 2.0; камеры слабее Pro"
 priceRub: 87114
 uaeLandedRub: 91202
-purchaseLogic: "⚠️ брать при падении до ~70-75к"
-firstCheck: "CPH2797 Version 1, Wallet, eSIM, фон, комплект с ЗУ"
+purchaseLogic: "⚠️ рассматривать только заметно дешевле Pro/OnePlus 15, ближе к 50-60к"
+firstCheck: "CPH2797 Version 1/global, EID/eSIM, B20, Wallet, фон/уведомления, GPS lock, игры/нагрев, USB/adb, комплект с ЗУ"
 priceSource: "WB Brand Flagship Store, 87 114 ₽, 0 отзывов"
 uaePriceAed: 3799
 uaeSource: "Mobileinto 3 799 для 16/512; Pricena 3 999+; следить за CPH2797/global"
@@ -24,38 +24,38 @@ specs:
   tele_camera: "✅ 50 МП tele"
   ultrawide_camera: "✅ 50 МП UW"
   extra_camera: "—"
-  video: "✅ 4K120/Dolby Vision по OPPO overview; проверить"
-  selfie: "✅ 32 МП"
+  video: "✅ 4K60 на модулях и фронталке, 4K120/HDR на основной; в обзоре хвалят цвет, но непрерывная 4K60 запись дала нестабильный результат"
+  selfie: "✅ 32 МП, 4K60"
   weight: "✅ 203 г / 8 мм"
-  display: "✅ AMOLED 2760x1256, 460 ppi, HBM 1800, Gorilla Glass 7i"
-  speakers: "✅ стерео ожидаемо ок; проверить"
+  display: "⚠️ AMOLED 2760x1256, 460 ppi, HBM 1800, Gorilla Glass 7i; обычный X9 без LTPO"
+  speakers: "⚠️ стерео с заметным перекосом, по обзору сильно уступает X9 Pro"
   protection: "✅ IP66/IP68/IP69"
   materials: "⚠️ Стеклянный корпус; проверить хват и устойчивость блока камер"
-  usb_adb: "❓ Официально указан Type-C и USB OTG; USB 3.2 не подтверждён для обычного X9, adb + передачу файлов проверить"
+  usb_adb: "⚠️ USB 2.0 по обзору; adb проверить, но для кабельного видео/быстрой передачи слабый вариант"
   wifi: "✅ Wi-Fi 7"
 criteria:
-  region: {status: "⚠️", score: 0.55, note: "0 отзывов WB и высокая цена; проверить продавца, возврат, доставку и итоговую стоимость."}
-  esim: {status: "✅", score: 1, note: "Официальная OPPO Global specs: Nano-SIM/Nano-USIM + eSIM supported."}
-  speed: {status: "✅", score: 1, note: "Dimensity 9500."}
+  region: {status: "⚠️", score: 0.45, note: "0 отзывов WB и высокая цена; CN в обзоре без B20/eSIM, Global надо брать только с понятным SKU, возвратом и итоговой ценой."}
+  esim: {status: "⚠️", score: 0.7, note: "Global specs обещает eSIM, но CN-обзор прямо говорит eSIM нет. Проверить EID/Add eSIM именно на фактическом CPH2797 до оплаты."}
+  speed: {status: "⚠️", score: 0.85, note: "Dimensity 9500 быстрый в системе, но в Genshin обзор показал перегрев, сброс яркости и падение повышенной герцовки до 60 fps."}
   multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
-  future: {status: "✅", score: 0.95, note: "Свежий флагман."}
-  camera_stable: {status: "⚠️", score: 0.75, note: "Хороший, но слабее Pro и мало отзывов."}
-  firmware: {status: "⚠️", score: 0.65, note: "ColorOS: фон/уведомления."}
-  gpay: {status: "⚠️", score: 0.8, note: "Да на Global; проверить регион."}
+  future: {status: "⚠️", score: 0.8, note: "Свежий флагман, но термопакет Dimensity/игровая стабильность и USB 2.0 снижают запас как универсального устройства."}
+  camera_stable: {status: "⚠️", score: 0.7, note: "Основная камера местами хороша и цвета OPPO часто натуральные, но tele всего 50 МП, ультраширик слабый в сложном свете, встречаются странности с лицами/автоалгоритмами; слабее X9 Pro."}
+  firmware: {status: "⚠️", score: 0.68, note: "ColorOS 16 плавная; у CN остаются китайские ограничения/AI-костыли, Global проверять отдельно. Обходная зарядка в играх есть, но реализована спорно."}
+  gpay: {status: "⚠️", score: 0.78, note: "NFC есть, на Global должно работать; Wallet/Play Integrity/регион проверить."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
   ldac: {status: "✅", score: 1, note: "Официальная OPPO Global specs перечисляет LDAC в Bluetooth audio codecs."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
-  value: {status: "⚠️", score: 0.55, note: "87к при OP15 за 67к; покупка уже спорная."}
-  quick_photo: {status: "⚠️", score: 0.75, note: "Quick/Snap Key проверить."}
-  battery_hike: {status: "✅", score: 0.9, note: "7025 мАч и легче Pro."}
-  ergonomics: {status: "✅", score: 0.85, note: "203 г - лучший OPPO-баланс."}
-  durability: {status: "⚠️", score: 0.75, note: "Проверить хват и блок камер."}
-  bands: {status: "⚠️", score: 0.75, note: "Официальная OPPO Global specs содержит широкий CPH2797 Version 1 и урезанный Version 2; для поездок/eSIM брать только Version 1."}
+  value: {status: "❌", score: 0.35, note: "По обзору около 57-58к уже спорно из-за OnePlus 15/Vivo/Realme; текущие 87к тем более неадекватны без явного преимущества."}
+  quick_photo: {status: "⚠️", score: 0.78, note: "Quick/Snap Key есть; проверить запуск камеры и быстрые кадры в помещении."}
+  battery_hike: {status: "✅", score: 0.86, note: "7025 мАч, YouTube около 3-4%/ч, зарядка около часа; но игры едят 18-20%/ч и греют корпус."}
+  ergonomics: {status: "✅", score: 0.82, note: "203-205 г, 157x74x8 мм: компактнее Pro, между Vivo X300 и X300 Pro; не маленький, но разумнее крупных флагманов."}
+  durability: {status: "⚠️", score: 0.78, note: "IP66/IP68/IP69, физический proximity; стеклянный корпус и камерный блок проверить в руке/кармане."}
+  bands: {status: "⚠️", score: 0.65, note: "Global Version 1 нужен для поездок/eSIM; CN в обзоре без B20 и с китайской агрегацией. GPS многодиапазонный, но автор отметил медленную навигацию."}
   shortcut: {status: "✅", score: 0.85, note: "Snap Key / gestures."}
-  screen_sound: {status: "✅", score: 1, note: "Хороший AMOLED."}
+  screen_sound: {status: "⚠️", score: 0.8, note: "Экран яркий и с низким ШИМ, но без LTPO; звук с перекосом и слабее X9 Pro."}
   windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
   design: {status: "✅", score: 0.8, note: "Аккуратнее Pro."}
   sd: {status: "❌", score: 0, note: "SD нет."}
   wireless: {status: "➕", score: 1, note: "Wireless 50W."}
-  dev_testing: {status: "—", score: 0, note: "—"}
+  dev_testing: {status: "⚠️", score: 0.35, note: "USB 2.0 снижает удобство кабельной передачи/тестирования; adb проверить."}
