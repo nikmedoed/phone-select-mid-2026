@@ -2,18 +2,18 @@ id: oneplus15
 name: "OnePlus 15 16/512"
 verdict: "⚠️ Брать как value/автономность, только если камера лично устраивает"
 risk: "⚠️ камера не топ-камерофон: хорошая дневная/универсальная, но вечер, tele/ultrawide и видео надо проверять / eSIM только после проверки SKU и EID / Global/EU/US/India отличаются комплектом и зарядкой / CN/перешивка без eSIM и с риском bands/CA / проверить GPay"
-priceRub: 74880
+priceRub: 66539
 uaeLandedRub: 71572
 purchaseLogic: "✅ брать первым, если камера лично проходит тест"
 firstCheck: "SKU/eSIM/EID, Wallet/Mir Pay, bands/B20/агрегация на CN, камера вечер и tele close-focus/7x, автояркость/блики на солнце, Bluetooth-часы, комплект/зарядка, LDAC, Plus Key/жесты, запись звонков по региону, софт-тач спинки/следы"
-priceSource: "WB около 74 880 ₽ сейчас; 67-68к считать старой/акционной ценой, в отзыве брали за 62к"
+priceSource: "WB Brand Flagship Store: 66 539 ₽ фиолетовый / 68 384 ₽ бежевый, US CPH2749 eSIM, 5.0 на 2 оценках; Ozon Global 94-95к уже неинтересен"
 uaePriceAed: 2990
 uaeSource: "Sharaf DG 2 990; Amazon 3 099, часто Indian/International"
 uaeItemRub: 63089
 uaeDeliveryRub: 1688
 uaeDutyRub: 6795
 uaeLandedDeltaRub: 4096
-priceConclusion: "⚠️ UAE может быть не лучше: Sharaf DG 2 990 AED имеет смысл только если курс/доставка/пошлина дают ниже WB и продавец нормальный"
+priceConclusion: "✅ Пошлина/форвардер больше не нужны: WB 66-68к дешевле расчетного UAE landed и резко усиливает OnePlus 15 как value-первый вариант"
 specs:
   soc: "✅ Snapdragon 8 Elite Gen 5"
   memory: "16 ГБ / 512 ГБ"
@@ -34,7 +34,7 @@ specs:
   usb_adb: "✅ USB 3.2 Gen 1"
   wifi: "✅ Wi-Fi 7"
 criteria:
-  region: {status: "⚠️", score: 0.75, note: "WB Brand Flagship Store, 9 оценок; US/Global/India/CN отличаются комплектом и софтом. Global спокойнее, India интересна блоком и звонилкой, CN/перешивка дешевле, но с риском блокировок, OTA и неполной русификации."}
+  region: {status: "✅", score: 0.9, note: "WB Brand Flagship Store даёт понятную покупку без пошлины: 66-68к за US CPH2749 с eSIM, но всего 2 оценки по текущим карточкам. US/Global/India/CN отличаются комплектом и софтом; CN/перешивку не брать под eSIM."}
   esim: {status: "✅", score: 1, note: "Для сравнения считается только Global/EU/US/India SKU с nano-SIM + eSIM. CN/прошитый CN без EID не рассматривать."}
   speed: {status: "✅", score: 0.96, note: "Флагманский Snapdragon и 16 ГБ RAM; в быту очень быстрый и плавный. В speed-test S26 Ultra чуть быстрее запускает часть приложений, но OnePlus ощущается плавнее и лучше листает недавние; под тяжёлой нагрузкой риск нагрева/лимитов всё равно проверить."}
   multitasking: {status: "✅", score: 0.95, note: "16 ГБ RAM и обычное удержание приложений проблем не вызывают; battery restrictions всё равно снять для Teams/Outlook/Syncthing."}
@@ -47,7 +47,7 @@ criteria:
   ldac: {status: "✅", score: 1, note: "LDAC подтвержден в кодеках."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
-  value: {status: "✅", score: 0.9, note: "Сейчас WB ближе к 75к; 67-68к считать старой/акционной ценой, отзыв о покупке за 62к. Всё ещё сильный value, если не нужна лучшая камера, но при 75к надо жёстче сравнивать с OPPO/Honor/Samsung и проверять регион."}
+  value: {status: "✅", score: 0.98, note: "WB 66-68к снова делает модель главным value-кандидатом: дешевле OP13 на Ozon, заметно дешевле Samsung/Honor/OPPO и без расчета пошлины. Компромисс прежний: камера не топ-камерофон, регион/CPH2749/eSIM/EID проверить при получении."}
   quick_photo: {status: "⚠️", score: 0.66, note: "Plus Key и жесты на выключенном экране есть; speed-test показал быстрый shutter. Быстрый снимок всё равно проверять вечером/в помещении: ночной ширик/tele, HDR и стабилизация видео слабее конкурентов."}
   battery_hike: {status: "✅", score: 0.96, note: "7300 мАч; обзоры хвалят автономность: полтора-два дня и 8-12 ч экрана обычны, у долгого владельца 10-14 ч экрана, рекорд 14,5 ч за 2 дня, в сравнении с Poco давал 10-12 ч, в стресс-тесте против iPhone/Samsung прожил 13 ч 47 мин. GPS-сценарий всё ещё проверить отдельно."}
   ergonomics: {status: "⚠️", score: 0.62, note: "211-218 г; крупный, но легче/тоньше iPhone Pro Max, плоский экран, компактный блок камер и текстурная спинка делают хват приятнее, чем у многих лопат/Vivo-шайб; мнения по брусковой форме разделились, часть владельцев ругает рубленые грани, ширину, высокое расположение кнопок, софт-тач спинки и потерю старого Alert Slider."}

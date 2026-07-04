@@ -2,18 +2,21 @@ id: oneplus13
 name: "OnePlus 13 16/512"
 verdict: "✅ Сильный value-флагман прошлого поколения"
 risk: "⚠️ искать именно Global/India/EU с eSIM; китайка дешевле, но без гарантированной eSIM и с рисками Android Auto/Wallet/OTA/регионлока/перепрошивки"
-priceRub:
+priceRub: 83698
 uaeLandedRub: 64050
 purchaseLogic: "✅ если OP15 не устраивает по камере/цене, а X9 Pro дорого"
 firstCheck: "Global/India/EU, EID/eSIM, model number, sealed box, OTA, Wallet/Android Auto/Play Integrity, LTE/5G bands и VoWiFi, камера вечером/люди/видео, нагрев при 4K60/играх, уведомления/фон, разговорный динамик, стекло/хват без чехла, возврат, цена"
-priceSource: "Нет текущей карточки в твоём наборе"
+priceSource: "Ozon ТехноСфераN 83 698 ₽ / Технологика 86 397 ₽, 0 оценок; eSIM заявлен, но цена выше свежего OnePlus 15 на WB"
+localPriceAmd: 285000
+localPriceRub: 59892
+localPriceSource: "List.am 23553604, Ереван, 16/512, Global Version, 285 000 ֏ / 59 892 ₽; состояние указано как использованное, eSIM да, 100% батареи, 1 год гарантии. Дешевле есть 200 000 ֏ / 42 029 ₽, но б/у и без eSIM."
 uaePriceAed: 2680
 uaeSource: "Amazon около 2 649-2 680 Indian; Pricena около 2 317; Noon около 2 599 International; версия/eSIM/OTA под вопросом"
 uaeItemRub: 56548
 uaeDeliveryRub: 1688
 uaeDutyRub: 5814
 uaeLandedDeltaRub:
-priceConclusion: "⚠️ UAE дешевле, но OP13 уже старше; брать только после проверки модели, EID/eSIM, OTA, Play Integrity и возврата"
+priceConclusion: "⚠️ Российские Ozon-карточки без пошлины есть, но OP13 за 84-86к теряет смысл рядом с OnePlus 15 за 66-68к; искать только сильно дешевле"
 specs:
   soc: "✅ Snapdragon 8 Elite"
   memory: "16 ГБ / 512 ГБ"
@@ -47,7 +50,7 @@ criteria:
   ldac: {status: "✅", score: 1, note: "LDAC есть."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "16/512."}
-  value: {status: "✅", score: 0.9, note: "После снижения цен часто выглядит сильным value около 55-65к за 256/512; Global/eSIM важнее минимальной цены китайки."}
+  value: {status: "⚠️", score: 0.68, note: "Как модель хороша за 55-65к, но текущие Ozon 84-86к без отзывов неинтересны: OnePlus 15 на WB дешевле и новее. OP13 оставлять как запасной вариант только при реальной скидке и подтвержденном Global/eSIM."}
   quick_photo: {status: "⚠️", score: 0.8, note: "Камера запускается быстро, основа предсказуемая и часто лучше OP15; движение вечером, лица/цвета, прыжки фокуса при видео/зуме и ультразум проверить, телевик не годится для близкого макро."}
   battery_hike: {status: "⚠️", score: 0.85, note: "6000 мАч обычно дает день-полтора и 8-10 ч экрана, в легких web/video-тестах очень силен; для карт/мессенджеров/фото запас хороший, но в GPS, играх, 4K и нагреве расход высокий, до OP15/Find X9 Pro с 7000+ мАч не дотягивает."}
   ergonomics: {status: "⚠️", score: 0.74, note: "~210 г и 6.82\"; в сравнении с S25+ ощущается большой тяжелой лопатой. Синяя эко-кожа/матовые версии цепкие, но стеклянные версии скользкие, камера мешает хвату некоторым владельцам, защитное стекло на 2.5D-кромки клеить сложнее."}

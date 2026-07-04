@@ -6,14 +6,17 @@ priceRub: 97189
 uaeLandedRub: 104548
 purchaseLogic: "⚠️ после подтверждения Global/UAE/HK/EU SKU, EID/eSIM, нужной батареи и LDAC/aptX Lossless"
 firstCheck: "SKU/регион Global/UAE/HK/EU/CN, EID/eSIM, ёмкость 7100/7200/6270, зарядка 100W/120W, LTE/5G bands по model number, Wallet, 3D face в банках, Telegram/Teams/Gmail фон, Android Auto, видео ходьбой/ночью, AI/регион Honor"
-priceSource: "WB iDM Store, 97 189 ₽, 12 отзывов"
+priceSource: "WB iDM Store 97 189 ₽, 12 отзывов; WB Magic8 Pro 16/512 за 73 833 ₽ имеет отзыв о неглобальной/нерусифицированной версии без Google; Ozon Global 16/1TB 114-116к"
+localPriceAmd: 449000
+localPriceRub: 94355
+localPriceSource: "List.am 23718192, Ереван, 512 GB, чёрный, 449 000 ֏ / 94 355 ₽; новое, eSIM да, продавец-организация, 1 год гарантии. В таблице модель 16/1TB, поэтому локальная 512 GB цена не полностью сопоставима."
 uaePriceAed: 4349
 uaeSource: "Amazon 4 349; official UAE preorder 4 699"
 uaeItemRub: 91764
 uaeDeliveryRub: 1688
 uaeDutyRub: 11096
 uaeLandedDeltaRub: 7359
-priceConclusion: "⚠️ близко к WB, выгода сомнительная"
+priceConclusion: "⚠️ Дешёвая 73 833 ₽ карточка выглядит как риск CN/no-Google и не заменяет нужный Global/eSIM. Реалистичный беспошлинный Global ближе к 97-116к"
 specs:
   soc: "✅ Snapdragon 8 Elite Gen 5"
   memory: "16 ГБ / 1 ТБ"
@@ -34,7 +37,7 @@ specs:
   usb_adb: "✅ USB 3.2 упоминается в обзорах; всё равно проверить adb + передачу файлов"
   wifi: "✅ Wi-Fi 7, Bluetooth 6.0 упоминаются в обзорах; сверить по фактическому SKU"
 criteria:
-  region: {status: "⚠️", score: 0.65, note: "Есть RU/global продажи и дешевые CN-варианты. CN в обзорах работает на русском с Google и bands, но требует настройки; у EU батарея меньше, цену/гарантию/возврат считать по SKU."}
+  region: {status: "⚠️", score: 0.62, note: "Есть RU/global продажи и дешевые CN-варианты. Новая дешёвая WB 16/512 за 73 833 ₽ имеет отзыв: не global, нет Google, неполная русификация. CN может быть usable, но под must-have eSIM/Google лучше считать только подтвержденный Global/UAE/HK/EU SKU."}
   esim: {status: "✅", score: 1, note: "Для сравнения считается только Global/UAE/EU/HK SKU с nano-SIM + eSIM. CN/no-EID не рассматривать."}
   speed: {status: "✅", score: 1, note: "Snapdragon 8 Elite Gen 5; несколько обзоров хвалят производительность, игры и стабильность."}
   multitasking: {status: "✅", score: 0.95, note: "16 ГБ RAM; проверить Telegram/Teams/Gmail фон, потому что по MagicOS встречались жалобы на засыпание приложений."}

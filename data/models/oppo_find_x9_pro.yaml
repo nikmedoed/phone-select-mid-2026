@@ -2,18 +2,21 @@ id: oppo_find_x9_pro
 name: "OPPO Find X9 Pro 16/512"
 verdict: "✅ Сильный сбалансированный камерофлагман только в Global CPH2791 с eSIM/EID; китайскую/UAE Chinese Spec не брать, если eSIM must-have"
 risk: "⚠️ 100к, ❌ 224 г, Chinese-spec без eSIM/Google из коробки/части AI, урезанная версия частот, ColorOS/background, Wallet/Play Integrity, ШИМ, звук и видео-панорамы проверять"
-priceRub: 100273
+priceRub: 99392
 uaeLandedRub: 102121
 purchaseLogic: "✅ если камера важнее +33к и веса"
 firstCheck: "Global CPH2791, EID/eSIM, полный набор bands, Wallet/Play Integrity/NFC-зона, фон/уведомления, камера автоэкспозиция/цвет/AI-рисование/движущиеся объекты, видео ходьбой/ночью/резкие панорамы/переключение модулей, ШИМ на низкой яркости, GPS lock, звук верхнего динамика, вес без чехла, комплект с ЗУ/тип вилки/SuperVOOC"
-priceSource: "WB ТехМагазин, 100 273 ₽, 0 отзывов"
+priceSource: "WB ТехМагазин 99 392 ₽, 0 отзывов; Felicey 102 561 ₽ за 16/512 и 109 714 ₽ за 16/1TB, тоже 0 отзывов"
+localPriceAmd: 330000
+localPriceRub: 69348
+localPriceSource: "List.am 23540902, Ереван, 16/512, 330 000 ֏ / 69 348 ₽; заявлен China region, eSIM нет, поэтому цена полезна только как ориентир рынка, не как релевантная покупка под must-have eSIM."
 uaePriceAed: 4249
 uaeSource: "Pricena/Noon 4 249, но часто Chinese spec; Amazon дороже 5 795"
 uaeItemRub: 89654
 uaeDeliveryRub: 1688
 uaeDutyRub: 10779
 uaeLandedDeltaRub: 1848
-priceConclusion: "⚠️ UAE дешевле WB только на Chinese Spec; для Global/eSIM экономия не подтверждена"
+priceConclusion: "⚠️ Без пошлины доступен около 99к, но карточки без отзывов; переплата к OnePlus 15 оправдана только если камера важнее цены и подтверждён Global CPH2791/eSIM"
 specs:
   soc: "✅ Dimensity 9500; в одном сравнении стабильнее OnePlus 15 под нагрузкой"
   memory: "16 ГБ / 512 ГБ"
@@ -34,7 +37,7 @@ specs:
   usb_adb: "⚠️ USB 3.2 Gen 1; в одном обзоре ранняя прошивка стопорила MTP-копирование на ПК, после обновления 16.0.0.221 передача файла прошла нормально"
   wifi: "✅ Wi-Fi 7"
 criteria:
-  region: {status: "⚠️", score: 0.52, note: "Дорого и 0 отзывов WB; UAE/Noon/Pricena дешевле в основном за счёт Chinese Spec, а это конфликтует с must-have eSIM. Global CPH2791 нормален, но конкретную карточку надо подтверждать фото коробки/модели/EID/частот."}
+  region: {status: "⚠️", score: 0.58, note: "WB без пошлины около 99к, но 0 отзывов; UAE/Noon/Pricena дешевле в основном за счёт Chinese Spec, а это конфликтует с must-have eSIM. Global CPH2791 нормален, но конкретную карточку надо подтверждать фото коробки/модели/EID/частот."}
   esim: {status: "✅", score: 1, note: "Для сравнения считается только Global CPH2791 с nano-SIM + eSIM. Chinese Spec/CN без eSIM не рассматривать."}
   speed: {status: "✅", score: 0.9, note: "Dimensity 9500, 16 ГБ; для карт, Telegram, банков, видео, фото и рабочих приложений очень быстрый. Для долгой игровой/3D-нагрузки оценка ниже: Notebookcheck фиксирует сильный throttling в стресс-тестах, плюс есть жалобы на нагрев, ограничение мощности и сброс яркости в долгой 4K60/игровой нагрузке."}
   multitasking: {status: "✅", score: 0.9, note: "16 ГБ RAM дают хороший запас; ColorOS/background policy, уведомления, Wear OS/Google-сервисы и выгрузку фоновых приложений проверить на конкретной Global/SKU."}

@@ -78,6 +78,18 @@
             {{ range $ranked }}<td>{{ with .priceSource }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
           </tr>
           <tr>
+            <td>List.am цена</td>
+            {{ range $ranked }}<td>{{ with .localPriceAmd }}{{ lang.FormatNumberCustom 0 . }} ֏{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>List.am в ₽</td>
+            {{ range $ranked }}<td>{{ with .localPriceRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
+            <td>List.am источник / версия</td>
+            {{ range $ranked }}<td>{{ with .localPriceSource }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+          </tr>
+          <tr>
             <td>UAE цена товара</td>
             {{ range $ranked }}<td>{{ with .uaePriceAed }}{{ lang.FormatNumberCustom 0 . }} AED{{ else }}—{{ end }}</td>{{ end }}
           </tr>
