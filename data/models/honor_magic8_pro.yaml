@@ -35,10 +35,11 @@ specs:
   wifi: "✅ Wi-Fi 7, Bluetooth 6.0 упоминаются в обзорах; сверить по фактическому SKU"
 criteria:
   region: {status: "⚠️", score: 0.65, note: "Есть RU/global продажи и дешевые CN-варианты. CN в обзорах работает на русском с Google и bands, но требует настройки; у EU батарея меньше, цену/гарантию/возврат считать по SKU."}
-  esim: {status: "⚠️", score: 0.65, note: "Global/UAE/EU/HK вероятно с eSIM, но CN не считать eSIM-версией. Обязательная проверка EID/Add eSIM на коробке или в *#06# до оплаты."}
+  esim: {status: "✅", score: 1, note: "Для сравнения считается только Global/UAE/EU/HK SKU с nano-SIM + eSIM. CN/no-EID не рассматривать."}
   speed: {status: "✅", score: 1, note: "Snapdragon 8 Elite Gen 5; несколько обзоров хвалят производительность, игры и стабильность."}
-  multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
-  future: {status: "⚠️", score: 0.82, note: "Железо сильное, но 7 лет Android/security официально надежнее переносить на EU/UK. Для UAE/HK/серого Global считать поддержку ниже, для CN — отдельный риск регионального софта и политики обновлений."}
+  multitasking: {status: "✅", score: 0.95, note: "16 ГБ RAM; проверить Telegram/Teams/Gmail фон, потому что по MagicOS встречались жалобы на засыпание приложений."}
+  future: {status: "✅", score: 0.94, note: "Snapdragon 8 Elite Gen 5, 16 ГБ RAM и 1 ТБ дают сильный запас по железу."}
+  updates: {status: "⚠️", score: 0.82, note: "7 лет Android/security официально надежнее переносить на EU/UK. Для UAE/HK/серого Global считать поддержку ниже, для CN — отдельный риск регионального софта и политики обновлений."}
   camera_stable: {status: "⚠️", score: 0.8, note: "Очень сильный tele/night/портрет и 200 МП tele, но не лучший all-round video-phone: видео уступает лучшим, обработка/HDR иногда агрессивные, цвета Honor и selfie надо проверить лично."}
   firmware: {status: "⚠️", score: 0.68, note: "MagicOS 10 быстрая и богатая. Global проще; CN usable, но нужен ручной Google/фон, местами английский/китайский, AI и облако зависят от региона. Есть отзыв о Telegram, который засыпал даже после настройки."}
   gpay: {status: "⚠️", score: 0.78, note: "NFC/Google-сервисы и бесконтактную оплату в CN-обзоре подтверждали, но Wallet/Play Integrity/банки проверять на фактическом SKU; отмечали, что к NFC-метке надо привыкнуть."}
@@ -53,9 +54,9 @@ criteria:
   durability: {status: "⚠️", score: 0.78, note: "IP68/IP69/IP69K и SGS-прочность упоминаются, комплектный чехол и пленка есть; изогнутый экран повышает риск жизни без стекла, а блок камер/вес надо проверить в руке и на столе."}
   bands: {status: "⚠️", score: 0.75, note: "Не верить общим словам из обзоров: сверить bands по model number/SKU. Для Армении/Европы отдельно проверить LTE B3/B7/B20/B28 и 5G n78/n28/n1/n3/n7/n40/n41."}
   shortcut: {status: "⚠️", score: 0.78, note: "Camera/AI button полезна в камере, но не универсальна. Зато в MagicOS есть отдельные жесты/кнопки: двойное нажатие питания или volume down можно назначать на фонарик/диктофон/приложение."}
-  screen_sound: {status: "✅", score: 1, note: "Экран и звук - сильные стороны по нескольким обзорам; звук громкий/басовитый, экран яркий и комфортный для глаз."}
+  screen_sound: {status: "✅", score: 0.95, note: "Экран яркий и комфортный для глаз, звук громкий/басовитый; это один из сильнейших мультимедийных вариантов, но изогнутый экран лично проверить на бликах/случайных касаниях."}
   windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
   design: {status: "✅", score: 0.9, note: "Выделяется."}
-  sd: {status: "❌", score: 0, note: "SD нет."}
-  wireless: {status: "➕", score: 1, note: "Wireless 80W."}
-  dev_testing: {status: "—", score: 0, note: "—"}
+  # sd: {status: "❌", score: 0, note: "SD нет."}
+  # wireless: {status: "➕", score: 1, note: "Wireless 80W."}
+  # dev_testing: {status: "—", score: 0, note: "—"}

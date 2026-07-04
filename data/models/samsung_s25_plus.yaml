@@ -37,8 +37,9 @@ criteria:
   region: {status: "✅", score: 0.85, note: "Обычно проще купить/проверить/вернуть; серый импорт всё равно сверить по продавцу и комплекту."}
   esim: {status: "✅", score: 1, note: "nano/eSIM global."}
   speed: {status: "✅", score: 0.92, note: "Snapdragon 8 Elite for Galaxy и 12 ГБ RAM; система летает и приложения открываются быстро, но под длительной нагрузкой Samsung традиционно душит чип: в обзорах до ~35% просадки и нагрев в играх."}
-  multitasking: {status: "✅", score: 0.9, note: "RAM/One UI нормально."}
-  future: {status: "✅", score: 1, note: "7 лет поддержки."}
+  multitasking: {status: "✅", score: 0.9, note: "12 ГБ RAM и One UI обычно нормально держат повседневный набор приложений; проверить Teams/Outlook/Syncthing в фоне."}
+  future: {status: "✅", score: 0.86, note: "Snapdragon 8 Elite for Galaxy и 12 ГБ RAM всё ещё дают хороший запас; главный минус по железу - троттлинг и нагрев в долгой нагрузке."}
+  updates: {status: "✅", score: 1, note: "7 лет Android/security updates - один из лучших вариантов по длительности поддержки."}
   camera_stable: {status: "⚠️", score: 0.78, note: "Днем и по видео предсказуемо, но железо почти от S23/S24: основной модуль хороший, дополнительные камеры уступают китайским флагманам, UW без AF, 3x старый, 20-30x уже мыло. Ночные фото в одном обзоре заметно смазывались и уступали Pixel/iPhone; софтом могут поправить, но перед покупкой проверить."}
   firmware: {status: "✅", score: 0.88, note: "One UI предсказуема, 7 лет поддержки, DeX/Windows-связка сильные; из коробки One UI 7/Android 15, далее One UI 8. Galaxy AI частично поддерживает русский, но Gemini и часть AI-функций зависят от региона, аккаунта, языка, CSC и сервисов Google; установку APK по умолчанию надо разрешать вручную."}
   gpay: {status: "✅", score: 1, note: "Да."}
@@ -56,6 +57,6 @@ criteria:
   screen_sound: {status: "✅", score: 0.88, note: "Сильный QHD LTPO AMOLED, AOD, громкие стереодинамики/Dolby Atmos; но без антибликового стекла Ultra/S26+, на солнце ок, а по ручной яркости/PWM часть китайцев лучше. PWM чувствительным обязательно проверить 15-20 минут на низкой яркости."}
   windows: {status: "✅", score: 1, note: "Лучший вариант."}
   design: {status: "⚠️", score: 0.45, note: "Скучнее и спорный блок камер."}
-  sd: {status: "❌", score: 0, note: "SD нет."}
-  wireless: {status: "➕", score: 1, note: "Есть."}
-  dev_testing: {status: "—", score: 0, note: "—"}
+  # sd: {status: "❌", score: 0, note: "SD нет."}
+  # wireless: {status: "➕", score: 1, note: "Есть."}
+  # dev_testing: {status: "—", score: 0, note: "—"}
