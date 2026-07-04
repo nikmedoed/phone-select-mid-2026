@@ -1,11 +1,11 @@
 id: samsung_s26_plus
 name: "Samsung S26+ 512"
 verdict: "❌ Не брать под эту задачу"
-risk: "❌ 4900 мАч + цена + регион/Exynos; камеры без вау"
+risk: "❌ 4900 мАч + цена + регион/Exynos; камеры почти без апгрейда с S25/S24, слабые UW/3x и PWM"
 priceRub:
 uaeLandedRub: 88751
 purchaseLogic: "❌ не оправдывает цену/батарею"
-firstCheck: "регион/SoC, Wallet, батарея, камера, Windows Link"
+firstCheck: "регион/SoC Exynos или Snapdragon, Wallet/eSIM, батарея/GPS, нагрев батареи и камеры под нагрузкой, PWM на низкой яркости, камера 1x/UW/3x/ночь/видео, отсутствие privacy/антиблика Ultra, Windows Link/DeX, магнитный чехол для Qi2-аксессуаров"
 priceSource: "Нет РФ-карточки; у тебя Amazon ~926$ / дорого"
 uaePriceAed: 3698
 uaeSource: "Amazon.ae 3 698 или Sharaf starts 4 299; смотреть UAE/регион"
@@ -15,47 +15,47 @@ uaeDutyRub: 9036
 uaeLandedDeltaRub:
 priceConclusion: "❓ UAE может быть дешевле Amazon, но всё равно слабый выбор"
 specs:
-  soc: "⚠️ Брать только Snapdragon SKU; Exynos-регионы не считать равноценными"
+  soc: "⚠️ Зависит от региона: Exynos 2600 или Snapdragon 8 Elite Gen 5 for Galaxy; Exynos быстрый, но в обзорах греется/троттлит и слабее Snapdragon/Ultra в синтетике и играх"
   memory: "12 ГБ / 512 ГБ"
   os: "✅ Android 16 / One UI 8; 7 лет"
-  battery: "❌ 4900 мАч"
-  charging: "⚠️ 45W wired; wireless"
-  main_camera: "⚠️ 50 МП; без явного апгрейда"
-  tele_camera: "⚠️ 10 МП tele 3x"
-  ultrawide_camera: "⚠️ 12 МП UW"
+  battery: "❌ 4900 мАч; в одном длительном обзоре при тех же сценариях S26/S26+ держали примерно на 10% хуже S25, вероятно из-за Exynos/раннего софта"
+  charging: "⚠️ 45W wired без блока; обычно около 60-70 минут до 100%, по меркам Samsung нормально, но против китайских 80-120W медленно; wireless 20-25W и reverse wireless, встроенных магнитов Qi2/MagSafe нет"
+  main_camera: "⚠️ 50 МП; основная камера стабильная, но железо/результат почти без явного апгрейда относительно S25+/S24+/S23+"
+  tele_camera: "⚠️ 10 МП tele 3x; модуль темный, в помещении/вечером качество заметно падает, 5x-модуля Ultra нет"
+  ultrawide_camera: "⚠️ 12 МП UW без AF; хуже Ultra и китайских камерофонов, макро/ближний фокус не ждать"
   extra_camera: "—"
-  video: "✅ Samsung Super Steady / Horizontal Lock"
-  selfie: "⚠️ 12 МП: стабильно, не вау"
+  video: "✅ Samsung силен по видео: 4K60, 8K30, хорошая стабилизация, Super Steady / Horizontal Lock; блокировка горизонта полезна для ходьбы/влогов, но режим ограничен примерно 2K. По сравнению с S24+ заметили улучшенную стабилизацию, но общий уровень камер тот же"
+  selfie: "⚠️ 12 МП с AF и EIS; днем хорошо, при недостатке света приемлемо, OIS нет, видео до 4K60"
   weight: "✅ 190-195 г / тонкий"
-  display: "✅ Samsung AMOLED, цвет/яркость сильные"
-  speakers: "✅ Samsung стабильно ок"
+  display: "⚠️ Samsung AMOLED 6,7\", QHD+/LTPO 1-120 Гц, яркий и четкий; у Plus нет антиблика/privacy display Ultra, в одном сравнении белый желтит относительно S25+, PWM/ШИМ на низкой яркости высокий"
+  speakers: "✅ Samsung стабильно ок; громкие стерео, Dolby Atmos"
   protection: "✅ IP68"
-  materials: "⚠️ Стекло и алюминиевая рамка; блок камер и хват проверить без чехла"
-  usb_adb: "✅ USB-C 3.2"
-  wifi: "✅ Wi-Fi 7"
+  materials: "⚠️ Стекло Victus 2 и армированный алюминий; блок камер выступает, окантовка камер может стираться как у других Samsung, хват без чехла проверить"
+  usb_adb: "✅ USB-C 3.2 с DeX/видеовыходом"
+  wifi: "✅ Wi-Fi 7; в обзоре сигнал через стены держался стабильно"
 criteria:
   region: {status: "⚠️", score: 0.75, note: "Samsung проще покупать и возвращать, но цена/поставка всё равно требуют проверки."}
   esim: {status: "✅", score: 0.9, note: "nano/eSIM; регион проверить."}
-  speed: {status: "⚠️", score: 0.8, note: "Оценка актуальна только для Snapdragon SKU; Exynos-регион лучше не брать."}
+  speed: {status: "⚠️", score: 0.76, note: "В интерфейсе всё быстро и плавно, 12 ГБ RAM хватает. Но регион критичен: Exynos 2600 быстрый, однако в обзорах греется/троттлит, S26+ на Exynos прогревался до 45-46°C, в стресс-тесте терял производительность сильнее базового S26 и под играми/эмуляторами может уступать Snapdragon-версии/Ultra."}
   multitasking: {status: "✅", score: 0.9, note: "One UI и RAM должны быть ок."}
   future: {status: "✅", score: 1, note: "7 лет поддержки."}
-  camera_stable: {status: "✅", score: 0.8, note: "Стабильно, но без вау."}
-  firmware: {status: "✅", score: 0.9, note: "One UI предсказуема."}
+  camera_stable: {status: "⚠️", score: 0.72, note: "Основная камера и видео стабильные, но железо почти не изменилось относительно S25+/S24+/S23+: днем ок, год-к-году разницы мало. Ночью немного быстрее затвор и лучше стабилизация видео, но UW без AF и старый темный 3x сильно слабее Ultra/китайцев. Под камерной нагрузкой S26+ в обзоре пару раз показывал перегрев и сворачивал камеру; если камера важна, это не причина переплачивать."}
+  firmware: {status: "✅", score: 0.88, note: "One UI 8.5/Android 16 предсказуема, Google-сервисы и минимум мусора; 7 лет поддержки. Galaxy AI/Now Brief/перевод/редактор фото полезны частично, но часть AI/Gemini-функций в РФ/Беларуси может работать не полностью или требовать альтернатив вроде Perplexity/VPN."}
   gpay: {status: "✅", score: 1, note: "Да."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
   ldac: {status: "⚠️", score: 0.7, note: "Вероятен, но проверить."}
   storage256: {status: "✅", score: 1, note: "512 ГБ."}
   storage512: {status: "✅", score: 1, note: "512."}
-  value: {status: "❌", score: 0.3, note: "Цена, 4900 мАч и регион/Exynos не попадают в задачу."}
+  value: {status: "❌", score: 0.25, note: "Цена, 4900 мАч, регион/Exynos и камеры почти без апгрейда плохо попадают в задачу. Несколько обзоров прямо советуют смотреть S25+/S25 Ultra/Ultra: S26+ рационален только если нужна новая One UI/AI и свежая поддержка без переплаты за Ultra."}
   quick_photo: {status: "✅", score: 0.9, note: "Двойное нажатие Side Key."}
-  battery_hike: {status: "❌", score: 0.3, note: "4900 мАч, слабое попадание в задачу."}
-  ergonomics: {status: "✅", score: 1, note: "Тонкий и легкий."}
-  durability: {status: "✅", score: 0.85, note: "Samsung-предсказуемость."}
-  bands: {status: "⚠️", score: 0.65, note: "Регион важен, Exynos-модем минус."}
+  battery_hike: {status: "❌", score: 0.28, note: "4900 мАч: обычно полный день или около 6 ч экрана, в видео-тесте около 14 ч, но это не походный запас. В одном обзоре при одинаковых сценариях S26/S26+ разряжались примерно на 10% быстрее S25; под играми уходит ~20%/ч и больше, при фото/видео к вечеру может сесть. Китайцы 6500-7000 мАч заметно впереди, powerbank для GPS-хайка обязателен."}
+  ergonomics: {status: "✅", score: 0.9, note: "Около 190 г и 7,3 мм, плоский экран, тонкие рамки; удобнее Ultra и не ощущается лопатой, но это всё равно крупный 6,7\" телефон."}
+  durability: {status: "⚠️", score: 0.78, note: "Victus 2, IP68 и алюминий 7000/Armor Aluminum, но не Gorilla Armor/IP69. Блок камер выступает, окантовка камер может стираться; жизнь без чехла проверить по хвату и качанию на столе."}
+  bands: {status: "⚠️", score: 0.76, note: "Wi-Fi 7, GPS/GLONASS/Galileo/BeiDou, NFC и eSIM в обзорах ок: связь не подводила, шумоподавление/голос хорошие, датчик приближения корректный, навигация без заметных погрешностей. Всё равно сверить регион, bands, eSIM и модем/SoC, потому что Exynos и Snapdragon SKU не равны."}
   shortcut: {status: "✅", score: 0.95, note: "Side Key / lockscreen shortcuts."}
-  screen_sound: {status: "✅", score: 1, note: "Сильный экран/динамики."}
+  screen_sound: {status: "⚠️", score: 0.82, note: "Экран четкий QHD+/LTPO, динамики громкие и приятные. Минусы: нет антибликового покрытия и privacy display Ultra, PWM на низкой яркости в замерах доходил примерно до 46-56%, а при средней яркости называли ~21-24%; чувствительным обязательно смотреть лично."}
   windows: {status: "✅", score: 1, note: "Лучший вариант."}
   design: {status: "⚠️", score: 0.45, note: "Не цепляет."}
   sd: {status: "❌", score: 0, note: "SD нет."}
-  wireless: {status: "➕", score: 1, note: "Есть."}
+  wireless: {status: "➕", score: 0.85, note: "Беспроводная зарядка есть, но встроенных магнитов Qi2/MagSafe нет; для магнитных зарядок/кулеров нужен отдельный чехол с магнитами."}
   dev_testing: {status: "—", score: 0, note: "—"}

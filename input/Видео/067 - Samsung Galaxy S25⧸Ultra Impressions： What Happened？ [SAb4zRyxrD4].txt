@@ -1,0 +1,154 @@
+Okay, so sometimes new phones come out and people are basically like, oh, it's the same as last year.
+It's basically last year's phone with a new name, nothing changed.
+And that's mostly exaggeration.
+There are a few things usually that are at least worth talking about.
+But with this phone, I can honestly say there is nothing, nothing dramatically new about the S25s.
+So welcome to your first look at the Samsung Galaxy S25 series, S25, S25+, and S25 Ultra, plus my take on what's going on with Samsung right now.
+So right off rip, very familiar on the outside, right?
+With the standard phones, without the new colors, I honestly don't think I could tell the difference between this and last year.
+Same 6.2-inch and 6.7-inch sizes, same flat sides, same cold design.
+If you really want to get into the weeds about it, they moved the 5G antenna to the other side, up at the top there.
+So that's your tell that you're holding the new model.
+But really, all the changes are going to be on the inside.
+It's rocking the new Snapdragon 8 Elite 4 Galaxy chip with a slightly upgraded vapor chamber and 12 gigs of base RAM across the board now.
+And then the Ultra.
+So the Ultra actually did get a little bit of a cosmetic update.
+Can you tell the difference?
+Just kidding.
+This is the S24 Ultra.
+This is the S25 Ultra.
+Now can you tell what they did?
+Same battery size, same port and button layout.
+But this time, the sides are just a bit more squared off and rectangular.
+And the rings around the camera bumps are all a bit bigger.
+So the bezels are a little bit smaller on the front, about 15% smaller.
+So there you go, a little more screen.
+That counts as a design update, I guess.
+But internally, Snapdragon 8 Elite 4 Galaxy again and a 40% larger vapor chamber.
+And it's also upgraded to the newest Gorilla Glass at the front.
+And there's a new 50 megapixel UltraWide camera replacing the outgoing 12 megapixel.
+Otherwise, the rest of the cameras, and really the rest of the specs in total, from the battery to the brightness, are all the same.
+Everything else new here is software.
+So we'll get to that in a second.
+But you remember when phones used to do just the S update every other year?
+They would have a big jump and then a small jump.
+And that small jump was like a spec bump in the same design.
+This is the purest form of just going back to that.
+Like, this is basically a Galaxy S24 S.
+And on one hand, how can you blame them, right?
+Like, the S24 line sold really well for them.
+People loved those phones.
+The Ultra won my phone of the year last year.
+So stick with the formula.
+If it's not broke, don't fix it.
+But on the other hand, that phone was also really similar to the year before that, which was similar to the year before that.
+So after a while, the design does feel kind of stale.
+But like I said, most of what's new is software.
+And specifically, you guessed it, AI stuff.
+So there's a long list of new Galaxy AI features launching on the S25 series, which have a range of usefulness, I'll put it that way.
+So the biggest one is this new assistant that's triggered when you hold the power button.
+And it looks like this.
+Now, you can actually see it says Ask Gemini in the box, but it's not actually pure Gemini.
+It's more of a hybrid of Google Gemini and Bixby.
+So combining the best of both worlds.
+And obviously, Gemini is going to be better at most stuff, and it will default to that.
+But some of Bixby's ability to reach into apps and perform in-app actions is also here.
+So it's fascinating watching this work, because for most of the stuff you ask, it just is Gemini, right?
+Ask it some facts or some current events.
+But every once in a while, you can ask it something specific, like to add an event to your calendar.
+And then you can see it take action and dig in and actually do it for you, instead of just opening an app and asking you to do it.
+And that's genuinely useful.
+Some people are going to build their whole lives around that, I'm sure.
+It's kind of funny.
+It doesn't seem like you're able to pull it up with a voice command trigger.
+Like, you can't just say Bixby and it comes up.
+Or Google, because it's both.
+So that's kind of weird.
+You do have to trigger it by holding down the power button.
+It's basically Gemini with some extensions.
+Anyway, what else?
+So there's another one now called AI Select.
+So instead of the regular text selection, let's say you want to select something a little more complicated.
+You swipe over from the Edge panel or take a screenshot and invoke AI Select.
+And it'll use context to let you select whatever's on your screen and do something more useful with it.
+So if there's a bunch of text and you're reading an article, AI Select will surface writing tools.
+And then you can summarize that text, or at least the text that's currently on your page.
+Or if you're watching a video, you can pull up AI Select, and there's a tool to make a GIF of whatever's on your screen.
+So you can select the video and a few seconds of it and make a GIF super easily.
+I could have sworn they had a way of doing this with the S Pen not too long ago, and I just forgot about it.
+But it shows you how much I used it.
+But yeah, now making a GIF is easy whenever you want.
+There's also now Natural Language Processing in the Settings and Gallery Search.
+So you can just search using regular sentences, and it'll actually find what you're looking for by understanding you.
+That, I think, is pretty cool. It's useful.
+I know some less technically inclined people will get a lot of use out of this.
+And there's also some smaller stuff like this Now Brief widget, which is supposed to give you AI-curated information you need to know at that moment, certain useful things in the morning versus the afternoon.
+And they also made an equivalent audio eraser tool to what Google had just added to the Pixel phones like a year or two ago.
+So now any video you have on your phone, whether you took it in the camera app or not, you can clean up the audio and isolate the voice by removing crowd noise or background noise or wind or whatever with a single button press.
+I want to try and see how good it is.
+A lot of these AI features, stop me if you've heard this before, you know, they're cool if they actually work, but it's debatable how much you're actually going to use them and how much value they bring to this phone.
+But then the real kicker is, and this is technically a good thing, but Samsung has been really good about software updates lately.
+They're promising like seven years of software updates on their newest flagships, which means that if most of the new stuff on this phone is this software and the AI stuff, I didn't really see a whole lot of reason why most of it isn't going to also be on the S24 in a couple weeks.
+So they're decently useful features, some of them clever, some of them work offline without an internet connection, some of them power users will love.
+It's obviously hard to use it as a reason to upgrade to this phone if you hold a decently new phone that already has some of these features coming.
+The new One UI 7 that I've been using in beta on my S24 Ultra for a few weeks, which is this whole, you know, software overhaul and aesthetic coat of paint for Samsung's phones.
+I think that makes a bigger difference than any of the hardware stuff that they're changing about S25.
+Like you could give me right now that new ultra wide on the ultra and I might not notice.
+You could give me the slightly bigger screen.
+I might not notice the new chip, maybe, but the UI, the software, it is a refreshed look like across the board, fresh coat of paint with these aesthetics.
+And also, yes, some iOS inspired features tucked in there to the new lock screen customization in particular.
+I mean, that's right along the same lines as the iOS lock screen update we got a few years ago.
+So anyway, the S25 line is absolute textbook spec bump, zero risk for Samsung.
+And because of that, you could argue probably zero risk for the target demographic, too.
+Now, make sure you get subscribed for the full reviews for these phones because they could technically still surprise me.
+I know there's no IP69 and no silicon carbide battery and no ultra fast charging and no brighter display.
+But is the Snapdragon 8 Elite for Galaxy chip going to be a big enough bump that we notice it and maybe we don't even need a much bigger battery?
+You know, is the new ISP on that chip going to breathe new life into these cameras?
+All of this is TBD.
+So I need to check it out.
+I also need to see if this new S Pen did, in fact, lose Bluetooth because there are rumors about that and I didn't have time to check.
+But yeah, there's still some wiggle room for us to form opinions about these phones.
+So if you're thinking of grabbing an S25 Ultra, you're probably already considering which clear case to get because the only way you can tell it from the S24 is by a new colorway.
+The thing about clear cases, though, is they all eventually start to turn like yellow like this with the plastic, which just looks gross.
+So channel sponsor dbrand with their new ghost case 2.0 guarantees that their case will never turn yellow.
+Like they literally have guaranteed that if it ever does turn yellow, they'll replace it for free.
+And I believe them, too.
+One of the things I've always liked about dbrand is that they always go out of their way to do right by their customers.
+So to give you an example, the other thing with clear cases is they can also get scratched pretty easily, which was a problem with the original ghost case at launch.
+So dbrand actually went out of their way to develop a new super scratch resistant 2.0 version of the case from the ground up and offered it as a free replacement to everyone who bought the original ghost case.
+Like 100% free.
+So if you want to get a zero yellowing case and to support a company that consistently does right for their customers, I will leave a link to the S25 Ultra ghost case down below in the description.
+Either way, that's been it.
+Thanks for watching.
+Catch you guys in the next one.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.
+Peace.

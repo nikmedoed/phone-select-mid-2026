@@ -1,0 +1,302 @@
+So, what is up guys, Nick here helping you to master your technology, Galaxy S26 Ultra versus the OnePlus 15 speed test.
+This one has been requested quite a few times.
+Let's just go ahead and kick things off with a boot up test in 3, 2, go and see which one can get there first.
+Now, both these phones do have the Qualcomm Snapdragon 8 Elite Gen 5, but the Galaxy 1 is an overclocked version for specifically the Galaxy S line.
+So, we'll see if that makes a difference in this video.
+I do have the base 256 gig or 12 gig of RAM version of the S26 Ultra, and this is the 512 gig, 16 gig of RAM version of the OnePlus 15.
+But you've seen that the Galaxy S26 Ultra did turn on slightly faster than that of the OnePlus 15.
+And so, let's go ahead and do a fingerprint test between both of them on their ultrasonic fingerprint sensors in 3, 2, go.
+And you've seen that they do have a different way of flying in, but both are nearly the same exact performance.
+They just come in a little bit of a different way.
+Which way do you prefer or which animation do you prefer how they launch in?
+And it looks like the Samsung may be slightly quicker looking with their animation, whereas OnePlus is going for a more pleasing, polished look right there.
+Now, looking at the face unlocks, they both can just simply bypass the lock screen, and they've been able to do this for years.
+But you'll see they kind of have that same animation you'll see if you go ahead and unlock them with their ultrasonic fingerprint sensors.
+Getting into these phones is pretty much exactly the same in terms of performance.
+Not only I'm booting up, they're only within seconds, but also face unlock is about the same as well.
+Now, when going through the actual performance of One UI 8.5 has been pretty good.
+I mean, navigating the system, I don't see too many stutters or anything like that.
+You know, going over here, operating into the privacy display option that is available for this phone works just fantastic.
+And just like the One UI 8 that came before it, it's just snappy.
+So I really enjoy using the Galaxy S26 Ultra daily when it comes to performance.
+Just kind of going through this phone feels like one of the faster experiences on the market today.
+And that's funny because back in the day, the Samsung devices, and I'm talking about way back in the day, they weren't always the fastest phones.
+But now they're actually the phone to beat, I feel like, a lot of times when it comes to these speed tests.
+You'll see right here, very fast to navigate here on the OnePlus.
+But I am seeing more of an emphasis on smoother animation, just a super smooth experience.
+And it really does feel like butter.
+It's like a butter knife on, you know, slice of melted butter when you're going through the Oxygen OS over here on the OnePlus 15.
+As a matter of fact, I feel like it's a little more animated looking than even the One UI 8.5.
+So it comes down to, I think, if you like speed, you might like the look of One UI, how it navigates.
+Or if you like the OnePlus 15, you might like polished looking animations a little bit more.
+Let's get into the app test now.
+But before we do that, I want to point out here that we do have a clock speed of 3.63 gigahertz on that cluster one.
+You'll see over here, same clock speed on cluster one.
+But look at the cluster two.
+That's where things change a little bit for the S26 Ultra 4.74 gigahertz over here, 4.61.
+So you can see that slight overclock right there on the Galaxy.
+All right, guys.
+So here we are at the application launch speed test.
+Let's go ahead and go into calendar.
+And you can see launched a little bit first there on the left.
+We'll swipe up out of there and we'll go into clock.
+And about the same as we navigate through these different sections, they seem to pop these basic apps open.
+Exactly the same.
+We'll go into calculator and exactly the same.
+We'll go into Play Store once again, pretty much exactly the same.
+You do have what appears to be a little bit of a larger looking display on the Galaxy S26 Ultra.
+The shape is also more iPhone-like on the OnePlus.
+So let's go into weather on both.
+And they launch at about the same clip.
+No major issues.
+We'll swipe up out of there.
+We'll go into chat GPT on both.
+That was faster, I think, on the OnePlus.
+But it was showing a pop-up, but still pretty much the same.
+Both have number rows.
+Both of them very fun to operate.
+Let's go into Gemini on both phones.
+And they launched that about the same as well.
+Gemini has been launching better lately.
+Let's go into co-pilot.
+You'll see basically the same again.
+So we are running the same chip.
+So I'm not surprised by this.
+Let's go into Groupon.
+And that was faster on the OnePlus.
+And it looks like we had a little bit of a delay there going to categories.
+But that's not to say, I think I have iComfort on.
+Why does it look like that?
+Or adaptive color tone?
+Let me go ahead and turn that off real quick.
+Yeah.
+The screen looks a little bit of a different color.
+So let's keep it a little bit more the same here.
+Let's go into oil change and maintenance.
+You'll see pretty much the same.
+And so very nice performance on both phones.
+Let's swipe up out of there.
+And we'll go into Instagram.
+And let's go over here to my profile page.
+We'll take a look at my S26 Ultra post right there.
+We'll scroll down.
+And you can see in application, the OnePlus.
+It looks like the Samsung is scrolling faster on board.
+Let's swipe up out of there.
+And we'll go into X.
+And we'll go over here to profile page.
+And as we swipe through there, very, very smooth on both.
+It looks like OnePlus's scrolling is smoother.
+Samsung's is faster.
+Let's go into news.
+And you can see launches first there on the right.
+Technology.
+I think that was a Samsung.
+I'm not sure.
+My eyes didn't catch that one.
+We're going to scroll through there.
+Very good on both.
+Let's swipe up out of there.
+And we'll go into Dead Trigger 2.
+And keep in mind, we do have the same non-linear type animations on both.
+Although they're a little bit different.
+It's very hard to detect many major differences.
+They're not that detectable.
+The Samsung and the OnePlus both do have vapor chambers.
+We'll go into Subway Surfers.
+But the OnePlus does have a tri-chip and an OP gaming core.
+There's also game mode on the Samsung.
+And the Samsung launches Subway Surfer City first.
+We'll just let the game begin.
+And then we'll just get up out of here.
+So we'll just start for a minute there.
+Casual games.
+They'll eat through those for breakfast.
+Let's go into RTS.
+And Race to Sun.
+And we had to don't allow on the right.
+That could have delayed it a little bit.
+But still seem to launch at about the same pace on both.
+We'll go into Free Fire.
+And this has been one of the closest speed tests I've seen in a while.
+These phones are neck and neck right here.
+So really this does come down to which one do you like more?
+The OnePlus or the Samsung?
+Samsung takes the victory there.
+Right when I was saying how close they are.
+Usually that happens.
+But Free Fire does go to the Samsung.
+I do like the shape of the Samsung screen for playing games.
+I think it's like a big TV-like feeling in your pocket.
+I've always felt that way.
+Let's go into Destiny Rising here.
+But I do like the shape of holding the OnePlus 15.
+Because the OnePlus 15, when you hold it, it's very comfortable to hold.
+And it doesn't really get toasty warm.
+It also has a longer-lasting silicon carbon battery on board.
+So that phone is probably the better experience for gaming.
+This is going to be maybe quite similarly good as well.
+Hold on.
+One of these is distracting me with their volume.
+I think it was the OnePlus.
+But let's go over here to tap to play.
+I think the Samsung's display still looks a little more vivid.
+It looks a little bit more saturated.
+So if you're into that kind of thing, you'll enjoy it.
+Not that the OnePlus is not.
+That's also a saturated display.
+But Samsung's still looking a little more vivid to me.
+Some people might not love the, oh, we're getting that account switching thing.
+Let's go into Asphalt 9.
+But some people might not love the saturation of the Samsung.
+You just go ahead and put it in natural.
+And you'll just get a more natural-looking display.
+So that's going to go to the Samsung.
+We might get a conflict here.
+And no, it doesn't seem like we are getting an issue there.
+What the heck was that?
+I just tapped out and just went like to Destiny.
+Let's go into 3DMark.
+You'll see that was faster on the Samsung.
+We'll go to Geekbench 6.
+Faster on the Samsung.
+And SpeedtestNet.
+Faster on the Samsung there.
+And InShot.
+Faster on the Samsung.
+It was slightly.
+It could have been a margin of error with my finger.
+So at the end of the day, I think the Samsung's overclocked CPU is giving it a slight edge
+over the OnePlus 15 in terms of launching applications.
+And in gaming, it is slightly quicker because of this.
+I think the benchmarks are going to prove that as well.
+That overclocked CPU always boosts it just a little bit.
+Enough to say it's a faster phone.
+But in reality, you're probably never going to notice it day to day in the real world too
+much.
+Okay, guys.
+So let's go ahead and take a look at how they hold the applications in the background.
+Doing pretty good.
+I did allow the bottom gesture to operate by a good lock on the Samsung.
+So if you're not able to do this, just go to good lock and enable this feature.
+You'll be able to get this same where you don't have to swipe from the side to go ahead
+and go through your apps.
+But you can see right here, even with 12 gigs of RAM, zero issue reloading things.
+And what I've been liking about the Samsung experience is it's been pretty stable comparatively
+to some of their years past.
+The past two phones, the S25 Ultra and this phone now, incredibly stable, like very, very
+consistent daily.
+That's not something that OnePlus is not used to, though.
+They're used to being stable.
+But, you know, the past couple of years have been pretty strong for Samsung performance.
+Let's go into InShot, SpeedtestNet, Geekbench 6, 3DMark.
+And you can see they also have the ability to just swipe from the bottom.
+No problem.
+Nothing is closed here on the OnePlus and let's go into Instagram, Groupon.
+We'll go into Copilot.
+We'll go into ChatGPT, Weather, Play Store, Calculator, Clock and Calendar.
+Of course, this has more RAM.
+Why would it reload anything?
+It's not going to.
+And it did phenomenal.
+But one thing I was going to show you is that the OnePlus actually, this is pretty quick,
+but the OnePlus has a little bit of a faster.
+If you're swiping through really quickly, the OnePlus is a little bit better in this area.
+Watch this.
+So this phone, look at this.
+You can't go this fast through the Samsung phone and that's smooth.
+So OnePlus, I think, does have the better animations overall.
+Not that you're ever going to do that day to day, but we're looking for data here.
+We're looking to see which one actually performs better.
+And I think animations wise, it's the OnePlus.
+The Samsung, though, slight overclock CPU gives it an advantage in actual performance.
+So interesting results here.
+You'll see that, remember, when we looked at the clusters originally, they were the same clock speed.
+And at single core, the OnePlus actually pulled ahead.
+But that multi-core overclocked, you can see, pulled ahead slightly on the Galaxy.
+But it's less than it was, I think, in previous years with the Galaxy and the OnePlus trading scores here.
+But I think I'm going to give this to the Galaxy because it's multi-core score is quite a bit better than the OnePlus is multi-core.
+But the single core is actually not that much better on the OnePlus is about the same.
+But both of these are absolute ridiculous powerhouse phones.
+Let's go into the 3D Mark wildlife.
+We'll run this and we'll see what we can get on the graphic scores as well.
+This should be fun to see which one can sustain better performance.
+And they're both pretty hot right now because I haven't stopped running them since we began this video.
+They're not like hot, like burn your hand.
+These both have vapor chambers.
+But you know what I mean?
+Like they're warmed up.
+They're running right now a lot.
+So we'll see what they can pull off.
+And so OnePlus really tuning the OnePlus 15 to do really well in games has proven itself here.
+You'll see 35.15 FPS and scores better than 95% of devices on the market with the Galaxy hitting 93.
+Now, I believe I've seen a better score in my previous video on the Samsung.
+So what I'm going to do is run it back one more time and I'll be back with the scores on the Samsung.
+Now, I'm not trying to like give it credit, but I just want to see because in my previous test, I did get different results.
+As a matter of fact, we don't even have to run it back.
+Let's go ahead and take a look at the other day.
+So the other day I was able to get 96% better.
+So the Samsung is capable of outperforming the OnePlus 15.
+But in this specific test, when it was warmed up, it didn't.
+But definitely can do better.
+You can see right there, it can score higher frames per second.
+So I still think technically the Samsung can outshine the OnePlus 15, but it's very, very slight and very, very small.
+So let's go ahead and take a look at how they run on a speed test right here.
+We'll do speedtests.net right there.
+I'm going to make sure while that's going, I do have this on the same servers and more people on the Internet.
+So we're probably not going to hit our high score right now.
+So it is evening time.
+People are probably streaming Netflix and all that.
+But still getting close to 900 on the download.
+Not terrible.
+You can see 953.3441 on the upload.
+Pretty par for the course for my upload lately.
+Should probably upgrade to faster uploads.
+You'll see right here that we do have ourselves going around 600, 700, 800 down.
+And you'll see that the OnePlus doesn't look like it's going to edge the Galaxy.
+I'm not surprised if it doesn't.
+Samsung usually have, but nevermind.
+Let's take that back.
+It's outshined the Galaxy.
+Thought it wasn't going to, but these tests can always change at the last moment.
+And that's what happened on the OnePlus 15.
+So OnePlus 15, very, very capable.
+That's its high score for this particular phone.
+I think I've hit higher on previous tests on other devices, but yeah, can do similar Wi-Fi performance right there for sure.
+And before we wrap this up, let's go ahead and do a quick camera test.
+So let me zoom out just a little bit here.
+And I was using, I was using this little Christmas tree to hold up the Galaxy because it rocks.
+Let's go ahead and put that phone there and we'll go ahead and launch the cameras on both phones.
+So let's go and do that in three, two, go.
+And I think a little faster on that first launch for the Samsung.
+I got it in this like tablet mode from good luck.
+That's how I like this.
+I like to run my apps for multitasking.
+Let's go into camera one more time.
+That time look like the OnePlus and we'll do it one final time.
+Three, two and go.
+Yeah.
+And that's going to go with the OnePlus.
+Now in terms of shutter speed, the OnePlus looked actually a little bit faster there.
+Yeah, it looks like the OnePlus snaps photos a little bit quicker.
+So wrapping it up here, I think technically we can probably hit a little bit of a higher
+performance ceiling due to the overclock CPU in the Galaxy S26 Ultra.
+But it is so minuscule that if you bought this phone over this phone because of that,
+you're probably not giving OnePlus a fair shot here because, you know, you got to look at the
+other things.
+Do you like the camera?
+Do you like the design more?
+Do you like the silicon carbon battery option more?
+Um, there's a lot of goodies to be had and, um, it's very, very tight.
+But if I was to say one winner here in a speed test, I think the Samsung slightly edged the
+OnePlus, but the shutter speed is slower.
+And, um, there's a couple of things that felt faster.
+And I would say that OnePlus feels a little bit smoother, but that's going to wrap it
+here up here for me for the speed test.
+Thumbs up.
+If you enjoyed it, subscribe if you haven't already, and I'll catch you on the next
+one.
+Nick here, be sure to be well and peace.
+Good night.
+Looking forward to it.
+We'll see you later.
