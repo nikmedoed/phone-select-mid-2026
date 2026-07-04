@@ -38,7 +38,7 @@
   priority: "Medium"
   weight: 4
   description: "Отдельная оценка срока Android/security updates и надежности политики обновлений именно для покупаемого региона/SKU."
-  fail: "Короткая или мутная поддержка, региональная версия с неясными OTA, CN/серый импорт без понятной политики обновлений."
+  fail: "Короткая или мутная поддержка у подходящего SKU. Версии без eSIM/Google/нужных частот не штрафуются: это стоп-сигнал, после которого карточка не рассматривается."
   check: "Сверить официальное обещание Android/security updates по модели и региону; проверить OTA на конкретном SKU."
 - id: camera_stable
   name: "Камера стабильно лучше S10 и не бесит"
@@ -52,14 +52,14 @@
   priority: "Must"
   weight: 12
   description: "Прошивка должна работать нормально из коробки: уведомления, банки, Teams/Outlook, Gmail, Google, Syncthing, фоновые задачи без долгого допиливания."
-  fail: "Китайские костыли, кривые уведомления, агрессивное убийство приложений, рекламный мусор, необходимость перепрошивать или часами настраивать базовые вещи."
+  fail: "На подходящем Global/eSIM SKU: кривые уведомления, агрессивное убийство приложений, рекламный мусор, необходимость часами настраивать базовые вещи. CN/no-Google/no-eSIM не штрафует модель, а сразу отсекает конкретную карточку."
   check: "Telegram/Gmail/Teams push; battery restrictions; Syncthing overnight; автозапуск/фоновые разрешения; поискать жалобы именно по Global/текущей версии ПО."
 - id: gpay
   name: "Google Pay / Google apps"
   priority: "Must"
   weight: 6
   description: "Google Wallet/Pay критичен; также нужны нормальные Google apps, Play Services, Maps, Gmail, банки и скидочные приложения."
-  fail: "CN-прошивка, broken Play Integrity, нет NFC/Wallet."
+  fail: "У подходящего SKU не работает Wallet/Play Integrity/NFC/банки. CN/no-Google/no-eSIM не штрафует модель, а сразу отсекает конкретную карточку."
   check: "Play Store certified, Wallet card, NFC, банки, Play Integrity по возможности."
 - id: unlock
   name: "Разблокировка"

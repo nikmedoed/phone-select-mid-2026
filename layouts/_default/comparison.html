@@ -18,7 +18,7 @@
       {{ $total = add $total (mul (float .score) (float $c.weight)) }}
     {{ end }}
   {{ end }}
-  {{ $scored = $scored | append (merge $m (dict "computedScore" (math.Round $total))) }}
+  {{ $scored = $scored | append (merge $m (dict "computedScore" $total "computedScoreDisplay" (math.Round $total))) }}
 {{ end }}
 {{ $ranked := sort $scored "computedScore" "desc" }}
 <main class="comparison-main">
@@ -34,7 +34,7 @@
         <tbody>
           <tr>
             <td>Итог</td>
-            {{ range $ranked }}<td><b>{{ .computedScore }}/{{ $maxScore }}</b></td>{{ end }}
+            {{ range $ranked }}<td><b>{{ .computedScoreDisplay }}/{{ $maxScore }}</b></td>{{ end }}
           </tr>
           <tr>
             <td>Вердикт</td>

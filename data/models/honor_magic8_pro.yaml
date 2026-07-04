@@ -1,11 +1,11 @@
 id: honor_magic8_pro
 name: "HONOR Magic8 Pro 16/1TB"
-verdict: "⚠️ Очень сильный сбалансированный флагман, но только при подтвержденном нужном SKU: батарея/eSIM/поддержка сильно зависят от региона"
-risk: "⚠️ Global/UAE/HK/EU/CN нельзя смешивать: eSIM, ёмкость батареи, зарядка и обновления зависят от SKU; MagicOS CN требует настройки фона/Google/AI; видео, ультраширик и цвета Honor проверить лично"
+verdict: "⚠️ Очень сильный сбалансированный флагман, но не value-первый выбор: брать только подтвержденный Global/eSIM SKU по нормальной цене"
+risk: "⚠️ Не смешивать SKU: для сравнения годится только Global/UAE/HK/EU с EID/eSIM; ёмкость батареи, зарядка, bands и обновления зависят от региона; видео, ультраширик, цвета Honor, Wallet и фон MagicOS проверить лично"
 priceRub: 97189
 uaeLandedRub: 104548
-purchaseLogic: "⚠️ после подтверждения Global/UAE/HK/EU SKU, EID/eSIM, нужной батареи и LDAC/aptX Lossless"
-firstCheck: "SKU/регион Global/UAE/HK/EU/CN, EID/eSIM, ёмкость 7100/7200/6270, зарядка 100W/120W, LTE/5G bands по model number, Wallet, 3D face в банках, Telegram/Teams/Gmail фон, Android Auto, видео ходьбой/ночью, AI/регион Honor"
+purchaseLogic: "⚠️ только после подтверждения Global/UAE/HK/EU SKU, EID/eSIM, нужной батареи, bands, Wallet и LDAC/aptX Lossless"
+firstCheck: "SKU/регион Global/UAE/HK/EU, EID/eSIM, ёмкость 7100/6270, зарядка 100W, LTE/5G bands по model number, Wallet, 3D face в банках, Telegram/Teams/Gmail фон, Android Auto, видео ходьбой/ночью, AI/регион Honor"
 priceSource: "WB iDM Store 97 189 ₽, 12 отзывов; WB Magic8 Pro 16/512 за 73 833 ₽ имеет отзыв о неглобальной/нерусифицированной версии без Google; Ozon Global 16/1TB 114-116к"
 localPriceAmd: 449000
 localPriceRub: 94355
@@ -16,7 +16,7 @@ uaeItemRub: 91764
 uaeDeliveryRub: 1688
 uaeDutyRub: 11096
 uaeLandedDeltaRub: 7359
-priceConclusion: "⚠️ Дешёвая 73 833 ₽ карточка выглядит как риск CN/no-Google и не заменяет нужный Global/eSIM. Реалистичный беспошлинный Global ближе к 97-116к"
+priceConclusion: "⚠️ Дешёвая 73 833 ₽ карточка не проходит стоп-сигналы Global/eSIM/Google и не участвует в сравнении. Реалистичный беспошлинный подходящий SKU ближе к 97-116к"
 specs:
   soc: "✅ Snapdragon 8 Elite Gen 5"
   memory: "16 ГБ / 1 ТБ"
@@ -37,25 +37,25 @@ specs:
   usb_adb: "✅ USB 3.2 упоминается в обзорах; всё равно проверить adb + передачу файлов"
   wifi: "✅ Wi-Fi 7, Bluetooth 6.0 упоминаются в обзорах; сверить по фактическому SKU"
 criteria:
-  region: {status: "⚠️", score: 0.62, note: "Есть RU/global продажи и дешевые CN-варианты. Новая дешёвая WB 16/512 за 73 833 ₽ имеет отзыв: не global, нет Google, неполная русификация. CN может быть usable, но под must-have eSIM/Google лучше считать только подтвержденный Global/UAE/HK/EU SKU."}
+  region: {status: "⚠️", score: 0.64, note: "Есть RU/global продажи, но подходящая покупка дорогая: дешёвые карточки надо отсеивать по EID/eSIM, Google и языку до рейтинга. Новая WB 16/512 за 73 833 ₽ имеет отзыв: не global, нет Google, неполная русификация; это стоп-сигнал карточки, не штраф модели. Для рейтинга засчитан только подтвержденный Global/UAE/HK/EU SKU."}
   esim: {status: "✅", score: 1, note: "Для сравнения считается только Global/UAE/EU/HK SKU с nano-SIM + eSIM. CN/no-EID не рассматривать."}
   speed: {status: "✅", score: 1, note: "Snapdragon 8 Elite Gen 5; несколько обзоров хвалят производительность, игры и стабильность."}
   multitasking: {status: "✅", score: 0.95, note: "16 ГБ RAM; проверить Telegram/Teams/Gmail фон, потому что по MagicOS встречались жалобы на засыпание приложений."}
   future: {status: "✅", score: 0.94, note: "Snapdragon 8 Elite Gen 5, 16 ГБ RAM и 1 ТБ дают сильный запас по железу."}
-  updates: {status: "⚠️", score: 0.82, note: "7 лет Android/security официально надежнее переносить на EU/UK. Для UAE/HK/серого Global считать поддержку ниже, для CN — отдельный риск регионального софта и политики обновлений."}
+  updates: {status: "⚠️", score: 0.8, note: "7 лет Android/security официально надежнее переносить на EU/UK. Для UAE/HK/серого Global считать поддержку чуть ниже до проверки OTA и региона поддержки на конкретном SKU."}
   camera_stable: {status: "⚠️", score: 0.8, note: "Очень сильный tele/night/портрет и 200 МП tele, но не лучший all-round video-phone: видео уступает лучшим, обработка/HDR иногда агрессивные, цвета Honor и selfie надо проверить лично."}
-  firmware: {status: "⚠️", score: 0.68, note: "MagicOS 10 быстрая и богатая. Global проще; CN usable, но нужен ручной Google/фон, местами английский/китайский, AI и облако зависят от региона. Есть отзыв о Telegram, который засыпал даже после настройки."}
-  gpay: {status: "⚠️", score: 0.78, note: "NFC/Google-сервисы и бесконтактную оплату в CN-обзоре подтверждали, но Wallet/Play Integrity/банки проверять на фактическом SKU; отмечали, что к NFC-метке надо привыкнуть."}
+  firmware: {status: "⚠️", score: 0.72, note: "MagicOS 10 Global быстрая и богатая, без требования перепрошивать. Штраф не за китайскую прошивку, а за реальные Global-риски: агрессивный фон/уведомления надо проверить на Telegram/Teams/Gmail/Syncthing, AI и облако зависят от региона, есть отдельные жалобы на засыпание Telegram даже после настройки."}
+  gpay: {status: "⚠️", score: 0.82, note: "На Global NFC/Google-сервисы ожидаемы, но Wallet/Play Integrity/банки и зону NFC надо проверять на фактическом SKU до выкупа."}
   unlock: {status: "✅", score: 1, note: "Сильный плюс: полноценный 3D Face ID работает днём/ночью и в банковских приложениях; ультразвуковой FP тоже быстрый."}
   ldac: {status: "✅", score: 1, note: "Официально заявлены LDAC, aptX HD, aptX Lossless и LC3; отдельно проверить codec negotiation с твоими наушниками."}
   storage256: {status: "✅", score: 1, note: "1 ТБ."}
   storage512: {status: "✅", score: 1, note: "16/1TB."}
-  value: {status: "⚠️", score: 0.6, note: "Для подтвержденного Global/UAE/HK 16/1TB с eSIM и 7100 мАч за ~97к value скорее средний: дорого, но не провал. Для CN/no-eSIM или EU 6270 по той же цене оценка ближе к 0.35-0.45."}
+  value: {status: "⚠️", score: 0.58, note: "Для подтвержденного Global/UAE/HK 16/1TB с eSIM и 7100 мАч за ~97к value средний: аппарат сильный, но почти у психологического потолка и заметно дороже OnePlus 15. EU 6270 мАч по той же цене оценивать ниже; версии без EID/eSIM не участвуют в сравнении."}
   quick_photo: {status: "✅", score: 0.88, note: "Есть отдельная кнопка камеры: двойное нажатие запускает камеру, удержание можно настроить на видео/серию, зум работает осознанно в горизонтальном хвате; нужно проверить защиту от случайных касаний."}
   battery_hike: {status: "✅", score: 0.92, note: "7100/7200 мАч версии очень сильны: несколько обзоров дают 8-12 ч экрана, 1.5-2 дня, один тест навигации на максимальной яркости съел 15%/час. EU 6270 мАч проверять отдельно."}
   ergonomics: {status: "⚠️", score: 0.7, note: "219-225 г, но корпус уже/тоньше предшественника, покатые грани и баланс часто хвалят; без чехла удобнее, в чехле спинка становится плоской. Блок камер большой, подержать без чехла."}
   durability: {status: "⚠️", score: 0.78, note: "IP68/IP69/IP69K и SGS-прочность упоминаются, комплектный чехол и пленка есть; изогнутый экран повышает риск жизни без стекла, а блок камер/вес надо проверить в руке и на столе."}
-  bands: {status: "⚠️", score: 0.75, note: "Не верить общим словам из обзоров: сверить bands по model number/SKU. Для Армении/Европы отдельно проверить LTE B3/B7/B20/B28 и 5G n78/n28/n1/n3/n7/n40/n41."}
+  bands: {status: "⚠️", score: 0.78, note: "Для Global/UAE/HK/EU не верить общим словам из обзоров: сверить bands по model number/SKU. Для Армении/Европы отдельно проверить LTE B3/B7/B20/B28 и 5G n78/n28/n1/n3/n7/n40/n41."}
   shortcut: {status: "⚠️", score: 0.78, note: "Camera/AI button полезна в камере, но не универсальна. Зато в MagicOS есть отдельные жесты/кнопки: двойное нажатие питания или volume down можно назначать на фонарик/диктофон/приложение."}
   screen_sound: {status: "✅", score: 0.95, note: "Экран яркий и комфортный для глаз, звук громкий/басовитый; это один из сильнейших мультимедийных вариантов, но изогнутый экран лично проверить на бликах/случайных касаниях."}
   windows: {status: "⚠️", score: 0.5, note: "Phone Link."}
