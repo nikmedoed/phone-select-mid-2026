@@ -22,36 +22,13 @@
 
 ## Текущие выводы
 
-- OnePlus 15: оставлен как рациональный value/автономность, но `camera_stable` снижен до 0.45; добавлены риски вечерней камеры, видео, переключения модулей, эргономики и нагрева под нагрузкой.
+- OnePlus 15: обработаны ещё 8 обзоров. Оставлен как рациональный value/автономность, но камера не причина покупки: вечерний tele/ширик, tele close-focus/macro, AI-дорисовка на зуме и видео/фронталка слабее Oppo/Vivo/iPhone. Добавлены уточнения по Global/India/CN-комплектам, отсутствию БП/записи звонков в Global, сильной связи/GPS, жестам/Plus Key, 165 Гц только в отдельных играх, быстрой камере и долгой автономности.
 - OPPO Find X9 Pro: усилен как камерный кандидат; добавлен плюс по стабильности/нагреву против OnePlus 15, но сохранены риски цены, веса, Global/SKU, Google Pay/eSIM и ColorOS/background.
 - OnePlus 13: обработаны первые 8 обзоров. Усилен как value-альтернатива OP15: фото чаще стабильнее/естественнее, старый Alert Slider удобен, автономность 8-10 ч экрана, экран/вибро/скорость сильные. Риски: только Global/eSIM, CN без eSIM/Android Auto и с SIM/OTA/Google-возней; видео не уровень камерофонов, 3x телевик средний, стеклянные версии скользкие, 2.5D-стекло сложнее защищать, под тяжелой нагрузкой возможны нагрев/FPS lock.
 - Honor Magic 8 Pro: после 12 релевантных обзоров выглядит одним из самых сбалансированных флагманов: 3D Face ID, экран, звук, связь, автономность и tele-зум сильные; риски смещены в SKU/eSIM/ёмкость батареи, CN-настройку MagicOS/AI/фона, видео, ультраширик и Honor-обработку цвета/дорисовки.
+- OnePlus 15: обработаны ещё 8 обзоров. В `data/models/oneplus15.yaml` уточнены риски CN/прошивки: OTA и Google могут работать, но eSIM аппаратно не появляется, B20/агрегация требуют проверки. Добавлены блики экрана против S25 Ultra, вес до 218 г, медленная зарядка без SuperVOOC, видео-артефакты, Telegram-группировка уведомлений, нюансы Smart Switch/шаринга/O+ Connect, высокие кнопки и подтверждение 10-14 ч экрана у долгого владельца.
 
 ## Очередь
-- OnePlus 15 | `-4XJb-w4jCc` | `063 - Galaxy S26 Ultra vs OnePlus 15 Speed Test [-4XJb-w4jCc].txt`
-- OnePlus 15 | `nuQlBDL9ARo` | `106 - OnePlus 15 и Oppo Find X9 Pro： ПОЧЕМУ ЭТО ЛУЧШИЕ СМАРФОНЫ В 2026 [nuQlBDL9ARo].txt`
-- OnePlus 15 | `rxzxWVp7LDI` | `111 - OPPO Find X9 Pro против OnePlus 15： Стоит ли переплачивать 10.000₽？ Битва камер и железа! [rxzxWVp7LDI].txt`
-- OnePlus 15 | `etCiJDWPPs0` | `NA - 2 недели с Oneplus 15 ｜ Смартфон эмоция [etCiJDWPPs0].txt`
-- OnePlus 15 | `MLpBApdEKI8` | `NA - 48 часов с ONEPLUS 15. Российская версия [MLpBApdEKI8].txt`
-- OnePlus 15 | `_2GcAApJHko` | `NA - 98% владельцев OnePlus 15 НЕ ЗНАЮТ ОБ ЭТОМ! [_2GcAApJHko].txt`
-- OnePlus 15 | `GwPRZRr8H2c` | `NA - ONEPLUS 15 VS IPHONE 17 PRO - КАКОЙ ТЕЛЕФОН ЛУЧШЕ？ ПОЛНОЕ СРАВНЕНИЕ! [GwPRZRr8H2c].txt`
-- OnePlus 15 | `dl4zg7Sm6b4` | `NA - ONEPLUS 15 СПУСТЯ ПОЛГОДА СТАЛ ТОЛЬКО ЛУЧШЕ？ [dl4zg7Sm6b4].txt`
-- OnePlus 15 | `P2vTBDiycHQ` | `NA - OnePlus 15 vs OnePlus 15R! Обзор-сравнение двух флагманов [P2vTBDiycHQ].txt`
-- OnePlus 15 | `zxIE65ZpC4c` | `NA - OnePlus 15 vs OnePlus 15R： ВЕЛИКА ЛИ РАЗНИЦА И КАКОЙ ВЫБРАТЬ？! [zxIE65ZpC4c].txt`
-- OnePlus 15 | `UTZWPYjsY_U` | `NA - OnePlus 15 vs POCO F8 Ultra： НЕУЖЕЛИ POCO СМОГ？! [UTZWPYjsY_U].txt`
-- OnePlus 15 | `PtpiPeDZzIw` | `NA - OnePlus 15 Лучший телефон во ВСЁМ, кроме камер？？？ Честный ОБЗОР [PtpiPeDZzIw].txt`
-- OnePlus 15 | `RdesKcEN9E4` | `NA - OnePlus 15 ОПЫТ использования. [RdesKcEN9E4].txt`
-- OnePlus 15 | `5TMPSELW55E` | `NA - OnePlus 15 после 6 месяцев использования. [5TMPSELW55E].txt`
-- OnePlus 15 | `TYk1KjfRp-o` | `NA - OnePlus 15 против iPhone 17 Pro Max против Samsung Galaxy S25 Ultra [TYk1KjfRp-o].txt`
-- OnePlus 15 | `xaUZtTwJ3vY` | `NA - OnePlus 15. Базовый кайф. [xaUZtTwJ3vY].txt`
-- OnePlus 15 | `L1s_CC0OTPo` | `NA - OnePlus 15. Кардинально переобулись... Честный обзор от ⧸ Арстайл ⧸ [L1s_CC0OTPo].txt`
-- OnePlus 15 | `omab9G6TFd8` | `NA - OnePlus 15. Первый правдивый обзор. [omab9G6TFd8].txt`
-- OnePlus 15 | `jFCEmRejN8E` | `NA - OnePlus 15： Всё, что нужно знать - за 3 минуты [jFCEmRejN8E].txt`
-- OnePlus 15 | `5Zotf7qd9vE` | `NA - Где меня обманули？ Купил OnePlus 15 за 38 тысяч рублей [5Zotf7qd9vE].txt`
-- OnePlus 15 | `JvOoVzrvwko` | `NA - Долго с OnePlus 15： так ли хорош один из лучших Android 2025？ [JvOoVzrvwko].txt`
-- OnePlus 15 | `dX9iTAvSZIA` | `NA - Идеал до 50 000 рублей？ Обзор OnePlus 15 [dX9iTAvSZIA].txt`
-- OnePlus 15 | `qZHeNP5pask` | `NA - Месяц с OnePlus 15 ожидание и реальность! [qZHeNP5pask].txt`
-- OnePlus 15 | `oYLagv7xXh8` | `NA - Минусы OnePlus 15 - владельцы завыли 💩 [oYLagv7xXh8].txt`
 - OnePlus 15 | `yNFnYqUxzW0` | `NA - ОНИ сотворили ЗВЕРЯ! ONEPLUS 15 - козыри, косяки, сюрпризы [yNFnYqUxzW0].txt`
 - OnePlus 15 | `OHi5qkCmfbA` | `NA - Обзор OnePlus 15 — восторг! Лучший смартфон по соотношению цена-качество в 2025-м! [OHi5qkCmfbA].txt`
 - OnePlus 15 | `f4XUEhbOBNs` | `NA - Обзор OnePlus 15T — компакт на 3 дня автономности! [f4XUEhbOBNs].txt`
