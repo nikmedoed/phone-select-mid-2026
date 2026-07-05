@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ $criteria := .Site.Data.criteria }}
+{{ $rubPerUsd := 77.5 }}
 {{ $models := slice }}
 {{ range .Site.Data.models }}
   {{ $models = $models | append . }}
@@ -33,7 +34,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>Итог</td>
+            <td>Итог из максимума</td>
             {{ range $ranked }}<td><b>{{ .computedScoreDisplay }}/{{ $maxScore }}</b></td>{{ end }}
           </tr>
           <tr>
@@ -70,52 +71,16 @@
           </tr>
         {{ end }}
           <tr>
-            <td>Цена РФ</td>
-            {{ range $ranked }}<td>{{ with .priceRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ end }}</td>{{ end }}
+            <td>Цена РФ, $</td>
+            {{ range $ranked }}<td>{{ with .priceRub }}${{ lang.FormatNumberCustom 0 (div (float .) $rubPerUsd) }}{{ else }}—{{ end }}</td>{{ end }}
           </tr>
           <tr>
-            <td>РФ / локальный источник</td>
-            {{ range $ranked }}<td>{{ with .priceSource }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
+            <td>List.am, $</td>
+            {{ range $ranked }}<td>{{ with .localPriceRub }}${{ lang.FormatNumberCustom 0 (div (float .) $rubPerUsd) }}{{ else }}—{{ end }}</td>{{ end }}
           </tr>
           <tr>
-            <td>List.am цена</td>
-            {{ range $ranked }}<td>{{ with .localPriceAmd }}{{ lang.FormatNumberCustom 0 . }} ֏{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>List.am в ₽</td>
-            {{ range $ranked }}<td>{{ with .localPriceRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>List.am источник / версия</td>
-            {{ range $ranked }}<td>{{ with .localPriceSource }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>UAE цена товара</td>
-            {{ range $ranked }}<td>{{ with .uaePriceAed }}{{ lang.FormatNumberCustom 0 . }} AED{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>UAE источник / версия</td>
-            {{ range $ranked }}<td>{{ with .uaeSource }}{{ . }}{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>UAE товар</td>
-            {{ range $ranked }}<td>{{ with .uaeItemRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>UAE доставка</td>
-            {{ range $ranked }}<td>{{ with .uaeDeliveryRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>UAE пошлина</td>
-            {{ range $ranked }}<td>{{ with .uaeDutyRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>UAE landed</td>
-            {{ range $ranked }}<td>{{ with .uaeLandedRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ end }}</td>{{ end }}
-          </tr>
-          <tr>
-            <td>UAE landed vs РФ</td>
-            {{ range $ranked }}<td>{{ with .uaeLandedDeltaRub }}{{ lang.FormatNumberCustom 0 . }} ₽{{ else }}—{{ end }}</td>{{ end }}
+            <td>UAE итог, $</td>
+            {{ range $ranked }}<td>{{ with .uaeLandedRub }}${{ lang.FormatNumberCustom 0 (div (float .) $rubPerUsd) }}{{ else }}—{{ end }}</td>{{ end }}
           </tr>
           <tr>
             <td>Ценовой вывод</td>

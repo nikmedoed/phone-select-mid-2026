@@ -1,15 +1,6 @@
 - id: soc
   section: "Запас"
   name: "SoC / производительность"
-- id: memory
-  section: "Запас"
-  name: "RAM / накопитель"
-- id: os
-  section: "Запас"
-  name: "OS / поддержка"
-- id: battery
-  section: "Автономность"
-  name: "Батарея"
 - id: charging
   section: "Автономность"
   name: "Зарядка"

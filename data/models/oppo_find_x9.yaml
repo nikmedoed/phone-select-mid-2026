@@ -1,11 +1,11 @@
 id: oppo_find_x9
 name: "OPPO Find X9 16/512"
 verdict: "⚠️ Хороший компактнее Pro, но value слабый из-за цены, игр и USB 2.0"
-risk: "⚠️ 87к при OP15 дешевле; брать только CPH2797/global с eSIM/B20; неподходящий SKU отсекать по EID/eSIM/bands; тяжелые игры/120 fps греют и роняют яркость/FPS; USB 2.0; камеры слабее Pro"
+risk: "⚠️ 87к при OP15 дешевле; тяжёлые игры/120 fps греют и роняют яркость/FPS; USB 2.0; камеры слабее Pro."
 priceRub: 87114
 uaeLandedRub: 91202
 purchaseLogic: "⚠️ рассматривать только заметно дешевле Pro/OnePlus 15, ближе к 50-60к"
-firstCheck: "CPH2797/global, EID/eSIM, B20, Wallet, фон/уведомления, GPS lock, игры/нагрев, USB/adb, комплект с ЗУ"
+firstCheck: "CPH2797, фон/уведомления, GPS lock, игры/нагрев, USB/adb, комплект с ЗУ"
 priceSource: "WB Brand Flagship Store, 87 114 ₽, 0 отзывов"
 uaePriceAed: 3799
 uaeSource: "Mobileinto 3 799 для 16/512 — слабый ориентир/expected price, не подтвержденный buy-link; Pricena 3 999+; следить за CPH2797/global с полными bands"
@@ -34,29 +34,28 @@ specs:
   usb_adb: "⚠️ По обзорам USB 2.0; официальная OPPO-страница скорость не раскрывает. Для ADB ок, для кабельного видео/DisplayPort/быстрой передачи — слабое место"
   wifi: "✅ Wi-Fi 7"
 criteria:
-  region: {status: "⚠️", score: 0.58, note: "Риск не в Global как таковом: нужен CPH2797 с eSIM/B20, возвратом и понятной итоговой ценой. Оценка ниже из-за 87к и 0 отзывов, а не из-за неподходящих версий."}
-  esim: {status: "✅", score: 1, note: "Для сравнения считается только CPH2797/global с nano-SIM + eSIM. CN/другие версии без EID не рассматривать."}
-  speed: {status: "⚠️", score: 0.85, note: "Повседневно очень быстрый; тяжелые игры/120 fps/долгие стресс-сессии могут давать нагрев, сброс яркости и FPS."}
-  multitasking: {status: "✅", score: 1, note: "16 ГБ RAM."}
-  future: {status: "⚠️", score: 0.8, note: "Свежий Dimensity 9500 и 16 ГБ RAM дают запас для обычных задач, но термопакет/игровая стабильность и USB 2.0 снижают запас как универсального устройства."}
+  region: {status: "⚠️", score: 0.58, note: "Нужен CPH2797, возврат и понятная итоговая цена. Минусы покупки: 87к и 0 отзывов."}
+  esim: {status: "✅", score: 1, note: "Нужен CPH2797/global с nano-SIM + eSIM. CN/другие версии без EID не покупать."}
+  speed: {status: "⚠️", score: 0.84, note: "Повседневно очень быстрый. Штраф за тяжёлые игры/120 fps и долгие стресс-сессии: возможны нагрев, сброс яркости и FPS."}
+  multitasking: {status: "✅", score: 0.9, note: "16 ГБ RAM дают хороший запас. Проверить фон, уведомления, Wear OS и выгрузку приложений в ColorOS."}
+  future: {status: "✅", score: 0.86, note: "Dimensity 9500, 16 ГБ RAM и быстрый накопитель дают хороший запас на 2-3 года. Штраф умеренный: для тяжёлых игр/эмуляторов Snapdragon-варианты предпочтительнее, термопакет проверить в долгой нагрузке."}
   updates: {status: "✅", score: 0.82, note: "ColorOS 16 свежая; ожидаемая поддержка хорошая для Global, но срок и OTA сверить по региону/SKU."}
-  camera_stable: {status: "⚠️", score: 0.75, note: "Сильная основа, хороший 3x, 4K60 на системе камер и front/rear switching до 4K60; минусы: нет telemacro, UW слабее в темноте, фронталка без AF, заметно слабее X9 Pro по zoom/tele."}
-  firmware: {status: "⚠️", score: 0.74, note: "ColorOS 16 на подходящем Global CPH2797 плавная; проверить фон/уведомления, Google-сервисы, Wear OS/банки и спорную реализацию обходной зарядки в играх."}
-  gpay: {status: "⚠️", score: 0.78, note: "NFC есть, на Global должно работать; Wallet/Play Integrity/регион проверить."}
+  camera_stable: {status: "⚠️", score: 0.75, note: "Сильная основная камера и хороший 3x. Слабее X9 Pro по зуму/tele, ультраширик хуже в темноте, фронталка без AF."}
+  firmware: {status: "⚠️", score: 0.82, note: "ColorOS Global плавная и с Google-сервисами, но фоновые ограничения надо проверить. Тест: Telegram/Teams/Gmail/Syncthing, Wear OS и банки."}
+  gpay: {status: "✅", score: 1, note: "Global с Google-сервисами и NFC: должно работать."}
   unlock: {status: "✅", score: 1, note: "Ultrasonic FP + face."}
   ldac: {status: "✅", score: 1, note: "Официальная OPPO Global specs перечисляет LDAC в Bluetooth audio codecs."}
-  storage256: {status: "✅", score: 1, note: "512 ГБ."}
-  storage512: {status: "✅", score: 1, note: "16/512."}
+  storage512: {status: "✅", score: 1, note: "512 ГБ."}
   value: {status: "❌", score: 0.35, note: "По обзору около 57-58к уже спорно из-за OnePlus 15/Vivo/Realme; текущие 87к тем более неадекватны без явного преимущества."}
-  quick_photo: {status: "⚠️", score: 0.78, note: "Quick/Snap Key есть; проверить запуск камеры и быстрые кадры в помещении."}
-  battery_hike: {status: "✅", score: 0.86, note: "7025 мАч, YouTube около 3-4%/ч, зарядка около часа; но игры едят 18-20%/ч и греют корпус."}
-  ergonomics: {status: "✅", score: 0.82, note: "203-205 г, 157x74x8 мм: компактнее Pro, между Vivo X300 и X300 Pro; не маленький, но разумнее крупных флагманов."}
-  durability: {status: "⚠️", score: 0.78, note: "IP66/IP68/IP69, физический proximity; стеклянный корпус и камерный блок проверить в руке/кармане."}
-  bands: {status: "⚠️", score: 0.86, note: "Для CPH2797/global набор bands хороший, включая B20/n20; сверить по model number покупаемого SKU. GNSS сильный по спекам, но GPS lock всё равно проверить отдельно в картах."}
+  quick_photo: {status: "✅", score: 0.8, note: "Быстрый запуск есть, основная камера сильная. Проверить быстрые кадры людей в помещении."}
+  battery_hike: {status: "⚠️", score: 0.82, note: "7025 мАч дают хороший запас для долгого дня, но это ниже OP15/Find X9 Pro, а под тяжёлой нагрузкой есть нагрев. GPS-сценарий проверить отдельно."}
+  ergonomics: {status: "⚠️", score: 0.78, note: "203-205 г и 157x74x8 мм: компактнее Pro и разумнее крупных флагманов, но всё ещё не лёгкий компакт. Стеклянный корпус и блок камер проверить без чехла."}
+  durability: {status: "⚠️", score: 0.76, note: "IP69 и более компактный корпус - плюс. Штраф за стеклянную спинку и камерный блок: проверить хват, скользкость и качание без чехла."}
+  bands: {status: "✅", score: 0.9, note: "У рассматриваемого CPH2797 Global/eSIM хороший набор LTE/5G bands, включая B20/n20; для Европы/Армении выглядит сильным. GPS lock проверить в картах при получении."}
   shortcut: {status: "✅", score: 0.85, note: "Snap Key / gestures."}
-  screen_sound: {status: "⚠️", score: 0.75, note: "Экран яркий и с низким ШИМ, но без LTPO за 87к это минус; звук с перекосом и слабее X9 Pro."}
-  windows: {status: "⚠️", score: 0.7, note: "O+ Connect для Windows/Mac есть: файлы, remote PC control, screen mirroring до нескольких приложений. Это не DeX, но лучше, чем просто базовый Phone Link."}
-  design: {status: "✅", score: 0.8, note: "Аккуратнее Pro."}
+  screen_sound: {status: "⚠️", score: 0.72, note: "Экран яркий, четкий и с низким ШИМ, но без LTPO. Главный штраф - стерео с заметным перекосом и звук слабее X9 Pro."}
+  windows: {status: "✅", score: 0.9, note: "O+ Connect официально даёт передачу файлов, общий буфер и работу с ПК; Phone Link дополнительно закрывает уведомления и фото/файлы Windows. Для твоих сценариев почти максимум, без Samsung DeX."}
+  design: {status: "✅", score: 0.72, note: "Окей: аккуратнее Pro, квадратный блок камер практичнее шайбы, выглядит спокойно. Не фантастика, но без сильного визуального минуса."}
   # sd: {status: "❌", score: 0, note: "SD нет."}
   # wireless: {status: "➕", score: 1, note: "Wireless 50W."}
   # dev_testing: {status: "⚠️", score: 0.35, note: "USB 2.0 снижает удобство кабельной передачи/тестирования; adb проверить."}
