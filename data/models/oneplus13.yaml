@@ -1,6 +1,6 @@
 id: oneplus13
 name: "OnePlus 13 16/512"
-verdict: "✅ Сильный value-флагман прошлого поколения"
+verdict: "⚠️ Сильный флагман прошлого поколения, но value только при заметной скидке"
 risk: "⚠️ искать именно Global/India/EU с eSIM; карточки без EID/eSIM отсекать как стоп-сигнал, а не сравнивать"
 priceRub: 83698
 uaeLandedRub: 64050
